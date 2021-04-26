@@ -1,0 +1,1148 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: Microsoft YaHei;
+  text-decoration: none;
+  letter-spacing: 0.75px;
+  font-weight: 400;
+}
+body {
+  background: rgba(242, 242, 242, 1);
+}
+.banner {
+  width: 100%;
+  height: 602px;
+  overflow: hidden;
+  position: relative;
+  font-size: 0;
+  margin: 0 auto;
+}
+.b-img {
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.b-img .img {
+  display: block;
+  height: 100%;
+  float: left;
+}
+.b-list {
+  height: 20px;
+  padding-top: 570px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+  width: 54px;
+}
+.b-list span {
+  display: block;
+  cursor: pointer;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #fff;
+  float: left;
+  margin: 0 5px;
+  _margin: 0 3px;
+}
+.b-list .spcss {
+  background: #d8241d;
+}
+section .account {
+  background: rgba(31, 58, 94, 1);
+  position: relative;
+}
+section .account ul li:first-child {
+  background-image: url(../img/homePage/b5.png);
+}
+section .account ul li {
+  padding-left: 65px;
+  position: relative;
+  background-position: 20px 26px;
+  background-repeat: no-repeat;
+  height: 118px;
+  cursor: pointer;
+}
+section .account ul li p {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+  margin-left: 10px;
+  min-width: 107px;
+  margin-top: 18px;
+  margin-bottom: 8px;
+}
+section .account ul li span:first-of-type {
+  min-width: 107px;
+  font-size: 12px;
+  color: rgba(121, 175, 240, 1);
+  display: block;
+  line-height: 18px;
+  letter-spacing: 0.5px;
+  margin-left: 10px;
+  margin-right: 15px;
+}
+section .account ul li span:nth-of-type(2) {
+  width: 1px;
+  height: 51px;
+  background: rgba(41, 83, 139, 1);
+  display: block;
+  position: absolute;
+  top: 34px;
+  right: 0;
+}
+section .account ul li:nth-child(2) {
+  background-image: url(../img/homePage/b6.png);
+}
+section .account ul li:nth-child(3) {
+  background-image: url(../img/homePage/b3.png);
+}
+section .account ul li:nth-child(4) {
+  background-image: url(../img/homePage/b2.png);
+}
+section .account ul li:nth-child(5) {
+  background-image: url(../img/homePage/b4.png);
+}
+section .account ul li:nth-child(6) {
+  background-image: url(../img/homePage/b1.png);
+}
+section .preponderance {
+  background: rgba(242, 242, 242, 1);
+  margin-bottom: 59px;
+}
+section .preponderance .center h3 {
+  font-size: 28px;
+  color: rgba(46, 46, 46, 1);
+  text-align: center;
+  letter-spacing: 1px;
+  margin-top: 60px;
+}
+section .preponderance .center > p {
+  font-size: 16px;
+  color: rgba(112, 112, 112, 1);
+  text-align: center;
+  letter-spacing: 0.75px;
+  line-height: 26px;
+  max-width: 510px;
+  margin: 16px auto;
+  margin-bottom: 49px;
+}
+section .preponderance .center ul {
+  justify-content: space-between;
+  margin: auto;
+}
+section .preponderance .center ul li div {
+  height: 170px;
+  background: rgba(255, 255, 255, 1);
+  margin-right: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+section .preponderance .center ul li p:first-child span {
+  display: block;
+  height: 72px;
+  margin: 30px 0px 10px 0px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  text-align: center;
+}
+section .preponderance .center .frist li:first-of-type p:first-child span {
+  background-image: url(../img/homePage/uwbL.png);
+}
+section .preponderance .center .frist li:nth-of-type(2) p:first-child span {
+  background-image: url(../img/homePage/bluetoothL.png);
+}
+section .preponderance .center .frist li:nth-of-type(3) p:first-child span {
+  background-image: url(../img/homePage/indoorL.png);
+}
+section .preponderance .center .frist li:nth-of-type(4) p:first-child span {
+  background-image: url(../img/homePage/satelliteL.png);
+}
+section .preponderance .center .frist li:nth-of-type(5) p:first-child span {
+  background-image: url(../img/homePage/three-dimensionalL.png);
+}
+section .preponderance .center .frist li:nth-of-type(6) p:first-child span {
+  background-image: url(../img/homePage/openL.png);
+}
+section .preponderance .center .frist li:nth-of-type(7) p:first-child span {
+  background-image: url(../img/homePage/constructionL.png);
+}
+section .preponderance .center .frist li:nth-of-type(8) p:first-child span {
+  background-image: url(../img/homePage/intelligentL.png);
+}
+section .preponderance .center ul li p:first-child {
+  font-size: 16px;
+  color: rgba(46, 46, 46, 1);
+  text-align: center;
+  line-height: 24px;
+  width: 46%;
+}
+section .preponderance .center ul li p:nth-of-type(2) {
+  height: 130px;
+  background: rgba(226, 226, 226, 1);
+  margin-top: 20px;
+  margin-right: 10px;
+  border-right: 1px solid rgba(226, 226, 226, 1);
+}
+section .preponderance .center ul li p:last-child {
+  font-size: 14px;
+  color: rgba(102, 102, 102, 1);
+  margin: 20px 0px 20px 0px;
+  letter-spacing: 0.2px;
+  line-height: 25px;
+  min-width: 150px;
+}
+section .Oli {
+  background: url(../img/homePage/oilBgL.png) center center no-repeat;
+}
+section .Oli .width {
+  height: 776px;
+  position: relative;
+}
+section .Oli .postion {
+  position: absolute;
+  top: 182px;
+  left: 0px;
+}
+section .Oli .rectangleBg {
+  margin-bottom: 114px;
+  width: 709px;
+  background-image: url(../img/homePage/rectangleL.png);
+}
+section .Oli .rectangleBg h3 {
+  font-size: 40px;
+  color: rgba(0, 0, 0, 1);
+  height: 73px;
+  text-align: center;
+  line-height: 73px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+section .Oli .rectangleBg p {
+  font-size: 30px;
+  color: rgba(0, 0, 0, 1);
+  height: 73px;
+  line-height: 73px;
+  text-align: center;
+  letter-spacing: 1.2px;
+}
+section .Oli .postion > p {
+  font-size: 30px;
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 41px;
+}
+section .Oli .postion ul {
+  display: flex;
+}
+section .Oli .postion ul li {
+  margin-right: 20px;
+}
+section .Oli .postion ul li span:first-of-type {
+  width: 52px;
+  height: 52px;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 50%;
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-bottom: 10px;
+}
+section .Oli .postion ul li span:last-of-type {
+  font-size: 16px;
+  color: rgba(20, 20, 20, 1);
+  display: block;
+  min-width: 70px;
+}
+section .Oli .postion ul li:first-of-type span:first-of-type {
+  background-image: url(../img/homePage/wirelessL.png);
+}
+section .Oli .postion ul li:nth-of-type(2) span:first-of-type {
+  background-image: url(../img/homePage/powerL.png);
+}
+section .Oli .postion ul li:nth-of-type(3) span:first-of-type {
+  background-image: url(../img/homePage/batteryL.png);
+}
+section .Oli .postion ul li:nth-of-type(4) span:first-of-type {
+  background-image: url(../img/homePage/costL.png);
+}
+section .Oli .postion ul li:nth-of-type(5) span:first-of-type {
+  background-image: url(../img/homePage/disturbL.png);
+}
+section .Oli .postion ul li:nth-of-type(6) span:first-of-type {
+  background-image: url(../img/homePage/anti-explosionL.png);
+}
+section .Oli .postion ul li:nth-of-type(7) span:first-of-type {
+  background-image: url(../img/homePage/roadworkL.png);
+}
+section .Oli .postion ul li:nth-of-type(8) span:first-of-type {
+  background-image: url(../img/homePage/maintainL.png);
+}
+section .bgp {
+  background: rgba(255, 255, 255, 1);
+}
+section .bgp .width {
+  position: relative;
+}
+section .bgp .width .frist li {
+  display: flex;
+  margin-bottom: 30px;
+}
+section .bgp .width .frist li img {
+  width: 40px;
+  height: 40px;
+}
+section .bgp .width .frist li div p:first-of-type {
+  font-size: 28px;
+  color: rgba(86, 86, 86, 1);
+  letter-spacing: -0.25px;
+  margin-left: 18px;
+  margin-bottom: 10px;
+}
+section .bgp .width .frist li div p:last-of-type {
+  font-size: 18px;
+  color: rgba(136, 143, 147, 1);
+  margin-left: 18px;
+  margin-bottom: 20px;
+}
+section .bgp .width .frist li div span {
+  height: 1px;
+  background: rgba(229, 241, 245, 1);
+  display: block;
+}
+section .bgp .width .position {
+  position: relative;
+  top: 120px;
+}
+section .bgp .width .position > a {
+  width: 217px;
+  height: 47px;
+  background: rgba(255, 153, 0, 1);
+  border-radius: 2px;
+  display: inline-block;
+  font-size: 15px;
+  color: rgba(5, 19, 38, 1);
+  text-align: center;
+  line-height: 47px;
+  margin-top: 53px;
+  margin-left: 30px;
+}
+section .bgp .width .showBg {
+  background-image: url(../img/homePage/showBgL.png);
+  background-repeat: no-repeat;
+  background-size: 100% 87%;
+  height: 574px;
+  position: relative;
+  margin-top: 80px;
+}
+section .bgp .width .showBg ul li span {
+  width: 11px;
+  height: 11px;
+  background: rgba(255, 153, 0, 1);
+  border: 1px solid rgba(255, 90, NaN, 1);
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+}
+section .bgp .width .showBg ul li {
+  max-width: 185px;
+  margin-bottom: 10px;
+  color: rgba(0, 0, 0, 1);
+  line-height: 15px;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+section .bgp .width .showBg ul:first-of-type {
+  position: absolute;
+  left: 76px;
+  top: 157px;
+}
+section .bgp .width .showBg ul:nth-of-type(2) {
+  position: absolute;
+  left: 459px;
+  top: 16px;
+}
+section .bgp .width .showBg ul:nth-of-type(3) {
+  position: absolute;
+  left: 568px;
+  top: 212px;
+}
+section .services {
+  overflow: hidden;
+  background: rgba(255, 255, 255, 1);
+  height: 830px;
+}
+section .services .bg {
+  background: url(../img/homePage/fuwuL.png) center no-repeat;
+  height: 523px;
+  overflow: hidden;
+}
+section .services .width {
+  position: relative;
+  width: 1250px;
+}
+section .services .bg p:first-of-type {
+  font-size: 30px;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  margin-top: 140px;
+  margin-bottom: 40px;
+}
+section .services .bg p:nth-of-type(2) {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+}
+section .services .width .position {
+  position: relative;
+  left: 0px;
+  top: -212px;
+}
+
+section .services .width .position ul li .around {
+  width: 90%;
+  height: 399px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 12px 27px 0px rgba(33, 15, 121, 0.14);
+  transition: 0.6s;
+  margin: auto;
+  overflow: hidden;
+}
+section .services .width .position ul li .around:hover {
+  transform: translateY(-15px);
+}
+section .services .width .position ul li .around > span {
+  height: 105px;
+  display: block;
+  padding: 28px 0px 24px 0px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+section .services .width .position ul li .around::after {
+  content: "";
+  width: 100%;
+  position: absolute;
+  background: #ff9900;
+  opacity: 0.8;
+  bottom: 0;
+  height: 0;
+  transition: height 0.2s linear;
+  z-index: 555;
+  margin: auto;
+}
+section .services .width .position ul li .around:hover::after {
+  height: 2px;
+}
+section .services .width .position ul li:first-of-type .around > span {
+  background-image: url(../img/homePage/hardware-serverL.png);
+}
+section .services .width .position ul li:nth-of-type(2) .around > span {
+  background-image: url(../img/homePage/software-serverL.png);
+}
+section .services .width .position ul li:nth-of-type(3) .around > span {
+  background-image: url(../img/homePage/scheme-serverL.png);
+}
+section .services .width .position ul li:nth-of-type(4) .around > span {
+  background-image: url(../img/homePage/operation-serverL.png);
+}
+section .services .width .position ul li .around > p {
+  font-size: 18px;
+  color: rgba(46, 46, 46, 1);
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: SimHei;
+}
+section .services .width .position ul li .around div p {
+  font-size: 14px;
+  color: rgba(102, 102, 102, 1);
+  text-align: center;
+  line-height: 30px;
+}
+section .address {
+  padding-bottom: 15px;
+  background: rgba(43, 38, 51, 1);
+}
+section .address .width {
+  width: 1265px;
+  margin: auto;
+}
+section .address h3 {
+  font-size: 28px;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+section .address div > p {
+  color: rgba(119, 115, 127, 1);
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+section .address ul li {
+  margin-bottom: 25px;
+}
+section .address ul li .case-img {
+  overflow: hidden;
+  width: 90%;
+}
+section .address ul li img {
+  transition: 2s;
+}
+.distance {
+  width: 1280px;
+  padding: 0px;
+}
+@media (max-width: 1170px) {
+  .distance {
+    width: auto;
+    padding: 0 15px;
+  }
+  section .services .width {
+    width: auto;
+  }
+}
+section .address ul li img:hover {
+  transform: scale(1.2, 1.2);
+  transition: 2s;
+}
+section .address ul li p {
+  text-align: center;
+  color: #fefcfc;
+  font-size: 16px;
+  padding: 10px 0px;
+}
+section .partner {
+  height: 496px;
+  background: url(../img/homePage/parterBgL.png);
+}
+section .partner .width {
+  margin: auto;
+  position: relative;
+}
+section .partner .width .position {
+  width: 1259px;
+  height: 344px;
+  padding: 20px 0px 0px 54px;
+  margin: 20px auto;
+  background: url(../img/homePage/parter.png) center center no-repeat
+    rgba(255, 255, 255, 0.53);
+}
+
+@media (max-width: 1280px) {
+  section .partner .width .position {
+    width: 100%;
+    padding: 0px;
+    background: url(../img/homePage/parter.png) center center/90% no-repeat
+      rgba(255, 255, 255, 0.53);
+  }
+}
+section .partner .width h3 {
+  font-size: 36px;
+  color: #0092da;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+@media (max-width: 1200px) {
+  section .bgp .width .showBg ul:first-of-type {
+    left: 90px;
+    top: 138px;
+  }
+  section .bgp .width .showBg ul:nth-of-type(3) {
+    left: 530px;
+    top: 175px;
+  }
+  section .bgp .width .showBg ul:nth-of-type(2) {
+    left: 435px;
+    top: 10px;
+  }
+  section .bgp .width .showBg ul li {
+    max-width: 170px;
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  .center-align {
+    width: 84%;
+    margin: auto;
+  }
+  section .address ul li .case-img img {
+    width: 100%;
+  }
+  section .address ul li img:hover {
+    transform: scale(1.2, 1.2);
+    transition: 2s;
+  }
+}
+@media (max-width: 1024px) {
+  section .services .width .position ul li .around div p {
+    font-size: 12px;
+  }
+  section .Oli .postion {
+    left: 5%;
+  }
+  section .bgp .width .frist li div p:first-of-type {
+    font-size: 25px;
+  }
+  section .bgp .width .frist li div p:last-of-type {
+    font-size: 16px;
+  }
+}
+@media (max-width: 991px) {
+  .banner {
+    min-width: 100%;
+    height: auto;
+  }
+  section .preponderance .center ul {
+    display: block;
+    width: 580px;
+    margin: auto;
+  }
+  section .preponderance .center ul li:nth-child(even) {
+    margin-right: 0px;
+  }
+  section .Oli {
+    background: url(../img/phone/banner2.png) center top/150% no-repeat;
+    margin-top: 50px;
+    padding-left: 20px;
+    height: 100%;
+    padding-bottom: 90px;
+  }
+  section .Oli .postion {
+    position: relative;
+    top: 52px;
+    left: 0px;
+  }
+  section .Oli .width {
+    height: auto;
+  }
+  section .Oli .rectangleBg {
+    margin-bottom: 50px;
+  }
+  .b-list {
+    padding-top: 220px;
+  }
+  section .bgp .width .showBg {
+    background: url(../img/homePage/showBgL.png) center center/100% no-repeat;
+    width: 95%;
+    position: relative;
+    left: 0px;
+    margin-top: 20px;
+  }
+  section .bgp .width .showBg ul:first-of-type {
+    left: 80px;
+    top: 220px;
+  }
+  section .bgp .width .showBg ul li {
+    margin-bottom: 5px;
+    letter-spacing: 1.5px;
+  }
+  section .bgp .width {
+    height: auto;
+  }
+  section .bgp .width .showBg ul li {
+    font-size: 13px;
+  }
+  section .bgp .width .showBg ul:nth-of-type(2) {
+    position: absolute;
+    left: 420px;
+    top: 100px;
+  }
+  section .bgp .width .showBg ul:nth-of-type(3) {
+    position: absolute;
+    left: 520px;
+    top: 254px;
+  }
+  section .bgp .width .showBg ul li {
+    width: 165px;
+  }
+  section .bgp .width .position > a {
+    margin: 23px auto 40px;
+    display: block;
+  }
+
+  section .services .width .position ul {
+    display: block;
+    width: 80%;
+    margin: auto;
+  }
+  section .services {
+    height: auto;
+  }
+  section .services .width .position {
+    position: relative;
+    left: 0px;
+    top: -50px;
+  }
+  section .services .bg {
+    background: url(../img/homePage/fuwuL.png) center top/150% no-repeat;
+    height: 380px;
+  }
+  section .services .width .position ul li .around {
+    height: auto;
+    padding-bottom: 15px;
+  }
+  section .services .bg p:first-of-type {
+    margin-top: 100px;
+    margin-bottom: 30px;
+  }
+
+  section .address {
+    height: auto;
+    padding-bottom: 20px;
+  }
+  section .services .width .position ul li {
+    margin-bottom: 20px;
+  }
+  .one,
+  .two,
+  .three {
+    top: 25%;
+  }
+  .banner .one .flick-title1 {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+  .banner .one .flick-inne1 {
+    font-size: 12px;
+    margin-bottom: 30px;
+  }
+  .banner .one .flick-btn {
+    width: 241px;
+    height: 28px;
+    border-radius: 14px;
+    line-height: 28px;
+    font-size: 14px;
+    margin-left: 20px;
+  }
+  .banner .two .flick-inne2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  .banner .two .flick-inne2 span {
+    font-size: 28px;
+  }
+  .banner .two .flick-title2 {
+    font-size: 20px;
+  }
+  .banner .two .flick-btn2 span {
+    padding: 0px 4px;
+    line-height: 25px;
+    height: 25px;
+    border-radius: 6px;
+    color: rgba(236, 245, 255, 1);
+    font-size: 10px;
+    margin-right: 6px;
+  }
+  .banner .two .flick-arrows {
+    margin-top: 2%;
+    font-size: 16px;
+  }
+  .banner .three .flick-title3 {
+    font-size: 24px;
+  }
+  section .Oli .rectangleBg {
+    margin-bottom: 114px;
+    background-image: url(../img/homePage/rectangleL.png);
+  }
+  section .Oli .postion {
+    width: 80%;
+    position: relative;
+    top: 52px;
+    left: 0px;
+    margin: auto;
+  }
+  section .Oli .rectangleBg {
+    width: 100%;
+  }
+  section .Oli .postion ul {
+    width: 100%;
+    display: flex;
+  }
+  section .Oli .rectangleBg {
+    background: url(../img/homePage/rectangleL.png) top center/100% no-repeat;
+    margin-bottom: 74px;
+  }
+  section .Oli .rectangleBg h3 {
+    font-size: 30px;
+    height: 63px;
+    line-height: 63px;
+  }
+  section .Oli .rectangleBg p {
+    font-size: 26px;
+    height: 63px;
+    line-height: 63px;
+  }
+  section .Oli .postion > p {
+    font-size: 24px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 41px;
+  }
+  section .Oli .postion ul li span:first-of-type {
+    width: 42px;
+    height: 42px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+    background-size: 64%;
+  }
+  section .Oli .postion ul li span:last-of-type {
+    display: block;
+    font-size: 12px;
+    width: 55px;
+    min-width: 0px;
+  }
+  section .Oli .postion ul li {
+    margin-right: 20px;
+  }
+  section .bgp .width .position {
+    position: relative;
+    bottom: 70%;
+    left: 0;
+    top: 0;
+    width: 90%;
+    margin: auto;
+  }
+  section .bgp .width {
+    align-items: flex-end;
+  }
+  ul.frist {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 20px;
+  }
+  section .bgp .width .frist li div {
+    margin-right: 5px;
+  }
+  section .bgp .width .frist li div p:first-of-type {
+    font-size: 20px;
+    margin-left: 14px;
+  }
+  section .bgp .width .frist li div p:last-of-type {
+    font-size: 16px;
+    margin-left: 14px;
+  }
+  section .bgp .width .frist li img {
+    width: 32px;
+    height: 32px;
+  }
+  section .services .width .position ul li {
+    height: auto;
+  }
+  .more {
+    display: block;
+    padding: 5px 35px;
+    width: 5%;
+    border: 1px rgb(86, 82, 94) solid;
+    border-radius: 20px;
+    color: rgb(165, 162, 167);
+    margin: auto;
+    margin-top: 30px;
+  }
+  section .partner {
+    height: auto;
+    background: url(../img/homePage/parterBgL.png) center center/cover repeat-y;
+    display: block;
+  }
+  section .address ul li .case-img {
+    width: 90%;
+    margin: auto;
+    display: block;
+  }
+  section .partner .width {
+    height: 100%;
+  }
+  section .partner .width .position {
+    width: 80%;
+    height: 544px;
+    background: url(../img/homePage/parter2.png) center center/90% no-repeat
+      rgba(255, 255, 255, 0.53);
+    padding: 0px;
+    margin: 20px auto;
+    display: block;
+  }
+  section .partner .width h3 {
+    font-size: 32px;
+    padding-top: 40px;
+    padding-bottom: 0px;
+  }
+}
+@media (max-width: 415px) {
+  section .account ul li {
+    padding-left: 55px;
+    background-position: 19px 10px;
+    background-size: 28%;
+  }
+  section .account ul li span:first-of-type {
+    line-height: 15px;
+    margin-left: 0px;
+  }
+  section .account ul li p {
+    font-size: 12px;
+    margin-left: 0px;
+    max-height: 20px;
+  }
+  .one,
+  .two,
+  .three {
+    top: 15%;
+  }
+  .banner .one .flick-title1 {
+    font-size: 24px;
+  }
+  section .account ul li {
+    height: auto;
+    padding-bottom: 20px;
+  }
+  section .preponderance .center h3 {
+    font-size: 24px;
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  section .preponderance .center > p {
+    font-size: 14px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 30px;
+  }
+  .banner .two .flick-title2 {
+    font-size: 16px;
+  }
+  .banner .two .flick-inne2 {
+    font-size: 14px;
+  }
+  .banner .two .flick-inne2 span {
+    font-size: 20px;
+  }
+  .banner .two .flick-arrows {
+    margin-top: 5%;
+    font-size: 14px;
+  }
+  .banner .two .flick-arrows img {
+    width: 20px;
+  }
+  .banner .three .flick-title3 {
+    margin-top: 25%;
+    font-size: 20px;
+    margin-left: 0%;
+    text-align: center;
+    font-weight: bold;
+  }
+  section .preponderance .center ul {
+    width: auto;
+  }
+  section .Oli {
+    background: url(../img/phone/banner2.png) center top/cover no-repeat;
+    padding-left: 0px;
+  }
+  ul.frist {
+    padding-left: 0px;
+    margin: auto;
+    width: 100%;
+  }
+  section .bgp .width .frist li img {
+    width: 26px;
+    height: 26px;
+  }
+  section .bgp .width .frist li div {
+    margin-right: 0px;
+  }
+  section .Oli .postion {
+    width: auto;
+  }
+  section .Oli .rectangleBg {
+    background: url(../img/homePage/rectangleL.png) top center/cover no-repeat;
+    margin-bottom: 54px;
+  }
+  section .Oli .rectangleBg h3 {
+    font-size: 18px;
+    height: 53px;
+    line-height: 53px;
+  }
+  section .Oli .rectangleBg p {
+    font-size: 16px;
+    height: 53px;
+    line-height: 53px;
+  }
+  section .Oli .postion > p {
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+  }
+  section .Oli .postion ul {
+    display: block;
+    margin-left: 0px;
+    max-width: 318px;
+    margin: auto;
+  }
+  section .Oli .postion ul li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  section .Oli .postion ul li span:first-of-type {
+    margin: auto;
+    margin-bottom: 10px;
+  }
+  section .Oli .postion ul li span:last-of-type {
+    text-align: center;
+    color: #fff;
+  }
+  section .bgp .width .position {
+    left: 0%;
+    width: 100%;
+  }
+  section .bgp .width .showBg {
+    width: 100%;
+    top: 0px;
+    margin-bottom: 0px;
+    background: url(../img/homePage/showBgS.png) center center/100% no-repeat;
+    margin-top: 0px;
+    height: 364px;
+  }
+  section .services .bg p:first-of-type {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  section .services .bg p:nth-of-type(2) {
+    font-size: 12px;
+  }
+  section .services .bg {
+    height: 250px;
+  }
+  section .partner .width .position {
+    width: 100%;
+    height: 330px;
+  }
+  section .bgp .width .showBg ul li {
+    font-size: 10px;
+    margin-bottom: 0px;
+    line-height: 14px;
+  }
+  section .bgp .width .showBg ul li {
+    max-width: 100px;
+  }
+  section .services .width .position ul {
+    width: 100%;
+  }
+  section .preponderance .center ul li p:first-child span {
+    display: block;
+    height: 65px;
+    margin: 20px 0px 8px 0px;
+    background-position: center center;
+    background-size: 65%;
+  }
+  section .preponderance .center ul li p:first-child {
+    font-size: 14px;
+    color: rgba(46, 46, 46, 1);
+    line-height: 20px;
+    width: 60%;
+  }
+  section .preponderance .center ul li div {
+    height: 140px;
+    display: flex;
+    border-right: 1px rgb(243, 243, 243) solid;
+    border-bottom: 1px rgb(243, 243, 243) solid;
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+  section .bgp .width .position > a {
+    width: 137px;
+    height: 37px;
+    display: block;
+    font-size: 12px;
+    line-height: 37px;
+    margin-left: 0px;
+    margin: 10px auto 40px;
+  }
+  section .bgp .width .frist li div p:first-of-type {
+    margin-bottom: 10px;
+    font-size: 14px;
+    margin-left: 5px;
+    max-height: 34px;
+    margin-right: 2px;
+  }
+  section .bgp .width .frist li div p:last-of-type {
+    margin-bottom: 10px;
+    font-size: 12px;
+    margin-left: 5px;
+  }
+  section .bgp .width .position {
+    top: 0px;
+  }
+  section .services .width .position ul li .around > span {
+    height: 100px;
+    padding: 10px 0px 10px 0px;
+    background-size: 50%;
+  }
+  section .services .width .position ul li .around > p {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+  .more {
+    width: 35px;
+    margin-top: 10px;
+  }
+  .center-align {
+    width: 100%;
+  }
+  section .account ul li p {
+    min-width: auto;
+  }
+  section .address ul li p {
+    font-size: 14px;
+  }
+  section .address div > p {
+    font-size: 14px;
+    margin-bottom: 40px;
+  }
+  section .address ul li {
+    margin-bottom: 15px;
+  }
+  section .bgp .width .frist li {
+    margin-right: 5px;
+    border-right: 1px #ebecec solid;
+    padding-top: 5px;
+  }
+  section .bgp .width .frist li:last-of-type {
+    margin-right: 0px;
+    border-right: none;
+  }
+}
+@media (max-width: 320px) {
+  ul.frist {
+    padding-left: 10px;
+  }
+  section .Oli .rectangleBg h3 {
+    font-size: 16px;
+  }
+  section .Oli .rectangleBg p {
+    font-size: 14px;
+  }
+  section .Oli .postion ul {
+    max-width: 280px;
+  }
+  section .Oli .postion ul li {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+}
+.one,
+.two,
+.three {
+  display: none;
+}
+.show111 {
+  display: block !important;
+}
+.hide111 {
+  display: none !important;
+}

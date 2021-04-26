@@ -1,0 +1,534 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="高精度定位,人员定位,室内定位,UWB,蓝牙定位,化工厂区人员定位,定位传感器,员工定位,石油人员定位,人员定位管理系统">
+<meta name="keywords" content="高精度定位,人员定位,室内定位,UWB,蓝牙定位,化工厂区人员定位,定位传感器,员工定位,石油人员定位,人员定位管理系统">
+<link rel="stylesheet" href="layui/css/layui.css">
+<link href="css/flickerplate.css" type="text/css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/index.css" />
+<link type="text/css" rel="stylesheet" href="css/animate.css">
+<link type="text/css" rel="stylesheet" href="css/nav.css" />
+<!-- style css -->
+<link rel="stylesheet" href="css/theme.fonts.css">
+<link rel="stylesheet" href="css/plugin.style.css">
+<!--plugin style css-->
+<link rel="stylesheet" href="css/hearderStyle.css">
+<title>瑞达科讯首页</title>
+<script>
+var _hmt = _hmt || [];
+(function () {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?0b6cf052233b0af1fb370191b7edbe9c";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</head>
+<body style="overflow:-Scroll;overflow-x:hidden">
+<header>
+	<header class="hotel-header transparent">
+		<div class="layui-fluid">
+			<div class="layui-row">
+				<div id="menuzord" class="menuzord p-0 head h70">
+					<a href="index.html" class="menuzord-brand custom-logo-link">
+						<img src="img/homePage/logoL.png" class="custom-logo" alt="logo">
+						瑞达科讯
+					</a>
+					<div class="menuzord-menu shower111 pcNav f_r">
+						<ul>
+							<li class="check">
+								<a href="index.html">首页</a>
+							</li>
+							<li>
+								<a href="technology.html">石油化工</a>
+							</li>
+							<li class="jie">
+								<a href="technology.html">解决方案</a>
+								<ul class="dropdown aui-about-dow" style="display: none;">
+									<li><a href="technology.html">石油化工</a></li>
+									<li><a href="#" onclick="geng()">工厂定位</a></li>
+									<li><a href="#" onclick="geng()">智慧医疗</a></li>
+									<li><a href="#" onclick="geng()">公检司法定位</a></li>
+									<li><a href="#" onclick="geng()">矿业安全</a></li>
+									<li><a href="petrochemical.html">工程建设</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="casus.html">项目案例</a>
+							</li>
+							<li>
+								<a href="contact.html">联系我们</a>
+							</li>
+						</ul>
+						<div class="move-bg shower222"></div>
+					</div>
+					<!--/menuzord-->
+					<div style="text-align: center; float: left;">
+						<div class="shower111">
+							<a class="lang aaa">
+								<span style="vertical-align: middle;margin-right: 4px;">中文</span>
+								<img src="img/homePage/languageCut.png" alt="">
+							</a>
+						</div>
+					</div>
+					<!--/col-->
+				</div>
+			</div>
+			<!--/row-->
+		</div>
+	</header>
+	<div class="banner">
+		<div class="b-img">
+			<div class="img" href="#" style="background:url(img/banner/1-1.jpg)  center center/ cover  no-repeat; position: relative;">
+				<div class="one layui-container">
+					<div class="flick-title1">
+						工业复杂环境高精度位置定位服务
+					</div>
+					<div class="flick-inne1">
+						深耕工业环境复杂运用 已服务于<span>1000+</span>石油化工案例 <span>200+</span>工业场景运用
+					</div>
+					<button href="" class="flick-btn">聚合所有功能，一触既达</button>
+				</div>
+			</div>
+			<div class="img" href="#" style="background:url(img/banner/2-1.jpg)  center center/ cover no-repeat ; position: relative;">
+				<div class="two layui-container">
+					<div class="flick-title2">全新一代室内定位技术</div>
+					<div class="flick-inne2">深耕<span>石油化工</span>领域的物联网技术运用和普及</div>
+					<div class="flick-btn2">
+						<span>硬件全系列防爆</span>
+						<span>高精度位置管理</span>
+						<span>低成本建设</span>
+						<span>智能化维护</span>
+					</div>
+					<div class="flick-arrows">
+						<img style="display:inline-block;" src="img/homePage/iconL.png" /> 
+						<span style="vertical-align: middle;">可提供多种生产复杂场景智能化完整解决方案</span>
+					</div>
+				</div>
+			</div>
+			<div class="img" href="#" style="background:url(img/banner/3-1.jpg) center center/ cover  no-repeat ; position: relative;">
+				<div class="three layui-container">
+					<div class="flick-title3">瑞达科讯定位系统助力发电厂安全生产升级</div>
+				</div>
+			</div>
+		</div>
+		<div class="b-list"></div>
+	</div>
+</header>
+<section>
+	<div class="account">
+		<div class="layui-container list">
+			<ul class="layui-row">
+				<li class="layui-col-lg2 layui-col-md2 layui-col-xs4  layui-col-sm4 skip" link="technology.html">
+					<p>石油化工</p>
+					<span class="shower">石油化工行业高精度人员位置管理系统、人员/车辆/巡检等服务</span>
+				</li>
+				<li class="layui-col-lg2 layui-col-md2 layui-col-xs4 layui-col-sm4 " onclick="geng()">
+					<p>工厂定位</p>
+					<span class="shower">工厂人员精确定位、产线巡检、车辆定位</span>
+				</li>
+				<li class="layui-col-lg2 layui-col-md2 layui-col-xs4 layui-col-sm4" onclick="geng()">
+					<p>智慧医疗</p>
+					<span class="shower">院区就诊导航、人员位置、物资定位、废弃物管理</span>
+				</li>
+				<li class="layui-col-lg2 layui-col-md2 layui-col-xs4 layui-col-sm4" onclick="geng()">
+					<p>公检司法定位</p>
+					<span class="shower">监狱、看守所、办案中心等人员位置精确定位</span>
+				</li>
+				<li class="layui-col-lg2 layui-col-md2 layui-col-xs4 layui-col-sm4" onclick="geng()">
+					<p>矿业安全</p>
+					<span class="shower">智慧矿山、车辆定位、井下人员精确定位、统计、报警管理</span>
+				</li>
+				<li class="layui-col-lg2 layui-col-md2 layui-col-xs4 layui-col-sm4 skip" link="petrochemical.html">
+					<p>工程建设</p>
+					<span class="shower">地铁、隧道、工地、港口等人员位置定位、巡检管理</span>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="preponderance">
+		<div class="center">
+			<h3>精准定位, 行业标准化解决方案</h3>
+			<p>行业领先的定位管理系统、多种组合解决方案、自有核心专利算法、丰富的运用功能、定制化服务、深入解决行业痛点</p>
+			<div class="layui-container">
+				<ul class="frist layui-row">
+					<li class="layui-col-lg3 layui-col-md4 layui-col-xs6 layui-col-sm6  wow fadeInUp">
+						<div>
+							<p><span></span>UWB系统</p>
+							<p class="shower"></p>
+							<p class="shower">UWB高精度定位系统<br />10厘米级定位精度<br />多种定位核心算法<br />多种系统对接服务 <br />适用于：电力、矿业<br />智慧工厂等场景</p>
+						</div>
+					</li>
+					<li class="layui-col-lg3 layui-col-md4 layui-col-xs6 layui-col-sm6  wow fadeInUp">
+						<div>
+							<p><span></span>蓝牙系统</p>
+							<p class="shower"></p>
+							<p class="shower">蓝牙高精度定位系统<br />微功耗技术设计<br />全电池型设备<br />8年超长待机设计<br />适用于：石油化工、工程建设、医疗等</p>
+						</div>
+					</li>
+					<li class="layui-col-lg3 layui-col-md4 layui-col-xs6 layui-col-sm6 wow fadeInUp">
+						<div>
+							<p><span></span>融合系统</p>
+							<p class="shower"></p>
+							<p class="shower">融合定位管理系统<br />支持北斗室内室外<br />融合定位服务<br />支持UWB高精度<br />室内外融合定位服务<br />适用于：复杂环境应用</p>
+						</div>
+					</li>
+					<li class="layui-col-lg3 layui-col-md4 layui-col-xs6 layui-col-sm6  wow fadeInUp">
+						<div>
+							<p><span></span>北斗系统</p>
+							<p class="shower"></p>
+							<p class="shower">北斗定位管理系统<br />北斗高精度定位服务<br />终端长待机设计<br />支持与蓝牙/UWB设备混合定位<br />适用于：超大型场景</p>
+						</div>
+					</li>
+					<li class="layui-col-lg3 layui-col-md4 layui-col-xs6 layui-col-sm6 wow fadeInUp" data-wow-delay="0.1s">
+						<div>
+							<p><span></span>三维地图</p>
+							<p class="shower"></p>
+							<p class="shower">三维地图建模服务<br />支持3D实景建模<br />支持倾斜摄影建模<br />支付GIS地图服务<br />支持多种模式切换</p>
+						</div>
+					</li>
+					<li class="layui-col-md4 layui-col-xs6 layui-col-sm6 layui-col-lg3 wow fadeInUp" data-wow-delay="0.1s">
+						<div>
+							<p><span></span>开放性接口</p>
+							<p class="shower"></p>
+							<p class="shower">丰富预留接口<br />多种平台数据互联<br /><span style="display:block;line-height: 18px; margin-top: 7px;">支持DCS/MES/PMS<br>ERP/视频/门禁等无缝接入</span></p>
+						</div>
+					</li>
+					<li class="layui-col-md4 layui-col-xs6 layui-col-sm6 layui-col-lg3 wow fadeInUp" data-wow-delay="0.1s">
+						<div>
+							<p><span></span>简易施工</p>
+							<p class="shower"></p>
+							<p class="shower">硬件设备无弱电施工<br />快速实施部署<br />建设周期短<br />投入成本低</p>
+						</div>
+					</li>
+					<li class="layui-col-md4 layui-col-xs6 layui-col-sm6 layui-col-lg3 wow fadeInUp" data-wow-delay="0.1s">
+						<div>
+							<p><span></span>智能化维护</p>
+							<p class="shower"></p>
+							<p class="shower">全智能自诊断系统<br />硬件设备智能自诊断<br />异常情况智能提醒<br />后期维护成本低</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="Oli">
+		<div class="width layui-container">
+			<div class="postion layui-row">
+				<div class="rectangleBg">
+					<h3 class="wow fadeInUp">石油化工类人员位置精确管理系统</h3>
+					<p class="wow fadeInUp" data-wow-delay="0.1s">已为行业1000+企业提供完整解决方案</p>
+				</div>
+				<p class="wow fadeInUp" data-wow-delay="0.1s">防爆类全系列硬件产品助力石油化工安全生产管理</p>
+				<ul class="wow fadeInUp layui-col-lg12" data-wow-delay="0.2s">
+					<li>
+						<span></span>
+						<span>全无线</span>
+					</li>
+					<li>
+						<span></span>
+						<span>微功耗</span>
+					</li>
+					<li>
+						<span></span>
+						<span>电池型</span>
+					</li>
+					<li>
+						<span></span>
+						<span>低成本</span>
+					</li>
+					<li>
+						<span></span>
+						<span>抗干扰</span>
+					</li>
+					<li>
+						<span></span>
+						<span>防爆防腐</span>
+					</li>
+					<li>
+						<span></span>
+						<span>易施工</span>
+					</li>
+					<li>
+						<span></span>
+						<span>易维护</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+    <div class="bgp">
+      <div class="width layui-container">
+        <div class="layui-row">
+			<div class="position shower111 layui-col-md3 layui-col-xs12 layui-col-sm6 layui-col-lg4">
+				<ul class="frist">
+					<li>
+						<img src="img/homePage/intelligent-hardwareL.png" alt="">
+						<div>
+							<p>自主硬件创新</p>
+							<p>多种智能硬件融合技术</p>
+							<span></span>
+						</div>
+					</li>
+					<li>
+						<img src="img/homePage/AIcoalesceL.png" alt="">
+						<div>
+							<p>自有多融合平台</p>
+							<p>多种创新定位算法技术</p>
+							<span></span>
+						</div>
+					</li>
+					<li>
+						<img src="img/homePage/synergyL.png" alt="">
+						<div>
+							<p>支持多家平台系统融合</p>
+							<p>多系统资源整合技术</p>
+							<span></span>
+						</div>
+					</li>
+				</ul>
+				<a href="">了解更多</a>
+			</div>
+
+			<div class="showBg layui-col-md9 layui-col-xs12 layui-col-sm6 layui-col-lg8">
+				<ul class="wow fadeInUp shower">
+					<li> 
+						<span></span>实时定位
+					</li>
+					<li> 
+						<span></span>轨迹回放
+					</li>
+					<li> 
+						<span></span>实时报警
+					</li>
+				</ul>
+				<ul class="wow fadeInUp shower" data-wow-delay="0.1s">
+					<li> 
+						<span></span>智能巡检管理
+					</li>
+					<li> 
+						<span></span>无缝接入DCS\MES\ERP\PMS\<br>
+						HR\CMS等数据，实现平台数据互联互通，联动管控
+					</li>
+					<li> 
+						<span></span>集成AI识别\视频\门 禁联动
+					</li>
+				</ul>
+				<ul class="wow fadeInUp shower" data-wow-delay="0.2s">
+					<li> 
+						<span></span>2D\3D实景地图制作
+					</li>
+					<li> 
+						<span></span>支持江苏'五位一体'平台系统
+					</li>
+					<li> 
+						<span></span>支持20+平台系统厂家系统无缝兼容
+					</li>
+					<li> 
+						<span></span>支持大数据展示
+					</li>
+				</ul>
+			</div>
+
+			<div class="position hide111 layui-col-md3 layui-col-xs12 layui-col-sm6 layui-col-lg3">
+				<ul class="frist">
+					<li>
+						<img src="img/homePage/intelligent-hardwareL.png" alt="">
+						<div>
+							<p>自主硬件创新</p>
+							<p>多种智能硬件融合技术</p>
+							<span class="shower"></span>
+						</div>
+					</li>
+					<li>
+						<img src="img/homePage/AIcoalesceL.png" alt="">
+						<div>
+							<p>自有多融合平台</p>
+							<p>多种创新定位算法技术</p>
+							<span class="shower"></span>
+						</div>
+					</li>
+					<li>
+						<img src="img/homePage/synergyL.png" alt="">
+						<div>
+							<p>自建系统生态</p>
+							<p>多系统资源整合技术</p>
+							<span class="shower"></span>
+						</div>
+					</li>
+				</ul>
+				<a href="">了解更多</a>
+			</div>
+        </div>
+      </div>
+    </div>
+
+	<div class="services">
+		<div class="bg">
+			<p>更多的选择给你更大的可能性</p>
+			<p>瑞达科讯服务市场，以更多的选择满足你的业务全面需求</p>
+		</div>
+		<div class="width layui-container">
+			<div class="position">
+				<ul class="layui-row">
+					<li class="layui-col-md3 layui-col-xs6 layui-col-sm6 layui-col-lg3 wow fadeInUp">
+						<div class="around">
+							<span></span>
+							<p>硬件产品服务</p>
+							<div class="shower111">
+								<p>工程建设类/特殊定制类</p>
+								<p>司法专用系列/矿类专用型</p>
+								<p>石油化工防爆型全系列/医疗导航类</p>
+							</div>
+						</div>
+					</li>
+					<li class="layui-col-md3 layui-col-xs6 layui-col-sm6 layui-col-lg3 wow fadeInUp" data-wow-delay="0.1s">
+						<div class="around">
+							<span></span>
+							<p>软件服务</p>
+							<div class="shower111">
+								<p>行业专用软件/导航软件</p>
+								<p>生产安全信息化管理平台/联网管控平台</p>
+							</div>
+						</div>
+					</li>
+					<li class="layui-col-md3 layui-col-xs6 layui-col-sm6 layui-col-lg3 wow fadeInUp" data-wow-delay="0.2s">
+						<div class="around">
+							<span></span>
+							<p>方案服务</p>
+							<div class="shower111">
+								<p>行业解决方案设计/产品定制化设计</p>
+								<p>3D地图制作服务/平台解决方案设计</p>
+							</div>
+						</div>
+					</li>
+					<li class="layui-col-md3 layui-col-xs6 layui-col-sm6 layui-col-lg3 wow fadeInUp" data-wow-delay="0.3s">
+						<div class="around">
+							<span></span>
+							<p>运维服务</p>
+							<div class="shower111">
+								<p>数据迁移/故障排查/硬件维护</p>
+								<p>日常代维/环境搭建/系统维护</p>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="address">
+		<div class="layui-container distance">
+			<h3>行业运用案例</h3>
+			<p>我们的位置服务已成功运用于1000+项目 每一项的精心设计都是为更好的服务于客户而努力</p>
+			<div class="layui-row  center-align">
+				<ul>
+					<li class="layui-col-lg3 layui-col-md4 layui-col-xs6 layui-col-sm6">
+						<div class="layui-inline case-img"><img src="img/homePage/xuyangL.png"></div>
+						<p>南京扬子石化-巴斯夫有限责任公司</p>
+					</li>
+					<li class="layui-col-lg3 layui-col-md4 layui-col-xs6 layui-col-sm6">
+						<div class="layui-inline case-img"><img src="img/homePage/jschanglongL.png"></div>
+						<p>河北旭阳集团</p>
+					</li>
+					<li class="layui-col-lg3 layui-col-md4 layui-col-xs6 layui-col-sm6">
+						<div class="layui-inline case-img"><img src="img/homePage/jschangchunL.png"></div>
+						<p>台湾长春化工常熟基地</p>
+					</li>
+					<li class="layui-col-lg3 layui-col-md4 layui-col-xs6 layui-col-sm6">
+						<div class="layui-inline case-img"><img src="img/homePage/lantianL.png" alt=""></div>
+						<p>中化集团浙江绍兴基地</p>
+					</li>
+					</ul>
+					<ul class="shower111 shower2">
+					<li class="layui-col-lg3 layui-col-md4 layui-col-xs6 layui-col-sm6">
+						<div class="layui-inline case-img"><img src="img/homePage/slnantongL.png" alt=""></div>
+						<p>三菱化学南通基地</p>
+					</li>
+					<li class="layui-col-lg3 layui-col-md4 layui-col-xs6 layui-col-sm6">
+						<div class="layui-inline case-img"><img src="img/homePage/weikeL.png" alt=""></div>
+						<p>国核维科南通基地</p>
+					</li>
+					<li class="layui-col-lg3 layui-col-md4 layui-col-xs6 layui-col-sm6">
+						<div class="layui-inline case-img"><img src="img/homePage/yanyeL.png" alt=""></div>
+						<p>江苏盐业滨海基地</p>
+					</li>
+					<li class="layui-col-lg3 layui-col-md4 layui-col-xs6 layui-col-sm6">
+						<div class="layui-inline case-img"><img src="img/homePage/qdhuaweiL.png" alt=""></div>
+						<p>青岛华为云基地</p>
+					</li>
+				</ul>
+			</div>
+			<span class="more none">More</span>
+		</div>
+	</div>
+
+	<div class="partner">
+		<div class="width">
+			<h3>合作企业</h3>
+			<div class="position container"></div>
+		</div>
+	</div>
+</section>
+
+<iframe src="comman/footer.html" style="display: block; border: 0;" frameborder="0" scrolling="no" width="100%" height="403" overflow:hidden marginwidth="0" marginheight="0">
+</iframe>
+
+<script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
+<script src="layui/layui.js" type="text/javascript"></script>
+
+<script src="js/plugin.js" type="text/javascript"></script>
+
+<script src="js/main.js" type="text/javascript"></script>
+
+<script src="js/banner.js" type="text/javascript"></script>
+<script src="js/flickerplate.min.js"></script>
+<script src="js/modernizr-custom-v2.7.1.min.js" type="text/javascript"></script>
+<script src="js/jquery-finger-v0.1.0.min.js" type="text/javascript"></script>
+<script src="js/flickerplate.min.js" type="text/javascript"></script>
+<script src="js/wow.min.js" type="text/javascript"></script>
+<script src="js/slick.min1.9.0.js"></script>
+<script src="js/fastclick.js"></script>
+<script src="js/pageHead.js"></script>
+<script>
+$(document).ready(function () {
+  $('.flicker-example').flicker();
+  var width = $(window).width();
+  if (width > 1000) {
+	$(".dropdown").css("display", "block")
+	$(".indicator").css("display", "none")
+  }
+  if (width < 1000) {
+	$(".dropdown").css("display", "none")
+  }
+});
+$(".aui-about-dow").mouseover(function () {
+  $(".drop-down>a").addClass("check");
+})
+$(".aui-about-dow").mouseout(function () {
+  $(".drop-down>a").removeClass("check");
+})
+$(".account .list ul").on("click", ".skip", function () {
+  var link = $(this).attr("link");
+  window.parent.location.href = link;
+})
+$(".more").click(function () {
+  //点击更多得时候让剩下得显示出来
+  $(".shower2").css("display", "block").delay(300).slideDown(300);
+  $(".shower2").addClass("none").delay(300).slideDown(300);
+  $(".more").removeClass("none")
+  $(".more").addClass("shower111")
+})
+</script>
+<script src="js/script1.js" type="text/javascript"></script>
+<script src="js/menu.js" type="text/javascript"></script>
+
+</body>
+
+</html>

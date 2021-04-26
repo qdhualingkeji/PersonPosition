@@ -1,0 +1,333 @@
+/************************************************
+[Master Stylesheet]
+01. Home Page
+    -Header Section
+    -Banner Section
+    -Service Section
+    -Welcome Section
+    -Room Carousel Section
+    -Popular Room Section
+    -Call to Action
+    -Related Service
+    -App Section
+    -Video Section
+    -Testimonial Section
+    -Facts Section
+    -Blog Section
+    -Footer Section
+    
+02. Room List page
+03. Room Details page
+04. About Us page
+05. Blog page
+06. Blog details page
+07. Spa page
+08. Contact page
+09. Home Page-2
+10. Home Page-3
+*************************************************/
+
+
+/*--------------01. Home page style----------*/
+/*-------header style------*/
+.hotel-header {
+}
+.hotel-header .custom-logo-link {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color:rgba(255,255,255,1);
+    font-weight: 400;
+    margin-top: 27px;
+    margin-left: 11%;
+    margin-right: 9%;
+}
+.hotel-header .custom-logo-link .custom-logo {
+    max-width: 220px;
+    margin-right: 5px;
+}
+.hotel-header .menuzord-menu>ul> li {
+    position: relative;
+    display: block;
+    float: left;
+    width: 84px;
+    height: 100%;
+    font-size: 14px;
+    z-index: 1;
+    text-align: center;
+    margin-right: 50px;
+}
+
+.hotel-header .menuzord-menu>ul> li:first-child {
+    margin-left: 0px;
+    padding: 0px 8px;
+}
+.hotel-header .menuzord-menu>ul> li > a {
+    border: 1px solid transparent;
+    color: #444;
+    font-size: 16px;
+    font-weight: 400; 
+    text-align: center;
+    text-transform: capitalize;
+}
+.lang {
+    font-size: 16px;
+    color: rgba(255,255,255,1);
+    line-height: 74px;
+    display: inline-block;
+}
+.hotel-header .menuzord-menu>ul > li.active > a,
+.hotel-header .menuzord-menu>ul > li > a:hover {
+    border: 1px solid transparent;
+}
+
+
+/*-----------dropdown menu style----------*/
+.hotel-header .menuzord-menu ul.dropdown,
+.hotel-header .menuzord-menu ul.dropdown li ul.dropdown {
+    min-width: 180px;
+}
+.hotel-header .menuzord-menu ul.dropdown li ul.dropdown {
+    top: 0px;
+}
+/* .hotel-header .menuzord-menu ul.dropdown li a {
+    border-bottom: 1px solid rgba(216, 223, 229, 0.32);
+    color: #666;
+    font-size: 14px;
+    padding: 12px 25px 12px 22px;
+    text-transform: capitalize;
+} */
+.hotel-header .menuzord-menu ul.dropdown li a:hover {
+    background: rgba(0, 0, 0, 0.05);
+    color: rgba(82,151,236,1);
+}
+.hotel-header .menuzord-menu ul.dropdown>ul > li:last-child a {
+    border-bottom: none
+}
+.hotel-header .menuzord-menu li ul.dropdown>ul> li .indicator {
+    top: 13px;
+}
+.hotel-header .menuzord-menu ul.dropdown>ul>li a i.ion-ios-plus-outline {
+    font-size: 18px;
+}
+
+
+/*-------dark version--------*/
+.hotel-header.dark {
+  background: #1d1b24;
+}
+.hotel-header.dark .menuzord-menu ul.dropdown li a {
+  border-bottom-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+.hotel-header.dark .menuzord-menu ul.dropdown,
+.hotel-header.dark .menuzord-menu ul.dropdown li ul.dropdown {
+    background: #15131b;
+}
+
+/*------------transparent version------------*/
+.hotel-header.sticky-menu,
+.hotel-header.transparent{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    height: 78px;
+    line-height: 78px;
+}
+.hotel-header.sticky-menu .menuzord,
+.hotel-header.transparent .menuzord {
+    background: transparent;
+}
+.hotel-header.sticky-menu .menuzord-menu > li > a,
+.hotel-header.transparent .menuzord-menu>ul> li > a {
+    color: #fff;
+}
+
+/*---------sticky menu-----------*/
+.hotel-header.sticky-menu{
+    position: fixed;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+.hotel-header.sticky-menu.sticky {
+    background: #17161e;
+    top: 0px;
+}
+
+.check>a{
+	color:rgba(82,151,236,1) !important;
+}
+
+/*--------header responsive style--------*/
+
+@media (max-width: 1200px){
+	.hotel-header .custom-logo-link {
+		margin-left: 0%;
+		margin-right: 3%;
+    }
+    .menuzord-menu.menuzord-right {
+        float: left;
+        width: 78%;
+    }
+  }
+@media (max-width: 1199px) {
+    .hotel-header .menuzord-menu>ul > li {
+        margin-left: 5px;
+    }
+     
+} /*---992px-1199px---*/
+
+
+@media (max-width: 991px) {
+    
+.hotel-header .menuzord-menu ul> li > .megamenu,
+.hotel-header .menuzord-menu ul.dropdown {
+    top: 53px;
+    box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.1);
+}
+    .hotel-header {
+        padding: 15px 0;
+    }
+    .check{
+        border-bottom: none;
+    }
+    .hotel-header .menuzord-menu ul> li:hover {
+        border-bottom: none;
+    }
+    .hotel-header.sticky-menu,
+    .hotel-header.transparent {
+        padding: 1px 0;
+        position: relative;
+        height: auto;
+        line-height: 27px;
+    }
+    .hotel-header .menuzord .showhide em {
+        background: #17161e;
+        margin: 5px 20px 0;
+        width: 28px;
+    }
+    .hotel-header .menuzord .showhide {
+        padding: 8px 0 0;
+    }
+    .hotel-header .custom-logo-link {
+        margin: 10px 10px 0;
+    }
+    .hotel-header .menuzord-menu ul > li > a {
+        border-bottom: 1px solid rgba(216, 223, 229, 0.32);
+        border-top: none;
+        border-right: none!important;
+        border-left: none!important;
+        padding: 9px 18px 9px 14px;
+        text-align: left;
+        line-height: 25px;
+        font-size: 14px;
+        display: block;
+    }
+    .hotel-header .menuzord-menu ul> li.active > a,
+    .hotel-header .menuzord-menu ul> li > a:hover {
+        border-bottom-color: rgba(216, 223, 229, 0.32)!important;
+        border-top: none;
+    }
+    .hotel-header .menuzord-menu ul> li {
+        height: auto;
+        margin-left: 0;
+        width: 100%;
+    }
+    .hotel-header .menuzord-responsive .menuzord-menu {
+        margin-top: 12px;
+        background: rgba(255, 255, 255, 0.9);
+    }
+    .hotel-header .menuzord-responsive .menuzord-menu li .indicator {
+        border-left: 1px solid rgba(216, 223, 229, 0.32);
+        height: 45px;
+    }
+        
+    .hotel-header.sticky-menu .menuzord-responsive .menuzord-menu,
+    .hotel-header.transparent .menuzord-responsive .menuzord-menu {
+        background: rgba(23, 22, 30, 0.9);
+        margin-bottom: 10px;
+    }
+    .hotel-header.sticky-menu .menuzord .showhide em,
+    .hotel-header.transparent .menuzord .showhide em {
+        background: #fff;
+    }
+    
+    
+    /*---dropdown----*/
+    .hotel-header .menuzord-menu ul.dropdown,
+    .hotel-header .menuzord-menu ul.dropdown li ul.dropdown {
+        background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+        min-width: auto;
+    }
+    
+    .hotel-header .menuzord-menu > li > .megamenu,
+    .hotel-header .menuzord-menu ul.dropdown {
+        box-shadow: none;
+    }
+    .hotel-header .menuzord-menu ul.dropdown li a {
+        border-bottom: 1px solid rgba(216, 223, 229, 0.32);
+        border-top: none;
+        color: #17161e;
+        padding: 10px 25px 10px 22px;
+    }
+    .hotel-header .menuzord-menu ul.dropdown > li:last-child a {
+        border-bottom: 1px solid rgba(216, 223, 229, 0.32);;
+    }
+    
+    .hotel-header .menuzord-responsive .menuzord-menu.menuzord-indented > li > ul.dropdown > li:hover > a,
+    .hotel-header .menuzord-responsive .menuzord-menu.menuzord-indented > li > ul.dropdown > li > a {
+        padding-left: 30px !important;
+    }
+    .hotel-header .menuzord-menu ul.dropdown li a:hover {
+        background: inherit;
+    }
+    
+    .menuzord-responsive .menuzord-menu.menuzord-indented > li > ul.dropdown > li > ul.dropdown > li:hover > a,
+    .menuzord-responsive .menuzord-menu.menuzord-indented > li > ul.dropdown > li > ul.dropdown > li > a {
+        padding-left: 50px !important;
+    }
+    
+    .hotel-header .menuzord-menu li ul.dropdown li .indicator {
+        top: 1px;
+    }
+    .hotel-header .menuzord-menu ul.dropdown li a i.ion-ios-plus-outline {
+        display: inline-block;
+        padding-top: 4px;
+    }
+    
+    
+    /*--------*/
+    .hotel-header.sticky-menu .menuzord-menu ul > li > a,
+    .hotel-header.transparent .menuzord-menu ul > li > a {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.3)!important;
+        border-top: 1px solid rgba(255, 255, 255, 0.07)!important;
+    }
+    .hotel-header.sticky-menu .menuzord-menu ul.dropdown li a,
+    .hotel-header.transparent .menuzord-menu ul.dropdown li a {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+        border-top: 1px solid rgba(255, 255, 255, 0.07);
+        color: #fff;
+    }
+    .hotel-header.sticky-menu .menuzord-menu ul.dropdown > li:last-child ,
+    .hotel-header.transparent .menuzord-menu ul.dropdown > li:last-child a {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    }
+    .hotel-header.sticky-menu .menuzord-responsive .menuzord-menu li .indicator,
+    .hotel-header.transparent .menuzord-responsive .menuzord-menu li .indicator {
+        border-left-color: rgba(0, 0, 0, 0.4);
+    }
+    
+    
+} /*---768px-991px---*/
+@media (max-width: 400px) {
+    .hotel-header .menuzord .showhide em {
+        margin: 5px 10px 0;
+    }
+    .hotel-header .custom-logo-link{
+        font-size: 15px;
+    }
+}
+
+
