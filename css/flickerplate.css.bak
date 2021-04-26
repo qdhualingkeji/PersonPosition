@@ -90,6 +90,12 @@
 	margin-top: 10%;
 	font-size:24px;
 }
+.banner .three .flick-title3{
+	font-size:48px;
+	margin-top: 10%;
+	margin-left: 15%;
+	width: 100%;
+}
 @media (max-width: 1280px){
 	.one,.two,.three {
 		left: 5% !important;
