@@ -1157,7 +1157,7 @@ section .partner .width h3 {
 	width:124px;height:109px;
 }
 .rywdwglxt_div .title_div .title_h2{
-	font-size: 22px;font-weight: bold;color: #000000;margin-top:20px;
+	font-size: 22px;color: #000000;margin-top:20px;font-weight: bold;
 }
 .rywdwglxt_div .title_div .desc_div{
 	font-size: 22px;margin-top:15px;
