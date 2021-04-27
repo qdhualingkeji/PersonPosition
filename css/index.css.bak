@@ -1157,7 +1157,7 @@ section .partner .width h3 {
 	width:124px;height:109px;
 }
 .rywdwglxt_div .title_div .title_h2{
-	font-size: 22px;color: #000000;margin-top:20px;font-weight: bold;
+	font-size: 22px;font-weight: bold;color: #000000;margin-top:20px;
 }
 .rywdwglxt_div .title_div .desc_div{
 	font-size: 22px;margin-top:15px;
@@ -1192,4 +1192,27 @@ section .partner .width h3 {
 }
 .dwxt_list_div .item_div .desc_div{
 	width:280px;line-height: 24px;margin-top:10px;margin-left:24px;color:#fff;font-size: 14px;
+}
+
+.foot_div{
+	width:100%;height:237px;background-color:#1F232A;
+}
+.foot_div .content_div{
+	width:1340px;height:185px;margin:0 auto;
+}
+.foot_div .space_div{
+	height:25px;
+}
+.foot_div .row_div{
+	font-size: 15px;color: #FFFFFF;line-height: 45px;letter-spacing: 0;
+}
+.foot_div .bah_div{
+	width:1440px;
+	font-size: 14px;
+	color: #999;
+	text-align: center;
+	letter-spacing: 0;
+	padding-top:15px;
+	margin:0 auto;
+	border-top:#999 solid 1px;
 }
