@@ -485,10 +485,31 @@ var _hmt = _hmt || [];
 		</div>
 	</div>
 
+	<!--
 	<div class="partner">
 		<div class="width">
 			<h3>合作企业</h3>
 			<div class="position container"></div>
+		</div>
+	</div>
+	-->
+	<div class="hzhb_div">
+		<div class="title_div">
+			<img class="title_img" src="templets/seekcy/images/1.png" alt="">
+			<h2 class="title_h2">合作伙伴</h2>
+			<div class="desc_div">与诸多顶尖企业共同铸就卓越口碑</div>
+		</div>
+		<div class="list_div">
+			<img class="zgsy_div" src="img/202104270001.png"/>
+			<img class="hlask_div" src="img/202104270006.png"/>
+			<img class="shct_div" src="img/202104270007.png"/>
+			<img class="zjdlhg_div" src="img/202104270008.png"/>
+			<img class="jsytyy_div" src="img/202104270009.png"/>
+			<img class="gdg_div" src="img/202104270002.png"/>
+			<img class="yk_div" src="img/202104270003.png"/>
+			<img class="hegno_div" src="img/202104270005.png"/>
+			<img class="yxyy_div" src="img/202104270010.png"/>
+			<img class="dsn_div" src="img/202104270004.png"/>
 		</div>
 	</div>
 </section>
@@ -500,12 +521,7 @@ var _hmt = _hmt || [];
 		<div class="row_div">邮箱地址：qdhualing@126.com</div>
 		<div class="row_div">公司地址：青岛市北中央商务区敦化路136号西王大厦1606</div>
 	</div>
-	<div class="bah_div" style="width:1440px;text-align: center;
-font-size: 14px;
-color: #999;
-letter-spacing: 0;
-padding-top:15px;
-margin:0 auto;border-top:#999 solid 1px;">
+	<div class="bah_div">
 		青岛辰麒数维软件有限公司  <a href="https://beian.miit.gov.cn" target="_blank" style="color:#999;">鲁ICP备19062226号-4</a>
 	</div>
 </div>

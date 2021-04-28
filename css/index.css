@@ -1194,6 +1194,56 @@ section .partner .width h3 {
 	width:280px;line-height: 24px;margin-top:10px;margin-left:24px;color:#fff;font-size: 14px;
 }
 
+.hzhb_div {
+    width: 1270px;
+    margin: 90px auto 80px;
+}
+.hzhb_div .title_div{
+	text-align:center;
+}
+.hzhb_div .title_div .title_img{
+	width:124px;height:109px;
+}
+.hzhb_div .title_div .title_h2{
+	font-size: 22px;font-weight: bold;color: #000000;margin-top:20px;
+}
+.hzhb_div .title_div .desc_div{
+	font-size: 22px;margin-top:15px;
+}
+.hzhb_div .list_div{
+	width:1270px;margin-top:25px;padding:1px;
+}
+.hzhb_div .list_div .zgsy_div{
+	width:225px;height:65px;
+}
+.hzhb_div .list_div .hlask_div{
+	width:225px;height:69px;margin-left:30px;
+}
+.hzhb_div .list_div .shct_div{
+	width:225px;height:83px;margin-top: 15px;margin-left:30px;
+}
+.hzhb_div .list_div .zjdlhg_div{
+	width:225px;height:35px;margin-left:30px;
+}
+.hzhb_div .list_div .jsytyy_div{
+	width:225px;height:40px;margin-left:30px;
+}
+.hzhb_div .list_div .gdg_div{
+	width:225px;height:116px;margin-top: 20px;
+}
+.hzhb_div .list_div .yk_div{
+	width:225px;height:116px;margin-top: 18px;margin-left:30px;
+}
+.hzhb_div .list_div .hegno_div{
+	width:106px;height:106px;margin-top: 15px;margin-left:95px;
+}
+.hzhb_div .list_div .yxyy_div{
+	width:114px;height:106px;margin-top: 15px;margin-left:145px;
+}
+.hzhb_div .list_div .dsn_div{
+	width:225px;height:106px;margin-top: 15px;margin-left:80px;
+}
+
 .foot_div{
 	width:100%;height:237px;background-color:#1F232A;
 }
