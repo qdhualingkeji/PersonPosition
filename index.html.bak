@@ -35,7 +35,6 @@ var _hmt = _hmt || [];
 				<div id="menuzord" class="menuzord p-0 head h70">
 					<a href="index.html" class="menuzord-brand custom-logo-link">
 						<img src="img/homePage/logoL.png" class="custom-logo" alt="logo">
-						瑞达科讯
 					</a>
 					<div class="menuzord-menu shower111 pcNav f_r">
 						<ul>

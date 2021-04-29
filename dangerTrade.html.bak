@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+<meta name="description" content="高精度定位,人员定位,室内定位,UWB,蓝牙定位,化工厂区人员定位,定位传感器,员工定位,石油人员定位,人员定位管理系统">
+<meta name="keywords" content="高精度定位,人员定位,室内定位,UWB,蓝牙定位,化工厂区人员定位,定位传感器,员工定位,石油人员定位,人员定位管理系统">
+<title>危化行业</title>
+<link rel="stylesheet" href="./layui/css/layui.css">
+<link rel="stylesheet" href="./css/technology.css">
+<link type="text/css" rel="stylesheet" href="./css/nav.css" />
+<link rel="stylesheet" href="css/theme.fonts.css">
+<link rel="stylesheet" href="css/plugin.style.css">
+<!--plugin style css-->
+<link rel="stylesheet" href="css/hearderStyle.css">
+<!-- <link type="text/css" rel="stylesheet" href="./layer/mobile/need/layer.css"/> -->
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?0b6cf052233b0af1fb370191b7edbe9c";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</head>
+<body style="overflow:-Scroll;overflow-x:hidden">
+	<header class="hotel-header transparent">
+		<div class="layui-fluid">
+			<div class="layui-row">
+				<div id="menuzord" class="menuzord p-0 head h70">
+					<a href="index.html" class="menuzord-brand custom-logo-link">
+						<img src="img/homePage/logoL.png" class="custom-logo" alt="logo">
+					</a>
+					<div class="menuzord-menu shower111 pcNav f_r">
+						<ul>
+							<li class="check">
+								<a href="index.html">首页</a>
+							</li>
+							<li class="jie">
+								<a href="technology.html">解决方案</a>
+							</li>
+							<li>
+								<a href="dangerTrade.html">危化行业</a>
+							</li>
+							<li>
+								<a href="casus.html">项目案例</a>
+							</li>
+							<li>
+								<a href="contact.html">联系我们</a>
+							</li>
+						</ul>
+						<div class="move-bg shower222"></div>
+					</div>
+					<!--/menuzord-->
+					<div style="text-align: center; float: left;">
+						<div class="shower111">
+							<a class="lang aaa">
+								<span style="vertical-align: middle;margin-right: 4px;">中文</span>
+								<img src="img/homePage/languageCut.png" alt="">
+							</a>
+						</div>
+					</div>
+					<!--/col-->
+				</div>
+			</div>
+			<!--/row-->
+		</div>
+	</header>
+
+	<!-- banner部分 -->
+	<div class="banner about layui-fluid"></div>
+
+	<!-- main部分 -->
+	<div class="main-about main-about11">
+		<div class="layui-container">
+			<div class="layui-row">
+				<ul class="aboutab">
+					<li class="layui-col-md2 layui-col-xs3 layui-col-sm2 layui-col-lg2">
+						<div class="icon-bg">
+							<img src="./img/technology/icon-oneL.png" alt="">
+						</div>
+						<p>实时定位</p> 
+					</li>
+					<li class="layui-col-md2 layui-col-xs3 layui-col-sm2 layui-col-lg2">
+						<div class="icon-bg">
+							<img src="./img/technology/icon-twoL.png" alt="">
+						</div>
+						<p>历史轨迹</p>
+					</li>
+					<li class="layui-col-md2 layui-col-xs3 layui-col-sm2 layui-col-lg2">
+						<div class="icon-bg">
+							<img src="./img/technology/icon-threeL.png" alt="">
+						</div>
+						<p>超/缺员报警</p>
+					</li>
+					<li class="layui-col-md2 layui-col-xs3 layui-col-sm2 layui-col-lg2">
+						<div class="icon-bg">
+							<img src="./img/technology/icon-fourL.png" alt="">
+						</div>
+						<p>滞留报警</p>
+					</li>
+					<li class="layui-col-md2 layui-col-xs3 layui-col-sm2 layui-col-lg2 clear">
+						<div class="icon-bg">
+							<img src="./img/technology/icon-fiveL.png" alt="">
+						</div>
+						<p>越界报警</p>
+					</li>
+					<li class="layui-col-md2 layui-col-xs3 layui-col-sm2 layui-col-lg2">
+						<div class="icon-bg">
+							<img src="./img/technology/icon-sixL.png" alt="">
+						</div>
+						<p>一键呼救</p>
+					</li>
+				</ul>
+				<ul class="aboutab">
+					<li class="layui-col-md2 layui-col-xs3 layui-col-sm2 layui-col-lg2">
+						<div class="icon-bg">
+							<img src="./img/technology/icon-sevenL.png" alt="">
+						</div>
+						<p>电子围栏</p>
+					</li>
+					<li class="layui-col-md2 layui-col-xs3 layui-col-sm2 layui-col-lg2">
+						<div class="icon-bg">
+							<img src="./img/technology/icon-eightL.png" alt="">
+						</div>
+						<p>门禁联动</p>
+					</li>
+					<li class="layui-col-md2 layui-col-xs3 layui-col-sm2 layui-col-lg2">
+						<div class="icon-bg">
+							<img src="./img/technology/icon-nineL.png" alt="">
+						</div>
+						<p>视频联动</p>
+					</li>
+					<li class="layui-col-md2 layui-col-xs3 layui-col-sm2 layui-col-lg2">
+						<div class="icon-bg">
+							<img src="./img/technology/icon-tenL.png" alt="">
+						</div>
+						<p>智能巡检</p>
+					</li>
+					<li class="layui-col-md2 layui-col-xs3 layui-col-sm2 layui-col-lg2">
+						<div class="icon-bg">
+							<img src="./img/technology/icon-elevenL.png" alt="">
+						</div>
+						<p>数据分析</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="main-about">
+		<div class="tabIntro">
+			<div class="content bg">
+				<div class="layui-container">
+					<div class="layui-row">
+						<div class="layui-inline img">
+							<p class="title">实时位置管理</p> 
+							<img src="./img/technology/iconbg-oneL.png">
+							<div class="icon-position-x">
+								<ul>
+									<li>
+										<img src="./img/technology/personnel-locationL.png" alt=""> 
+										<p>人员定位</p>
+									</li>
+									<li>
+										<img src="./img/technology/vehicle-localizationL.png" alt="">
+										<p>车辆定位</p>
+									</li>
+									<li>
+										<img src="./img/technology/Supplies-positioningL.png" alt="">
+										<p>物资定位</p>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="layui-inline panel">
+							<ul>
+								<li>
+									<div class="layui-inline left">
+										<img src="./img/technology/locationL.png" alt="">
+										<p>实时定位</p>
+									</div><div class="layui-inline right">
+										<p>可实时记录人员的位置 分布情况，可对员工进行不同工种分类管理，可对外来人员及访客进行路线管理；可对车辆、物资等进行实时位置定位管理，可有效对员工进行调谴安排、工作监督，提升生产效率；在发生危险时，可对即时了解厂区人员分布及疏散情况，可对滞留人员进行快速救援. </p> 
+									</div>
+								</li>
+								<li>
+									<div class="layui-inline left">
+										<img src="./img/technology/trajectoryL.png" alt="">
+										<p>历史轨迹</p>
+									</div><div class="layui-inline right">
+										<p>实时记录人员位置信息，可回放指定时间段的人员、车辆及物品运动轨迹，为厂区人员、车辆及物资等管理提供历史数据记录，可对历史事件进行位置分析、数据分析，提升巡查监督及事件处理能力，提升工厂管理效率。</p>
+									</div>
+								</li>
+								<li>
+									<div class="layui-inline left">
+										<img src="./img/technology/placeL.png" alt="">
+										<p>最终位置</p>
+									</div><div class="layui-inline right">
+										<p>实时记录人员分布最终位置，记录事件前一秒所有人员分布状态，在危险情况下，可即时撑握处置前一秒人员的位置分布，对救援及紧急处置提供数据参考依据，为紧急救援提供参考位置信息。 </p>                         
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="content">
+				<div class="layui-container">
+					<div class="layui-row">
+						<div class="layui-inline panel p_block">
+							<ul>
+								<li>
+									<div class="layui-inline left">
+										<img src="./img/technology/policeL.png" alt="">
+										<p>实时报警</p>
+									</div><div class="layui-inline right">
+										<p>系统支持多种实时报警方式，全方位保障厂区人员生产安全，可对厂区区域超员、区域缺员、人员超时滞留、人员静止不动、人员无权限越界、禁区、外来人员路线偏离、访客禁区等进行有效实时后台报警管理，可对厂区人员动态进行精细化管理，提升厂区生产安全和管理智能化。 </p>                         
+									</div>
+								</li>
+								<li>
+									<div class="layui-inline left">
+										<img src="./img/technology/fencingL.png" alt="">
+										<p>电子围栏</p>
+									</div>
+									<div class="layui-inline right">
+										<p>可对地图进行电子围栏绘制，可对临时区域管理快速绘制电子围栏，可对围栏进行权限管控，对无权限进入围栏事件进行实时报警、对围栏内人员异常、超时、静止等情况进行实时上报，可对外来人员禁区进行管理和临时限制管控。 </p>                                 
+									</div>
+								</li>
+								<li>
+									<div class="layui-inline left">
+										<img src="./img/technology/distressL.png" alt="">
+										<p>一键呼救</p>
+									</div>
+									<div class="layui-inline right">
+										<p>在紧急情况下，人员可通过标签卡上一键呼救按键进行报警，后台可通过声音或声光等多种报警方式进行即时提醒处置，可快速响应紧急情况，可对人员位置进行快速定位和智能联动。</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="layui-inline img">
+							<p class="title">实时告警管理</p>
+							<img src="./img/technology/iconbg-twoL.png">
+							<div class="icon-position-x">
+								<ul>
+									<li>
+										<img src="./img/technology/control.png" alt=""> 
+										<p>员工管控</p>
+									</li>
+									<li>
+										<img src="./img/technology/Visitor-managementL.png"  alt="">
+										<p>访客管控</p>
+									</li>
+									<li>
+										<img src="./img/technology/Contractor-managementL.png" alt="">
+										<p>承包商管控</p>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="layui-inline panel hidewn1">
+							<ul>
+								<li>
+									<div class="layui-inline left">
+										<img src="./img/technology/policeL.png" alt="">
+										<p>实时报警</p>
+									</div><div class="layui-inline right">
+										<p>
+											系统支持多种实时报警方式，全方位保障厂区人员生产安全，可
+											对厂区区域超员、区域缺员、人员超时滞留、人员静止不动、人员无
+											权限越界、禁区、外来人员路线偏离、访客禁区等进行有效实时后台
+											报警管理，可对厂区人员动态进行精细化管理，提升厂区生产安全和
+											管理智能化。 
+										</p>                         
+									</div>
+								</li>
+								<li>
+									<div class="layui-inline left">
+										<img src="./img/technology/fencingL.png" alt="">
+										<p>电子围栏</p>
+									</div><div class="layui-inline right">
+										<p>
+											可对地图进行电子围栏绘制，可对临时区域管理快速绘制电子围
+											栏，可对围栏进行权限管控，对无权限进入围栏事件进行实时报警、
+											对围栏内人员异常、超时、静止等情况进行实时上报，可对外来人员
+											禁区进行管理和临时限制管控。 
+										</p>                                 
+									</div>
+								</li>
+								<li>
+									<div class="layui-inline left">
+										<img src="./img/technology/distressL.png" alt="">
+										<p>一键呼救</p>
+									</div><div class="layui-inline right">
+										<p>
+											在紧急情况下，人员可通过标签卡上一键呼救按键进行报警，后
+											台可通过声音或声光等多种报警方式进行即时提醒处置，可快速响应
+											紧急情况，可对人员位置进行快速定位和智能联动。   
+										</p>                                             
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="content bg">
+				<div class="layui-container">
+					<div class="layui-row">
+						<div class="layui-inline img">
+							<p class="title">智能联动控制</p>
+							<img src="./img/technology/iconbg-threeL.png">
+							<div class="icon-position-y">
+								<ul>
+									<li>
+										<img src="./img/technology/omnibearingL.png" alt=""> 
+										<span>全方位的智能联动控制平台</span>
+									</li>
+									<li>
+										<img src="./img/technology/efficientL.png" alt="">
+										<span>高效、实用的管理功能</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="layui-inline panel">
+							<ul>
+								<li>
+									<div class="layui-inline left">
+										<img src="./img/technology/entranceL.png" alt="">
+										<p>门禁联动</p>
+									</div>
+									<div class="layui-inline right">
+										<p>
+											可对厂区门禁系统进行无缝对接，可对人员进出情况、进出时间、进出次数
+											等进行数据汇总，与定位系统进行联动控制，可支持IC、ID、指纹、人脸等数据
+											接入，可支持LED大屏显示，内容可定制化编辑。 
+										</p>                                     
+									</div>
+								</li>
+								<li>
+									<div class="layui-inline left">
+										<img src="./img/technology/frequencyL.png" alt="">
+										<p>视频联动</p>
+									</div>
+									<div class="layui-inline right">
+										<p>
+											可集成厂区视频监控系统，对厂区重要位置、重要区域进行视频监控与定位
+											系统实时联动，对异常情况和特殊事件进行视频联动监控，可对访客路线和巡
+											检人员进行视频跟踪，可提升企业精细化管理工作，可对特定人群进行有效监
+											督管控。
+										</p>
+									</div>
+								</li>
+								<li>
+									<div class="layui-inline left">
+										<img src="./img/technology/platformL.png" alt="">
+										<p>平台联动</p>
+									</div>
+									<div class="layui-inline right">
+										<p>
+											可有效与厂区DCS\MES\EPR\PMS等系统进行数据互联互通，可与定位系统
+											进行联动控制，丰富的预留接口，可对多种系统进行有效整合，融入企业整体控
+											制管理平台。
+										</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="content">
+				<div class="layui-container">
+					<div class="layui-row">
+						<div class="layui-inline panel p_block">
+							<ul>
+								<li>
+									<div class="layui-inline left">
+										<img src="./img/technology/pollingL.png" alt="">
+										<p>巡检系统</p>
+									</div>
+									<div class="layui-inline right">
+										<p>
+											智能化巡检管理系统，可有效对厂区巡检人员进行分组管理，对巡
+											检任务进行智能化分配，可下发巡检任务，可对巡检路线、巡检内容、
+											巡检时段等任务编辑、管理、任务下发，可对巡检任务进行智能化管
+											理。
+										</p>
+									</div>
+								</li>
+								<li>
+									<div class="layui-inline left">
+										<img src="./img/technology/pollingappL.png" alt="">
+										<p>巡检APP</p>
+									</div>
+									<div class="layui-inline right">
+										<p>
+											支持移动端巡检管理，支持文字 、视频、图片等记录，对巡查内
+											容、路线、巡检人员、巡检时间等进行实时记录，可能隐患排查情况
+											进行实时记录。
+										</p>
+									</div>
+								</li>
+								<li>
+									<div class="layui-inline left">
+										<img src="./img/technology/frequencyL.png" alt="">
+										<p>数据分析</p>
+									</div>
+									<div class="layui-inline right">
+										<p>
+											可对巡检内容进行智能数据分析，可生产巡检合格率，可生成隐
+											患排查报表，可对隐患情况进行逐级上报，可对隐患处置情况进行闭
+											环监督管理，提升企业安全生产隐患排查工作精细化闭环管理和有效
+											监督，助力企业安全生产。
+										</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="layui-inline img">
+							<p class="title">智能化巡检管理</p>
+							<img src="./img/technology/iconbg-fourL.png">
+							<div class="icon-position-y">
+								<ul>
+									<li>
+										<img src="./img/technology/recognition.png" alt=""> 
+										<span>支持人脸识别</span>
+									</li>
+									<li>
+										<img src="./img/technology/troubleshoot.png" alt="">
+										<span>支持隐患排查分析</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="layui-inline panel hidewn1">
+							<ul>
+								<li>
+									<div class="layui-inline left">
+										<img src="./img/technology/pollingL.png" alt="">
+										<p>巡检系统</p>
+									</div>
+									<div class="layui-inline right">
+										<p>
+											智能化巡检管理系统，可有效对厂区巡检人员进行分组管理，对巡
+											检任务进行智能化分配，可下发巡检任务，可对巡检路线、巡检内容、
+											巡检时段等任务编辑、管理、任务下发，可对巡检任务进行智能化管
+											理。
+										</p>
+									</div>
+								</li>
+								<li>
+									<div class="layui-inline left">
+										<img src="./img/technology/pollingappL.png" alt="">
+										<p>巡检APP</p>
+									</div>
+									<div class="layui-inline right">
+										<p>
+											支持移动端巡检管理，支持文字 、视频、图片等记录，对巡查内
+											容、路线、巡检人员、巡检时间等进行实时记录，可能隐患排查情况
+											进行实时记录。
+										</p>
+									</div>
+								</li>
+								<li>
+									<div class="layui-inline left">
+										<img src="./img/technology/frequencyL.png" alt="">
+										<p>数据分析</p>
+									</div>
+									<div class="layui-inline right">
+										<p>
+											可对巡检内容进行智能数据分析，可生产巡检合格率，可生成隐
+											患排查报表，可对隐患情况进行逐级上报，可对隐患处置情况进行闭
+											环监督管理，提升企业安全生产隐患排查工作精细化闭环管理和有效
+											监督，助力企业安全生产。
+										</p>
+									</div>
+								</li>
+							</ul> 
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="content bg">
+				<div class="layui-container">
+					<div class="layui-row">
+						<div class="layui-inline img">
+							<p class="title">丰富的管理能力</p>
+							<img src="./img/technology/iconbg-fiveL.png">
+							<div class="icon-position-y icon-margin">
+								<ul>
+									<li>
+										<img src="./img/technology/live-actionL.png" alt=""> 
+										<span>支持实景2D/3D电子地图绘制</span>
+									</li>
+									<li>
+										<img src="./img/technology/interfaceShow.png" alt="">
+										<span>支持大数据分析及界面展示</span>
+									</li>
+									<li>
+										<img src="./img/technology/intelligentizedL.png" alt="">
+										<span>全智能化自诊维护系统</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="layui-inline panel">
+							<ul>
+								<li>
+									<div class="layui-inline left">
+										<img src="./img/technology/visualizationL.png" alt="">
+										<p>可视化地图</p>
+									</div>
+									<div class="layui-inline right">
+										<p>
+											支持2D/3D电子地图绘制，支持厂区实景电子地图三维建模，支持室内区域
+											及楼层2D/3D建模，支持多种地图显示模式，可根据企业要求进行地图绘制，精
+											细化建模，系统便捷化管理，提升企业对外展示形像。
+										</p>
+									</div>
+								</li>
+								<li>
+									<div class="layui-inline left">
+										<img src="./img/technology/big-dataL.png" alt="">
+										<p>大数据分析</p>
+									</div>
+									<div class="layui-inline right">
+										<p>
+											可对实时定位数据、门禁联动数据、视频跟踪数据、巡检管理数据、DCS/
+											MES等联动数据进行大数据分析、展示，为企业提供全面可视化的管理界面，
+											提升企业智能化安全管理水平和厂区整体把控能力，为企业安全生产助力提效。
+										</p>
+									</div>
+								</li>
+								<li>
+									<div class="layui-inline left">
+										<img src="./img/technology/intelligentializeL.png" alt="">
+										<p>智能化维护</p>
+									</div>
+									<div class="layui-inline right">
+										<p>
+											提供全面的智能化硬件系统和智能化软件系统，硬件系统全部硬件自带自诊
+											断功能，异常情况智能上报，软件系统智能数据分析，对设备异常、低电量提醒、
+											通讯异常、系统使用异常提供智能诊断，为系统平稳使用系统、高效使用系统提
+											供全方位保障。
+										</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>    
+				</div>
+			</div>
+
+			<div class="content">
+				<div class="layui-container">
+					<div class="layui-row">
+						<div class="layui-inline panel p_block">
+							<ul>
+								<li>
+									<div class="layui-inline left">
+										<img src="./img/technology/standardizationL.png" alt="">
+										<p>标准化接口</p>
+									</div>
+									<div class="layui-inline right">
+										<p>
+											系统预留标准化接口，可为企业提供所需位置 管理信息，可与企
+											业DCS/MES/PMS/EPR等系统进行无缝对接，可为企业各生产系统提
+											供地图运用接口，为企业进行系统资源整合提供定制化服务，为企业
+											资源整合和信息化整合助力。
+										</p>
+									</div>
+								</li>
+								<li>
+									<div class="layui-inline left">
+										<img src="./img/technology/management-planL.png" alt="">
+										<p>多种管理方案</p>
+									</div>
+									<div class="layui-inline right">
+										<p>
+											支持本地化管理，支持云端联网管理，支持私有云管理。支持客户
+											端访问，支持大屏展示，支持移动端运用。
+										</p>
+									</div>
+								</li>
+								<li>
+									<div class="layui-inline left">
+										<img src="./img/technology/customizeL.png" alt="">
+										<p>定制化服务</p>
+									</div>
+									<div class="layui-inline right">
+										<p>
+											可为企业定制化开发标准化接口、定制化功能、智能硬件，可为
+											企业特殊需求提供定制化解决方案，深挖企业实际需求，解决企业实
+											际痛点，为企业提供专业化、针对性强的整体解决方案
+										</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="layui-inline img">
+							<p class="title">定制化服务</p>
+							<img src="./img/technology/iconbg-sixL.png">
+							<div class="icon-position-y">
+								<ul>
+									<li>
+										<img src="./img/technology/connectorL.png" alt=""> 
+										<span>提供标准化接口</span>
+									</li>
+									<li>
+										<img src="./img/technology/customization-twoL.png" alt="">
+										<span>提供定制化解决方案</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="layui-inline panel hidewn1">
+							<ul>
+								<li>
+									<div class="layui-inline left">
+										<img src="./img/technology/standardizationL.png" alt="">
+										<p>标准化接口</p>
+									</div>
+									<div class="layui-inline right">
+										<p>
+											系统预留标准化接口，可为企业提供所需位置 管理信息，可与企
+											业DCS/MES/PMS/EPR等系统进行无缝对接，可为企业各生产系统提
+											供地图运用接口，为企业进行系统资源整合提供定制化服务，为企业
+											资源整合和信息化整合助力。
+										</p>
+									</div>
+								</li>
+								<li>
+									<div class="layui-inline left">
+										<img src="./img/technology/management-planL.png" alt="">
+										<p>多种管理方案</p>
+									</div>
+									<div class="layui-inline right">
+										<p>
+											支持本地化管理，支持云端联网管理，支持私有云管理。支持客户
+											端访问，支持大屏展示，支持移动端运用。
+										</p>
+									</div>
+								</li>
+								<li>
+									<div class="layui-inline left">
+										<img src="./img/technology/customizeL.png" alt="">
+										<p>定制化服务</p>
+									</div>
+									<div class="layui-inline right">
+										<p>
+											可为企业定制化开发标准化接口、定制化功能、智能硬件，可为
+											企业特殊需求提供定制化解决方案，深挖企业实际需求，解决企业实
+											际痛点，为企业提供专业化、针对性强的整体解决方案
+										</p>
+									</div>
+								</li>
+							</ul> 
+						</div>       
+					</div>    
+				</div>
+			</div> 
+		</div>
+	</div>
+</div>
+
+  <!-- footer部分 -->
+  <iframe src="./comman/footer.html" style="display: block; border: 0;" frameborder="0" scrolling="no" width="100%" height="403" overflow:hidden marginwidth="0" marginheight="0"></iframe>
+  <script src="./js/jquery-3.5.1.js" type="text/javascript"></script> 
+  <!-- <script src="./js/jquery-1.8.2.min.js" type="text/javascript"></script> -->
+  <script src="./layui/layui.js" type="text/javascript"></script>
+  <!-- <script src="./layer/mobile/layer.js" type="text/javascript"></script> -->
+<!-- <script src="./js/layui.js"></script> -->
+<!--[if lt IE 9]>
+  <script src="https://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
+  <script src="https://cdn.staticfile.org/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script src="js/plugin.js" type="text/javascript"></script>
+
+<script src="js/main.js" type="text/javascript"></script>
+<script src="./js/menu.js"></script>
+<script src="js/slick.min1.9.0.js"></script>
+<script src="js/fastclick.js"></script>
+<script src="js/pageHead.js"></script>
+<script>
+   $(document).ready(function(){
+      var width = $(window).width();
+				if(width>1000){
+          $(".dropdown").css("display","block") 
+          $(".indicator").css("display","none")
+				}
+      });
+</script>
+</body>
+</html>
