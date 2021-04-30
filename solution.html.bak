@@ -85,7 +85,63 @@ var _hmt = _hmt || [];
 		<span class="title_span">方案概述</span>
 	</div>
 	<div class="describe_div">为化工企业<span class="lsdz_span">生产管理量身打造</span>的应用系统</div>
-	<img class="fags_img" src="img/202104300001.png" style="width:100%;margin-top:10px;"/>
+	<img class="fags_img" src="img/202104300001.png"/>
+</div>
+<div class="xtjg_div">
+	<div class="title_div">
+		<img class="title_img" src="img/common/d1040d499cb345b1858f36db35e8028b.jpg">
+		<span class="title_span">系统架构</span>
+	</div>
+	<div class="describe_div">采用zgb技术+蓝牙定位技术，业内首创轻量级定位管理系统，同时支持手机定位导航与人员物资监控式定位管理。</div>
+	<img class="xtjg_img" src="templets/seekcy/images/tz-pic.png"/>
+</div>
+<div class="ywgn_div">
+	<div class="title_div">
+		<img class="title_img" src="img/common/d1040d499cb345b1858f36db35e8028b.jpg">
+		<span class="title_span">业务功能</span>
+	</div>
+	<div class="list_div">
+		<div class="item_div">
+			<div class="title_div">人员实时定位管理</div>
+			<img src="img/solution/202104300001.png">
+		</div>
+		<div class="item_div">
+			<div class="title_div">安全智能预警</div>
+			<img src="img/solution/202104300002.png">
+		</div>
+		<div class="item_div">
+			<div class="title_div">轨迹追踪与视频联动</div>
+			<img src="img/solution/202104300003.png">
+		</div>
+		<div class="item_div">
+			<div class="title_div">访客安全管理</div>
+			<img src="img/solution/202104300004.png">
+		</div>
+		<div class="item_div">
+			<div class="title_div">电子巡更管理</div>
+			<img src="img/solution/202104300005.png">
+		</div>
+		<div class="item_div">
+			<div class="title_div">承包商人员管理</div>
+			<img src="img/solution/202104300006.png">
+		</div>
+		<div class="item_div">
+			<div class="title_div">厂区状态手机端监管</div>
+			<img src="img/solution/202104300007.png">
+		</div>
+		<div class="item_div">
+			<div class="title_div">车辆及应急物资管理</div>
+			<img src="img/solution/202104300008.png">
+		</div>
+		<div class="item_div">
+			<div class="title_div">PDA点巡检管理</div>
+			<img src="img/solution/202104300009.png">
+		</div>
+		<div class="item_div">
+			<div class="title_div">数据可视化分析</div>
+			<img src="img/solution/202104300010.png">
+		</div>
+	</div>
 </div>
 </body>
 </html>
