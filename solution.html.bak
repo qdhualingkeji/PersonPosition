@@ -22,7 +22,7 @@ var _hmt = _hmt || [];
 })();
 </script>
 </head>
-<body style="overflow:-Scroll;overflow-x:hidden">
+<body>
 <header class="hotel-header transparent">
 	<div class="layui-fluid">
 		<div class="layui-row">
@@ -65,16 +65,27 @@ var _hmt = _hmt || [];
 		<!--/row-->
 	</div>
 </header>
-<div style="width:100%;height:460px;overflow-y:hidden;">
-	<img src="./img/common/page-cyfa.jpg" style="width:100%;"/>
-	<div style="width:700px;margin:-578px auto 0;color:#fff;text-align: center;">
-		<div style="font-weight: 500;font-size: 2.5rem;">赋能行业应用</div>
-		<div style="font-weight: 500;font-size: 1.3rem;line-height: 40px;margin-top:30px;">我们的解决方案旨在从安全和效率两大领域解决用户问题，<br>包含生产安全管理、效率节拍优化、提高设备利用率、降低运营成本等。</div>
+<div class="logo_div">
+	<img class="logo_img" src="./img/common/page-cyfa.jpg"/>
+	<div class="content_div">
+		<div class="title_div">赋能行业应用</div>
+		<div class="describe_div">我们的解决方案旨在从安全和效率两大领域解决用户问题，<br>包含生产安全管理、效率节拍优化、提高设备利用率、降低运营成本等。</div>
 	</div>
 </div>
-<div style="width:1120px;height:350px;margin:40px auto 0;">
-	<img src="./img/common/e638d670bbba43979b514055c7d4d09d.jpg" style="width:1120px;height:350px;"/>
-	<div style="width:430px;height:122px;float:right;margin-top: -240px;margin-right: 20px;"></div>
+<div class="uwbjjfa_div">
+	<img class="uwbjjfa_img" src="./img/common/e638d670bbba43979b514055c7d4d09d.jpg"/>
+	<div class="content_div">
+		<div class="title_div">UWB智慧工厂管理解决方案</div>
+		<div class="describe_div"><span class="yycj_span">应用场景: </span>离散制造、汽车组装、工程机械、家电生产、水泥生产、钢铁冶金</div>
+	</div>
+</div>
+<div class="fags_div">
+	<div class="title_div">
+		<img class="title_img" src="img/common/d1040d499cb345b1858f36db35e8028b.jpg">
+		<span class="title_span">方案概述</span>
+	</div>
+	<div class="describe_div">为化工企业<span class="lsdz_span">生产管理量身打造</span>的应用系统</div>
+	<img class="fags_img" src="img/202104300001.png" style="width:100%;margin-top:10px;"/>
 </div>
 </body>
 </html>
