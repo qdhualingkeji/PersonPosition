@@ -143,5 +143,17 @@ var _hmt = _hmt || [];
 		</div>
 	</div>
 </div>
+
+<div class="foot_div">
+	<div class="content_div">
+		<div class="space_div"></div>
+		<div class="row_div">资讯热线：0532-55588351&nbsp;&nbsp;15712773653（微信同号）</div>
+		<div class="row_div">邮箱地址：qdhualing@126.com</div>
+		<div class="row_div">公司地址：青岛市北中央商务区敦化路136号西王大厦1606</div>
+	</div>
+	<div class="bah_div">
+		青岛辰麒数维软件有限公司  <a href="https://beian.miit.gov.cn" target="_blank" style="color:#999;">鲁ICP备19062226号-4</a>
+	</div>
+</div>
 </body>
 </html>
