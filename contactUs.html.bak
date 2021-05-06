@@ -165,11 +165,11 @@ function createIcon(json){
 	<img class="logo_img" src="./img/contactUs/202105060001.jpg"/>
 </div>
 <!--百度地图容器-->
-<div style="width:1340px;height:400px;margin:50px auto 0;border:#ccc solid 1px;" id="dituContent"></div>
+<div style="width:1340px;height:500px;margin:50px auto 0;border:#ccc solid 1px;" id="dituContent"></div>
 
 <div class="lxfs_div">
 	<div class="title_div">联系方式：</div>
-	<div class="row_div">电话：0532-55588351&nbsp;&nbsp;</div>
+	<div class="row_div">电话：0532-55588351&nbsp;&nbsp;15712773653</div>
 	<div class="row_div">传真：0532-55588352</div>
 	<div class="row_div">邮箱：qdhualing@126.com</div>
 	<div class="row_div">地址：山东省青岛市北中央商务区敦化路136号西王大厦16F</div>

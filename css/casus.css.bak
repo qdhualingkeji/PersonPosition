@@ -1,0 +1,6 @@
+.logo_div{
+	width:100%;height:460px;overflow-y:hidden;
+}
+.logo_div .logo_img{
+	width:100%;
+}
