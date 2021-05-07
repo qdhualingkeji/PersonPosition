@@ -5,6 +5,48 @@
 	width:100%;
 }
 
+.al_list_div{
+	width:1200px;
+	margin:20px auto;
+}
+.al_list_div .item_div{
+	width:550px;
+	height:530px;
+}
+.al_list_div .msyhgmt_div{
+	margin-top:-530px;
+	margin-left:650px;
+}
+.al_list_div .item_div .title_div{
+	font-size: 25px;
+	line-height:50px;
+	text-align:center;
+}
+.al_list_div .item_div .logo_img_div{
+	width:100%;
+	text-align:center;
+}
+.al_list_div .item_div .zgmytcyz_img{
+	width:463px;
+	height:275px;
+}
+.al_list_div .item_div .msyhgmt_img{
+	width:100%;
+}
+.al_list_div .item_div .ycmhgyxgs_img{
+	width:489px;
+	height:275px;
+}
+.al_list_div .item_div .dwgk_div{
+	margin-top:20px;
+}
+.al_list_div .item_div .dwgk_div .tit_div{
+	font-size: 20px;line-height:50px;
+}
+.al_list_div .item_div .dwgk_div .desc_div{
+	font-size: 15px;line-height:30px;
+}
+
 .foot_div{
 	width:100%;height:237px;background-color:#1F232A;
 }
