@@ -16,6 +16,51 @@
 <link rel="stylesheet" href="css/plugin.style.css">
 <!--plugin style css-->
 <link rel="stylesheet" href="css/hearderStyle.css">
+<script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
+<script src="layui/layui.js" type="text/javascript"></script>
+<script src="js/plugin.js" type="text/javascript"></script>
+<script src="js/main.js" type="text/javascript"></script>
+<script src="js/banner.js" type="text/javascript"></script>
+<script src="js/flickerplate.min.js"></script>
+<script src="js/modernizr-custom-v2.7.1.min.js" type="text/javascript"></script>
+<script src="js/jquery-finger-v0.1.0.min.js" type="text/javascript"></script>
+<script src="js/flickerplate.min.js" type="text/javascript"></script>
+<script src="js/wow.min.js" type="text/javascript"></script>
+<script src="js/slick.min1.9.0.js"></script>
+<script src="js/fastclick.js"></script>
+<script src="js/pageHead.js"></script>
+<script>
+$(document).ready(function () {
+  $('.flicker-example').flicker();
+  var width = $(window).width();
+  if (width > 1000) {
+	$(".dropdown").css("display", "block")
+	$(".indicator").css("display", "none")
+  }
+  if (width < 1000) {
+	$(".dropdown").css("display", "none")
+  }
+});
+$(".aui-about-dow").mouseover(function () {
+  $(".drop-down>a").addClass("check");
+})
+$(".aui-about-dow").mouseout(function () {
+  $(".drop-down>a").removeClass("check");
+})
+$(".account .list ul").on("click", ".skip", function () {
+  var link = $(this).attr("link");
+  window.parent.location.href = link;
+})
+$(".more").click(function () {
+  //点击更多得时候让剩下得显示出来
+  $(".shower2").css("display", "block").delay(300).slideDown(300);
+  $(".shower2").addClass("none").delay(300).slideDown(300);
+  $(".more").removeClass("none")
+  $(".more").addClass("shower111")
+})
+</script>
+<script src="js/script1.js" type="text/javascript"></script>
+<script src="js/menu.js" type="text/javascript"></script>
 <title>人员定位首页</title>
 <script>
 var _hmt = _hmt || [];
@@ -38,13 +83,13 @@ var _hmt = _hmt || [];
 					</a>
 					<div class="menuzord-menu shower111 pcNav f_r">
 						<ul>
-							<li>
+							<li class="check">
 								<a href="index.html">首页</a>
 							</li>
 							<li class="jie">
 								<a href="solution.html">解决方案</a>
 							</li>
-							<li class="check">
+							<li>
 								<a href="dangerTrade.html">危化行业</a>
 							</li>
 							<li>
@@ -524,54 +569,5 @@ var _hmt = _hmt || [];
 		青岛辰麒数维软件有限公司  <a href="https://beian.miit.gov.cn" target="_blank" style="color:#999;">鲁ICP备19062226号-4</a>
 	</div>
 </div>
-
-<script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
-<script src="layui/layui.js" type="text/javascript"></script>
-
-<script src="js/plugin.js" type="text/javascript"></script>
-
-<script src="js/main.js" type="text/javascript"></script>
-
-<script src="js/banner.js" type="text/javascript"></script>
-<script src="js/flickerplate.min.js"></script>
-<script src="js/modernizr-custom-v2.7.1.min.js" type="text/javascript"></script>
-<script src="js/jquery-finger-v0.1.0.min.js" type="text/javascript"></script>
-<script src="js/flickerplate.min.js" type="text/javascript"></script>
-<script src="js/wow.min.js" type="text/javascript"></script>
-<script src="js/slick.min1.9.0.js"></script>
-<script src="js/fastclick.js"></script>
-<script src="js/pageHead.js"></script>
-<script>
-$(document).ready(function () {
-  $('.flicker-example').flicker();
-  var width = $(window).width();
-  if (width > 1000) {
-	$(".dropdown").css("display", "block")
-	$(".indicator").css("display", "none")
-  }
-  if (width < 1000) {
-	$(".dropdown").css("display", "none")
-  }
-});
-$(".aui-about-dow").mouseover(function () {
-  $(".drop-down>a").addClass("check");
-})
-$(".aui-about-dow").mouseout(function () {
-  $(".drop-down>a").removeClass("check");
-})
-$(".account .list ul").on("click", ".skip", function () {
-  var link = $(this).attr("link");
-  window.parent.location.href = link;
-})
-$(".more").click(function () {
-  //点击更多得时候让剩下得显示出来
-  $(".shower2").css("display", "block").delay(300).slideDown(300);
-  $(".shower2").addClass("none").delay(300).slideDown(300);
-  $(".more").removeClass("none")
-  $(".more").addClass("shower111")
-})
-</script>
-<script src="js/script1.js" type="text/javascript"></script>
-<script src="js/menu.js" type="text/javascript"></script>
 </body>
 </html>
