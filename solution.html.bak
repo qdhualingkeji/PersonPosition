@@ -11,6 +11,7 @@
 <link rel="stylesheet" href="css/plugin.style.css">
 <link rel="stylesheet" href="css/hearderStyle.css">
 <link type="text/css" rel="stylesheet" href="css/nav.css" />
+<script src="js/pageHead.js"></script>
 <title>解决方案</title>
 <script>
 var _hmt = _hmt || [];
@@ -32,10 +33,10 @@ var _hmt = _hmt || [];
 				</a>
 				<div class="menuzord-menu shower111 pcNav f_r">
 					<ul>
-						<li class="check">
+						<li>
 							<a href="index.html">首页</a>
 						</li>
-						<li class="jie">
+						<li class="check cur">
 							<a href="solution.html">解决方案</a>
 						</li>
 						<li>
@@ -45,7 +46,7 @@ var _hmt = _hmt || [];
 							<a href="casus.html">项目案例</a>
 						</li>
 						<li>
-							<a href="contact.html">联系我们</a>
+							<a href="contactUs.html">联系我们</a>
 						</li>
 					</ul>
 					<div class="move-bg shower222"></div>

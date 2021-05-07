@@ -35,9 +35,6 @@
 .hotel-header .custom-logo-link {
     margin: 0;
     padding: 0;
-    font-size: 16px;
-    color:rgba(255,255,255,1);
-    font-weight: 400;
     margin-top: 5px;
     margin-left: 11%;
     margin-right: 9%;
@@ -162,25 +159,7 @@
 
 /*--------header responsive style--------*/
 
-@media (max-width: 1200px){
-	.hotel-header .custom-logo-link {
-		margin-left: 0%;
-		margin-right: 3%;
-    }
-    .menuzord-menu.menuzord-right {
-        float: left;
-        width: 78%;
-    }
-  }
-@media (max-width: 1199px) {
-    .hotel-header .menuzord-menu>ul > li {
-        margin-left: 5px;
-    }
-     
-} /*---992px-1199px---*/
 
-
-@media (max-width: 991px) {
     
 .hotel-header .menuzord-menu ul> li > .megamenu,
 .hotel-header .menuzord-menu ul.dropdown {

@@ -128,10 +128,10 @@ function createIcon(json){
 				</a>
 				<div class="menuzord-menu shower111 pcNav f_r">
 					<ul>
-						<li class="check">
+						<li class="check cur">
 							<a href="index.html">首页</a>
 						</li>
-						<li class="jie">
+						<li>
 							<a href="solution.html">解决方案</a>
 						</li>
 						<li>
@@ -165,7 +165,7 @@ function createIcon(json){
 	<img class="logo_img" src="./img/contactUs/202105060001.jpg"/>
 </div>
 <!--百度地图容器-->
-<div style="width:1340px;height:500px;margin:50px auto 0;border:#ccc solid 1px;" id="dituContent"></div>
+<div style="width:1340px;height:650px;margin:50px auto 0;border:#ccc solid 1px;" id="dituContent"></div>
 
 <div class="lxfs_div">
 	<div class="title_div">联系方式：</div>

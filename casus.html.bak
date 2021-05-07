@@ -30,7 +30,7 @@
 						<li class="check">
 							<a href="index.html">首页</a>
 						</li>
-						<li class="jie">
+						<li>
 							<a href="solution.html">解决方案</a>
 						</li>
 						<li>
@@ -177,9 +177,9 @@
 		<div class="logo_img_div">
 			<img class="jsmmyy_img" src="./img/casus/202105060010.jpg"/>
 		</div>
-		<div style="margin-top:20px;">
-			<div style="font-size: 20px;line-height:50px;">定位概况</div>
-			<div style="font-size: 15px;line-height:30px;">
+		<div class="dwgk_div">
+			<div class="tit_div">定位概况</div>
+			<div class="desc_div">
 			&nbsp;&nbsp;占地16万平，全厂覆盖，定位人员超过300人，定位精度，3-5m；使用功能：实时定位、一键告警、目标追踪、轨迹回放、电子围栏、数据可视化、访客管理、外协人员管理、巡检任务
 			</div>
 		</div>
