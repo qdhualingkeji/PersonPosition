@@ -71,16 +71,116 @@
 		</div>
 		<div style="margin-top:20px;">
 			<div style="font-size: 20px;line-height:50px;">定位概况</div>
-			<div style="font-size: 15px;line-height:30px;">&nbsp;&nbsp;占地13万平，采油站全覆盖，定位人员超过200人，定位精度，3-5m；使用功能：实时定位、一键告警、目标追踪、轨迹回放、电子围栏、数据可视化、访客管理、外协人员管理、巡检任务；湿地特制标签</div>
+			<div style="font-size: 15px;line-height:30px;">
+			&nbsp;&nbsp;占地13万平，采油站全覆盖，定位人员超过200人，定位精度，3-5m；使用功能：实时定位、一键告警、目标追踪、轨迹回放、电子围栏、数据可视化、访客管理、外协人员管理、巡检任务；湿地特制标签
+			</div>
 		</div>
 	</div>
-	<div style="width:550px;height:530px;margin-top:-600px;margin-left:650px;">
+	<div style="width:550px;height:530px;margin-top:-530px;margin-left:650px;">
 		<div style="font-size: 25px;line-height:50px;text-align:center;">某石油化工码头人员定位系统</div>
-		<img src="./img/casus/202105060002.jpg" style="width:100%;"/>
+		<div style="width:100%;text-align:center;">
+			<img src="./img/casus/202105060002.jpg" style="width:100%;"/>
+		</div>
 		<div style="margin-top:20px;">
 			<div style="font-size: 20px;line-height:50px;">定位概况</div>
 			<div style="font-size: 15px;line-height:30px;">
 			&nbsp;&nbsp;占地6万平，AB码头，14个泊位覆盖，定位人员超过200人，定位精度，3-5m；使用功能：实时定位、一键告警、目标追踪、轨迹回放、电子围栏、数据可视化、访客管理、外协人员管理、巡检任务；智慧港口系统；与道闸联动，人行触发多媒体报警信息
+			</div>
+		</div>
+	</div>
+	<div style="width:550px;height:530px;">
+		<div style="font-size: 25px;line-height:50px;text-align:center;">盐城某化工有限公司人员定位系统</div>
+		<div style="width:100%;text-align:center;">
+			<img src="./img/casus/202105060003.jpg" style="width:489px;height:275px;"/>
+		</div>
+		<div style="margin-top:20px;">
+			<div style="font-size: 20px;line-height:50px;">定位概况</div>
+			<div style="font-size: 15px;line-height:30px;">
+			&nbsp;&nbsp;占地12万平，全厂覆盖，定位人员超过300人，定位精度，3-5m；使用功能：实时定位、一键告警、目标追踪、轨迹回放、电子围栏、数据可视化、访客管理、外协人员管理、巡检任务
+			</div>
+		</div>
+	</div>
+	<div style="width:550px;height:530px;margin-top:-530px;margin-left:650px;">
+		<div style="font-size: 25px;line-height:50px;text-align:center;">盐城某化工有限公司人员定位系统</div>
+		<div style="width:100%;text-align:center;">
+			<img src="./img/casus/202105060004.jpg" style="width:488px;height:275px;"/>
+		</div>
+		<div style="margin-top:20px;">
+			<div style="font-size: 20px;line-height:50px;">定位概况</div>
+			<div style="font-size: 15px;line-height:30px;">
+			&nbsp;&nbsp;主要生产建筑占地15万平，全厂覆盖，定位人员超过800人，定位精度，3-5m；使用功能：实时定位、一键告警、目标追踪、轨迹回放、电子围栏、数据可视化、访客管理、外协人员管理、巡检任务
+			</div>
+		</div>
+	</div>
+	<div style="width:550px;height:530px;">
+		<div style="font-size: 25px;line-height:50px;text-align:center;">某药业有限公司人员定位系统</div>
+		<div style="width:100%;text-align:center;">
+			<img src="./img/casus/202105060005.jpg" style="width:488px;height:275px;"/>
+		</div>
+		<div style="margin-top:20px;">
+			<div style="font-size: 20px;line-height:50px;">定位概况</div>
+			<div style="font-size: 15px;line-height:30px;">
+			&nbsp;&nbsp;占地16万平，全厂覆盖，定位人员超过300人，定位精度，3-5m；使用功能：实时定位、一键告警、目标追踪、轨迹回放、电子围栏、数据可视化、访客管理、外协人员管理、巡检任务
+			</div>
+		</div>
+	</div>
+	<div style="width:550px;height:530px;margin-top:-530px;margin-left:650px;">
+		<div style="font-size: 25px;line-height:50px;text-align:center;">某化工有限公司人员定位系统</div>
+		<div style="width:100%;text-align:center;">
+			<img src="./img/casus/202105060006.jpg" style="width:488px;height:275px;"/>
+		</div>
+		<div style="margin-top:20px;">
+			<div style="font-size: 20px;line-height:50px;">定位概况</div>
+			<div style="font-size: 15px;line-height:30px;">
+			&nbsp;&nbsp;占地8万平，全厂覆盖，定位人员超过200人，定位精度，3-5m；使用功能：实时定位、一键告警、目标追踪、轨迹回放、电子围栏、数据可视化、访客管理、外协人员管理、巡检任务，倾斜摄影技术3D地图
+			</div>
+		</div>
+	</div>
+	<div style="width:550px;height:530px;">
+		<div style="font-size: 25px;line-height:50px;text-align:center;">某污水处理厂人员定位系统</div>
+		<div style="width:100%;text-align:center;">
+			<img src="./img/casus/202105060007.jpg" style="width:488px;height:275px;"/>
+		</div>
+		<div style="margin-top:20px;">
+			<div style="font-size: 20px;line-height:50px;">定位概况</div>
+			<div style="font-size: 15px;line-height:30px;">
+			&nbsp;&nbsp;占地50万平，全厂覆盖，定位人员超过600人，定位精度，20cm；使用功能：UWB+蓝牙定位混合定位，实时定位、一键告警、目标追踪、轨迹回放、电子围栏、数据可视化、访客管理、外协人员管理、巡检任务
+			</div>
+		</div>
+	</div>
+	<div style="width:550px;height:530px;margin-top:-530px;margin-left:650px;">
+		<div style="font-size: 25px;line-height:50px;text-align:center;">江苏某化工人员定位系统</div>
+		<div style="width:100%;text-align:center;">
+			<img src="./img/casus/202105060008.jpg" style="width:488px;height:275px;"/>
+		</div>
+		<div style="margin-top:20px;">
+			<div style="font-size: 20px;line-height:50px;">定位概况</div>
+			<div style="font-size: 15px;line-height:30px;">
+			&nbsp;&nbsp;占地9万平，全厂覆盖，定位人员超过200人，定位精度，3-5m；使用功能：实时定位、一键告警、目标追踪、轨迹回放、电子围栏、数据可视化、访客管理、外协人员管理、巡检任务，EHS系统
+			</div>
+		</div>
+	</div>
+	<div style="width:550px;height:530px;">
+		<div style="font-size: 25px;line-height:50px;text-align:center;">江苏某医药人员定位系统</div>
+		<div style="width:100%;text-align:center;">
+			<img src="./img/casus/202105060009.jpg" style="width:430px;height:275px;"/>
+		</div>
+		<div style="margin-top:20px;">
+			<div style="font-size: 20px;line-height:50px;">定位概况</div>
+			<div style="font-size: 15px;line-height:30px;">
+			&nbsp;&nbsp;占地8万平，全厂覆盖，定位人员超过200人，定位精度，3-5m；使用功能：实时定位、一键告警、目标追踪、轨迹回放、电子围栏、数据可视化、访客管理、外协人员管理、巡检任务
+			</div>
+		</div>
+	</div>
+	<div style="width:550px;height:530px;margin-top:-530px;margin-left:650px;">
+		<div style="font-size: 25px;line-height:50px;text-align:center;">江苏某药业人员定位系统</div>
+		<div style="width:100%;text-align:center;">
+			<img src="./img/casus/202105060010.jpg" style="width:488px;height:275px;"/>
+		</div>
+		<div style="margin-top:20px;">
+			<div style="font-size: 20px;line-height:50px;">定位概况</div>
+			<div style="font-size: 15px;line-height:30px;">
+			&nbsp;&nbsp;占地16万平，全厂覆盖，定位人员超过300人，定位精度，3-5m；使用功能：实时定位、一键告警、目标追踪、轨迹回放、电子围栏、数据可视化、访客管理、外协人员管理、巡检任务
 			</div>
 		</div>
 	</div>
