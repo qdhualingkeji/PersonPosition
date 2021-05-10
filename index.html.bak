@@ -66,7 +66,7 @@ $(".more").click(function () {
 var _hmt = _hmt || [];
 (function () {
   var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?0b6cf052233b0af1fb370191b7edbe9c";
+  hm.src = "https://hm.baidu.com/hm.js?ae1797c00af86f757c602d5f1b358e2c";
   var s = document.getElementsByTagName("script")[0];
   s.parentNode.insertBefore(hm, s);
 })();
@@ -83,10 +83,10 @@ var _hmt = _hmt || [];
 					</a>
 					<div class="menuzord-menu shower111 pcNav f_r">
 						<ul>
-							<li>
+							<li class="check">
 								<a href="index.html">首页</a>
 							</li>
-							<li class="check">
+							<li>
 								<a href="solution.html">解决方案</a>
 							</li>
 							<li>
@@ -483,6 +483,7 @@ var _hmt = _hmt || [];
 		</div>
 	</div>
 
+	<!--
 	<div class="address">
 		<div class="layui-container distance">
 			<h3>行业运用案例</h3>
@@ -529,7 +530,6 @@ var _hmt = _hmt || [];
 		</div>
 	</div>
 
-	<!--
 	<div class="partner">
 		<div class="width">
 			<h3>合作企业</h3>

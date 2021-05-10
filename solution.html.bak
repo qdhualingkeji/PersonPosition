@@ -11,6 +11,7 @@
 <link rel="stylesheet" href="css/plugin.style.css">
 <link rel="stylesheet" href="css/hearderStyle.css">
 <link type="text/css" rel="stylesheet" href="css/nav.css" />
+<script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
 <script src="js/pageHead.js"></script>
 <title>解决方案</title>
 <script>
