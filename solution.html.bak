@@ -18,7 +18,7 @@
 var _hmt = _hmt || [];
 (function () {
   var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?0b6cf052233b0af1fb370191b7edbe9c";
+  hm.src = "https://hm.baidu.com/hm.js?ae1797c00af86f757c602d5f1b358e2c";
   var s = document.getElementsByTagName("script")[0];
   s.parentNode.insertBefore(hm, s);
 })();
@@ -94,7 +94,7 @@ var _hmt = _hmt || [];
 		<img class="title_img" src="img/common/d1040d499cb345b1858f36db35e8028b.jpg">
 		<span class="title_span">系统架构</span>
 	</div>
-	<div class="describe_div">采用zgb技术+蓝牙定位技术，业内首创轻量级定位管理系统，同时支持手机定位导航与人员物资监控式定位管理。</div>
+	<div class="describe_div">采用Ziggbe技术+蓝牙定位技术，业内首创轻量级定位管理系统，同时支持手机定位导航与人员物资监控式定位管理。</div>
 	<img class="xtjg_img" src="templets/seekcy/images/tz-pic.png"/>
 </div>
 <div class="ywgn_div">
