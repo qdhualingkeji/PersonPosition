@@ -66,7 +66,7 @@ $(".more").click(function () {
 var _hmt = _hmt || [];
 (function () {
   var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?ae1797c00af86f757c602d5f1b358e2c";
+  hm.src = "https://hm.baidu.com/hm.js?eaa6af63d7cedb3eead124561c0653ef";
   var s = document.getElementsByTagName("script")[0];
   s.parentNode.insertBefore(hm, s);
 })();
@@ -101,16 +101,6 @@ var _hmt = _hmt || [];
 						</ul>
 						<div class="move-bg shower222"></div>
 					</div>
-					<!--/menuzord-->
-					<div style="text-align: center; float: left;">
-						<div class="shower111">
-							<a class="lang aaa">
-								<span style="vertical-align: middle;margin-right: 4px;">中文</span>
-								<img src="img/homePage/languageCut.png" alt="">
-							</a>
-						</div>
-					</div>
-					<!--/col-->
 				</div>
 			</div>
 			<!--/row-->
@@ -353,7 +343,7 @@ var _hmt = _hmt || [];
 						</div>
 					</li>
 				</ul>
-				<a href="">了解更多</a>
+				<a href="solution.html">了解更多</a>
 			</div>
 
 			<div class="showBg layui-col-md9 layui-col-xs12 layui-col-sm6 layui-col-lg8">
@@ -423,7 +413,7 @@ var _hmt = _hmt || [];
 						</div>
 					</li>
 				</ul>
-				<a href="">了解更多</a>
+				<a href="solution.html">了解更多</a>
 			</div>
         </div>
       </div>
@@ -544,16 +534,16 @@ var _hmt = _hmt || [];
 			<div class="desc_div">与诸多顶尖企业共同铸就卓越口碑</div>
 		</div>
 		<div class="list_div">
-			<img class="zgsy_div" src="img/202104270001.png"/>
-			<img class="hlask_div" src="img/202104270006.png"/>
-			<img class="shct_div" src="img/202104270007.png"/>
-			<img class="zjdlhg_div" src="img/202104270008.png"/>
-			<img class="jsytyy_div" src="img/202104270009.png"/>
-			<img class="gdg_div" src="img/202104270002.png"/>
-			<img class="yk_div" src="img/202104270003.png"/>
-			<img class="hegno_div" src="img/202104270005.png"/>
-			<img class="yxyy_div" src="img/202104270010.png"/>
-			<img class="dsn_div" src="img/202104270004.png"/>
+			<img class="dthljfd_div" src="img/index/202104270003.png"/>
+			<img class="dyhkjc_div" src="img/index/202104270006.png"/>
+			<img class="hnycxny_div" src="img/index/202104270007.png"/>
+			<img class="huimen_div" src="img/index/202104270008.png"/>
+			<img class="jnky_div" src="img/index/202104270004.png"/>
+			<img class="lfyl_div" src="img/index/202104270002.png"/>
+			<img class="zgsy_div" src="img/index/202104270001.png"/>
+			<img class="lwzy_div" src="img/index/202104270005.png"/>
+			<img class="mzgj_div" src="img/index/202104270010.png"/>
+			<img class="dsn_div" src="img/index/202104270009.png"/>
 		</div>
 	</div>
 </section>
