@@ -71,9 +71,35 @@ body{
 .ywgn_div .list_div .item_div .title_div{
 	color: #2169e0;font-size: 14pt;font-weight: bolder;
 }
-.ywgn_div .list_div .item_div .ryssdwgl_img_div,.ywgn_div .list_div .item_div .aqznyj_img_div,.ywgn_div .list_div .item_div .gjzzspld_img_div,.ywgn_div .list_div .item_div .fkaqgl_img_div,
-.ywgn_div .list_div .item_div .dzxggl_img_div,.ywgn_div .list_div .item_div .cbsrygl_img_div,.ywgn_div .list_div .item_div .pdadxjgl_img_div,.ywgn_div .list_div .item_div .sjkshfx_img_div{
+.ywgn_div .list_div .item_div .img_div{
+	width:100%;
+	margin-top:20px;
 	text-align:center;
+	border:#999 dashed 1px;
+}
+.ywgn_div .list_div .item_div .ryssdwgl_img_div,.ywgn_div .list_div .item_div .aqznyj_img_div{
+	height:400px;
+	line-height:400px;
+}
+.ywgn_div .list_div .item_div .gjzzspld_img_div{
+	height:550px;
+	line-height:550px;
+}
+.ywgn_div .list_div .item_div .fkaqgl_img_div,.ywgn_div .list_div .item_div .dzxggl_img_div{
+	height:620px;
+	line-height:620px;
+}
+.ywgn_div .list_div .item_div .cbsrygl_img_div{
+	height:420px;
+	line-height:420px;
+}
+.ywgn_div .list_div .item_div .pdadxjgl_img_div{
+	height:650px;
+	line-height:650px;
+}
+.ywgn_div .list_div .item_div .sjkshfx_img_div{
+	height:490px;
+	line-height:490px;
 }
 .ywgn_div .list_div .item_div img{
 	margin-top:5px;

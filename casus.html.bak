@@ -65,9 +65,7 @@ var _hmt = _hmt || [];
 <div class="al_list_div">
 	<div class="item_div">
 		<div class="title_div">中国某油田采油站人员定位系统</div>
-		<div class="logo_img_div">
-			<img class="zgmytcyz_img" src="./img/casus/202105060001.png"/>
-		</div>
+		<img class="zgmytcyz_img" src="./img/casus/202105060001.png"/>
 		<div class="dwgk_div">
 			<div class="tit_div">定位概况</div>
 			<div class="desc_div">
@@ -77,9 +75,7 @@ var _hmt = _hmt || [];
 	</div>
 	<div class="item_div msyhgmt_div">
 		<div class="title_div">某石油化工码头人员定位系统</div>
-		<div class="logo_img_div">
-			<img class="msyhgmt_img" src="./img/casus/202105060002.jpg"/>
-		</div>
+		<img class="msyhgmt_img" src="./img/casus/202105060002.jpg"/>
 		<div class="dwgk_div">
 			<div class="tit_div">定位概况</div>
 			<div class="desc_div">
@@ -89,9 +85,7 @@ var _hmt = _hmt || [];
 	</div>
 	<div class="item_div">
 		<div class="title_div">盐城某某化工有限公司人员定位系统</div>
-		<div class="logo_img_div">
-			<img class="ycmmhgyxgs_img" src="./img/casus/202105060003.jpg"/>
-		</div>
+		<img class="ycmmhgyxgs_img" src="./img/casus/202105060003.jpg"/>
 		<div class="dwgk_div">
 			<div class="tit_div">定位概况</div>
 			<div class="desc_div">
@@ -101,9 +95,7 @@ var _hmt = _hmt || [];
 	</div>
 	<div class="item_div ycmhgyxgs_div">
 		<div class="title_div">盐城某某某化工有限公司人员定位系统</div>
-		<div class="logo_img_div">
-			<img class="ycmmmhgyxgs_img" src="./img/casus/202105060004.jpg"/>
-		</div>
+		<img class="ycmmmhgyxgs_img" src="./img/casus/202105060004.jpg"/>
 		<div class="dwgk_div">
 			<div class="tit_div">定位概况</div>
 			<div class="desc_div">
@@ -113,9 +105,7 @@ var _hmt = _hmt || [];
 	</div>
 	<div class="item_div">
 		<div class="title_div">某药业有限公司人员定位系统</div>
-		<div class="logo_img_div">
-			<img class="myyyxgs_img" src="./img/casus/202105060005.jpg"/>
-		</div>
+		<img class="myyyxgs_img" src="./img/casus/202105060005.jpg"/>
 		<div class="dwgk_div">
 			<div class="tit_div">定位概况</div>
 			<div class="desc_div">
@@ -125,9 +115,7 @@ var _hmt = _hmt || [];
 	</div>
 	<div class="item_div mhgyxgs_div">
 		<div class="title_div">某化工有限公司人员定位系统</div>
-		<div class="logo_img_div">
-			<img class="mhgyxgs_img" src="./img/casus/202105060006.jpg"/>
-		</div>
+		<img class="mhgyxgs_img" src="./img/casus/202105060006.jpg"/>
 		<div class="dwgk_div">
 			<div class="tit_div">定位概况</div>
 			<div class="desc_div">
@@ -137,9 +125,7 @@ var _hmt = _hmt || [];
 	</div>
 	<div class="item_div">
 		<div class="title_div">某污水处理厂人员定位系统</div>
-		<div class="logo_img_div">
-			<img class="mwsclc_img" src="./img/casus/202105060007.jpg"/>
-		</div>
+		<img class="mwsclc_img" src="./img/casus/202105060007.jpg"/>
 		<div class="dwgk_div">
 			<div class="tit_div">定位概况</div>
 			<div class="desc_div">
@@ -149,9 +135,7 @@ var _hmt = _hmt || [];
 	</div>
 	<div class="item_div jsmmhg_div">
 		<div class="title_div">江苏某某化工人员定位系统</div>
-		<div class="logo_img_div">
-			<img class="jsmmhg_img" src="./img/casus/202105060008.jpg"/>
-		</div>
+		<img class="jsmmhg_img" src="./img/casus/202105060008.jpg"/>
 		<div class="dwgk_div">
 			<div class="tit_div">定位概况</div>
 			<div class="desc_div">
@@ -188,6 +172,7 @@ var _hmt = _hmt || [];
 <div class="foot_div">
 	<div class="content_div">
 		<div class="space_div"></div>
+		<div class="row_div">公司名称：青岛华凌科技有限公司</div>
 		<div class="row_div">咨询热线：0532-55588351&nbsp;&nbsp;15712773653（微信同号）</div>
 		<div class="row_div">邮箱地址：qdhualing@126.com</div>
 		<div class="row_div">公司地址：青岛市北中央商务区敦化路136号西王大厦1606</div>

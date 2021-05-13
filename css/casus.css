@@ -20,34 +20,16 @@
 .al_list_div .item_div .title_div{
 	font-size: 25px;
 	line-height:50px;
-	text-align:center;
 }
-.al_list_div .item_div .logo_img_div{
-	width:100%;
-	text-align:center;
+.al_list_div .item_div img{
+	width:550px;
 }
-.al_list_div .item_div .zgmytcyz_img{
-	width:463px;
-	height:275px;
+.al_list_div .item_div .zgmytcyz_img,.al_list_div .item_div .msyhgmt_img{
+	height:276px;
 }
-.al_list_div .item_div .msyhgmt_img{
-	width:100%;
-}
-.al_list_div .item_div .ycmmhgyxgs_img{
-	width:489px;
-	height:275px;
-}
-.al_list_div .item_div .ycmmmhgyxgs_img,.al_list_div .item_div .myyyxgs_img,.al_list_div .item_div .mhgyxgs_img,.al_list_div .item_div .mwsclc_img,.al_list_div .item_div .jsmmhg_img{
-	width:488px;
-	height:275px;
-}
-.al_list_div .item_div .jsmyy_img{
-	width:430px;
-	height:275px;
-}
-.al_list_div .item_div .jsmmyy_img{
-	width:490px;
-	height:275px;
+.al_list_div .item_div .ycmmhgyxgs_img,.al_list_div .item_div .ycmmmhgyxgs_img,.al_list_div .item_div .myyyxgs_img,.al_list_div .item_div .mhgyxgs_img,
+.al_list_div .item_div .mwsclc_img,.al_list_div .item_div .jsmmhg_img,.al_list_div .item_div .jsmyy_img,.al_list_div .item_div .jsmmyy_img{
+	height:310px;
 }
 .al_list_div .item_div .dwgk_div{
 	margin-top:20px;
