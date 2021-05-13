@@ -145,9 +145,7 @@ var _hmt = _hmt || [];
 	</div>
 	<div class="item_div">
 		<div class="title_div">江苏某医药人员定位系统</div>
-		<div class="logo_img_div">
-			<img class="jsmyy_img" src="./img/casus/202105060009.jpg"/>
-		</div>
+		<img class="jsmyy_img" src="./img/casus/202105060009.jpg"/>
 		<div class="dwgk_div">
 			<div class="tit_div">定位概况</div>
 			<div class="desc_div">
@@ -157,9 +155,7 @@ var _hmt = _hmt || [];
 	</div>
 	<div class="item_div jsmmyy_div">
 		<div class="title_div">江苏某某药业人员定位系统</div>
-		<div class="logo_img_div">
-			<img class="jsmmyy_img" src="./img/casus/202105060010.jpg"/>
-		</div>
+		<img class="jsmmyy_img" src="./img/casus/202105060010.jpg"/>
 		<div class="dwgk_div">
 			<div class="tit_div">定位概况</div>
 			<div class="desc_div">

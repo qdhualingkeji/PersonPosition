@@ -43,7 +43,7 @@ var _hmt = _hmt || [];
 								<a href="dangerTrade.html">危化行业</a>
 							</li>
 							<li>
-								<a href="solution.html">解决方案</a>
+								<a href="productShow.html">解决方案</a>
 							</li>
 							<li>
 								<a href="casus.html">项目案例</a>
@@ -644,6 +644,7 @@ var _hmt = _hmt || [];
 <div class="foot_div">
 	<div class="content_div">
 		<div class="space_div"></div>
+		<div class="row_div">公司名称：青岛华凌科技有限公司</div>
 		<div class="row_div">咨询热线：0532-55588351&nbsp;&nbsp;15712773653（微信同号）</div>
 		<div class="row_div">邮箱地址：qdhualing@126.com</div>
 		<div class="row_div">公司地址：青岛市北中央商务区敦化路136号西王大厦1606</div>

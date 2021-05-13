@@ -144,7 +144,7 @@ var _hmt = _hmt || [];
 							<a href="dangerTrade.html">危化行业</a>
 						</li>
 						<li>
-							<a href="solution.html">解决方案</a>
+							<a href="productShow.html">解决方案</a>
 						</li>
 						<li>
 							<a href="casus.html">项目案例</a>
@@ -191,7 +191,7 @@ var _hmt = _hmt || [];
 </div>
 
 <!--百度地图容器-->
-<div class="dituContent_div" style="width:940px;height:380px;margin:50px auto 0;border:#ccc solid 1px;" id="dituContent"></div>
+<div class="dituContent_div" id="dituContent"></div>
 
 <div class="lxfs_div">
 	<div class="title_div">联系方式：</div>

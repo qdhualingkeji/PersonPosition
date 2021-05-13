@@ -58,7 +58,10 @@ body{
 .xtjg_div .xtjg_img_div{
 	text-align:center;
 }
-.fags_img,.xtjg_img{
+.fags_img{
+	width:990px;height:360px;margin-top:10px;
+}
+.xtjg_img{
 	width:990px;height:754px;margin-top:10px;
 }
 
@@ -98,8 +101,8 @@ body{
 	line-height:650px;
 }
 .ywgn_div .list_div .item_div .sjkshfx_img_div{
-	height:500px;
-	line-height:500px;
+	height:490px;
+	line-height:490px;
 }
 .ywgn_div .list_div .item_div img{
 	margin-top:5px;
