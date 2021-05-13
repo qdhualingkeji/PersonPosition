@@ -58,7 +58,7 @@ function addMapControl(){
 }
     
 //标注点数组
-var markerArr = [{title:"青岛辰麒数维软件有限公司",content:"青岛辰麒数维软件有限公司是青岛华凌科技有限公司下属子公司，致力于运用工业物联网、蓝牙定位等新技术，打造新一代智能化生产制造、智能仓储WMS系统。提供基于新一代定位技术的化工智能管理整体解决方案。<br/>产品系列<br/>辰麒工业物联网软件包括MES远程监控平台、厂区人员定位系统、二维码追溯系统以及基于RFID和手机应用的新一代WMS系统等多个应用软件平台，为实现企业智能制造和智慧仓储提供全面方位信息化技术服务。",point:"120.385500|36.097710",isOpen:1,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}}
+var markerArr = [{title:"敦化路136号-西王大厦",content:"地址：青岛市北中央商务区敦化路136号西王大厦1606",point:"120.385500|36.097710",isOpen:1,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}}
 	 ];
 //创建marker
 function addMarker(){
@@ -163,8 +163,35 @@ var _hmt = _hmt || [];
 <div class="logo_div">
 	<img class="logo_img" src="./img/contactUs/202105060001.jpg"/>
 </div>
+
+<div class="gsjj_div">
+	<img class="logo_img" src="./img/contactUs/conpanyBg.png"/>
+	<div class="rych_list_div">
+		<div class="item_div">
+			<img class="iso_img" src="./img/contactUs/icon-one.png"/>
+			<div class="text_div">ISO9001质量管理体系认证</div>
+		</div>
+		<div class="item_div gxqcyqy_div">
+			<img class="gxqcyqy_img" src="./img/contactUs/icon-three.png"/>
+			<div class="text_div">高新区创新企业</div>
+		</div>
+		<div class="item_div sdsrjqy_div">
+			<img class="sdsrjqy_img" src="./img/contactUs/icon-four.png"/>
+			<div class="text_div">山东省软件企业</div>
+		</div>
+	</div>
+	<div class="hlkjjj_div">
+		<div class="title_div">青岛华凌科技有限公司</div>
+		<div class="content_div">
+			<p>青岛华凌科技有限公司致力于运用工业物联网、蓝牙定位等新技术，打造新一代智能化生产制造、智能仓储WMS系统。提供基于新一代定位技术的化工智能管理整体解决方案。</p>
+			<p>产品系列</p>
+			<p>工业物联网软件包括MES远程监控平台、厂区人员定位系统、二维码追溯系统以及基于RFID和手机应用的新一代WMS系统等多个应用软件平台，为实现企业智能制造和智慧仓储提供全面方位信息化技术服务。</p>
+		</div>
+	</div>
+</div>
+
 <!--百度地图容器-->
-<div style="width:1340px;height:650px;margin:50px auto 0;border:#ccc solid 1px;" id="dituContent"></div>
+<div class="dituContent_div" style="width:940px;height:380px;margin:50px auto 0;border:#ccc solid 1px;" id="dituContent"></div>
 
 <div class="lxfs_div">
 	<div class="title_div">联系方式：</div>
@@ -177,6 +204,7 @@ var _hmt = _hmt || [];
 <div class="foot_div">
 	<div class="content_div">
 		<div class="space_div"></div>
+		<div class="row_div">公司名称：青岛华凌科技有限公司</div>
 		<div class="row_div">咨询热线：0532-55588351&nbsp;&nbsp;15712773653（微信同号）</div>
 		<div class="row_div">邮箱地址：qdhualing@126.com</div>
 		<div class="row_div">公司地址：青岛市北中央商务区敦化路136号西王大厦1606</div>

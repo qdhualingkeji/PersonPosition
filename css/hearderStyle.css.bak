@@ -40,7 +40,7 @@
     margin-right: 9%;
 }
 .hotel-header .custom-logo-link .custom-logo {
-    max-width: 220px;
+    max-width: 90px;
     margin-right: 5px;
 }
 .hotel-header .menuzord-menu>ul> li {
@@ -159,7 +159,25 @@
 
 /*--------header responsive style--------*/
 
+@media (max-width: 1200px){
+	.hotel-header .custom-logo-link {
+		margin-left: 0%;
+		margin-right: 3%;
+    }
+    .menuzord-menu.menuzord-right {
+        float: left;
+        width: 78%;
+    }
+  }
+@media (max-width: 1199px) {
+    .hotel-header .menuzord-menu>ul > li {
+        margin-left: 5px;
+    }
+     
+} /*---992px-1199px---*/
 
+
+@media (max-width: 991px) {
     
 .hotel-header .menuzord-menu ul> li > .megamenu,
 .hotel-header .menuzord-menu ul.dropdown {
