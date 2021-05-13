@@ -42,10 +42,12 @@
 	height:275px;
 }
 .al_list_div .item_div .jsmyy_img{
-	width:430px;height:275px;
+	width:430px;
+	height:275px;
 }
 .al_list_div .item_div .jsmmyy_img{
-	width:490px;height:275px;
+	width:490px;
+	height:275px;
 }
 .al_list_div .item_div .dwgk_div{
 	margin-top:20px;

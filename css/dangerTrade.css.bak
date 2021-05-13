@@ -127,7 +127,7 @@ body{background: #fff;}
 
 
 /** 关于 */
-.banner.about{background: url(./img/dangerTrade/Olibanner.png) no-repeat center top; background-size: cover;}
+.banner.about{background: url(../img/dangerTrade/Olibanner.png) no-repeat center top; background-size: cover;}
 .main-about{
   padding-bottom: 20px;
 }
@@ -297,11 +297,11 @@ body{background: #fff;}
 .main-about .tabCour .timeline li .cour-panel p.label{font-size: 18px; color: #000;}
 .main-about .tabCour .timeline li .cour-panel p{color: #949494; line-height: 30px;}
 @media (max-width: 1400px){
-  .banner.about { background: url(./img/dangerTrade/Olibanner.png) no-repeat -300px top;background-size: cover;}
+  .banner.about { background: url(../img/dangerTrade/Olibanner.png) no-repeat -300px top;background-size: cover;}
   .main-about .tabIntro .bg .panel .right p { width: 100%;}
 }
 @media (max-width: 991px){
-  .banner.about {width: 100%;background: url(./img/dangerTrade/Olibanner.png)  center center/cover no-repeat;height: 300px;}
+  .banner.about {width: 100%;background: url(../img/dangerTrade/Olibanner.png)  center center/cover no-repeat;height: 300px;}
   .main-about .tabIntro .content .img>img {width: 90%;margin-bottom: 60px; margin-left: 50px;}
   .main-about .tabIntro .bg .img>img{width: 90%;margin-left: 0px;}
   .main-about .tabIntro .content .panel .right p{width: auto;font-size: 8px; line-height: 20px;}
@@ -313,7 +313,7 @@ body{background: #fff;}
   .main-about .tabIntro .content .panel .right {width: 82%; margin-left: 3%;}
   .main-about .tabIntro .content .panel .left p {font-size: 12px; margin-top: 8px;}
   .main-about .tabIntro .content {padding-bottom: 30px;}
-  .main-about ul.aboutab li .icon-bg {background: url(./img/dangerTrade/icon-bgL.png) center center/contain no-repeat; width: 65%; height: 101px; margin: auto;}
+  .main-about ul.aboutab li .icon-bg {background: url(../img/dangerTrade/icon-bgL.png) center center/contain no-repeat; width: 65%; height: 101px; margin: auto;}
   .main-about ul.aboutab li .icon-bg img { margin: auto;margin-top: 35px; width: 50%;}
   .main-about .tabIntro .content .img .icon-position-y ul li { margin-bottom: 14px;}
   .main-about .tabIntro .bg .img .icon-position-y ul li { margin-bottom: 14px;}
@@ -428,7 +428,7 @@ body{background: #fff;}
     padding: 0px 0;
   }
   .banner.about {
-    background: url(./img/dangerTrade/Olibanner.png) -145px -30px/200% no-repeat;
+    background: url(../img/dangerTrade/Olibanner.png) -145px -30px/200% no-repeat;
     height: 200px;
   }
   .main-about ul.aboutab li {
@@ -519,12 +519,12 @@ body{background: #fff;}
 }
 @media (max-width: 375px){
   .banner.about {
-    background: url(./img/dangerTrade/Olibanner.png) -135px 0px/200% no-repeat;
+    background: url(../img/dangerTrade/Olibanner.png) -135px 0px/200% no-repeat;
   }
 }
 @media (max-width: 320px){
   .banner.about {
-    background: url(./img/dangerTrade/Olibanner.png) -125px 0px/200% no-repeat
+    background: url(../img/dangerTrade/Olibanner.png) -125px 0px/200% no-repeat
   }
 }
 

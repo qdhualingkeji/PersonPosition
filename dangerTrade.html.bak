@@ -20,7 +20,7 @@
 var _hmt = _hmt || [];
 (function() {
   var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?ae1797c00af86f757c602d5f1b358e2c";
+  hm.src = "https://hm.baidu.com/hm.js?eaa6af63d7cedb3eead124561c0653ef";
   var s = document.getElementsByTagName("script")[0]; 
   s.parentNode.insertBefore(hm, s);
 })();
@@ -39,11 +39,11 @@ var _hmt = _hmt || [];
 							<li>
 								<a href="index.html">首页</a>
 							</li>
-							<li>
-								<a href="solution.html">解决方案</a>
-							</li>
 							<li class="check cur">
 								<a href="dangerTrade.html">危化行业</a>
+							</li>
+							<li>
+								<a href="solution.html">解决方案</a>
 							</li>
 							<li>
 								<a href="casus.html">项目案例</a>
@@ -644,7 +644,7 @@ var _hmt = _hmt || [];
 <div class="foot_div">
 	<div class="content_div">
 		<div class="space_div"></div>
-		<div class="row_div">资讯热线：0532-55588351&nbsp;&nbsp;15712773653（微信同号）</div>
+		<div class="row_div">咨询热线：0532-55588351&nbsp;&nbsp;15712773653（微信同号）</div>
 		<div class="row_div">邮箱地址：qdhualing@126.com</div>
 		<div class="row_div">公司地址：青岛市北中央商务区敦化路136号西王大厦1606</div>
 	</div>

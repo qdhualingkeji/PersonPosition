@@ -18,7 +18,7 @@
 var _hmt = _hmt || [];
 (function () {
   var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?ae1797c00af86f757c602d5f1b358e2c";
+  hm.src = "https://hm.baidu.com/hm.js?eaa6af63d7cedb3eead124561c0653ef";
   var s = document.getElementsByTagName("script")[0];
   s.parentNode.insertBefore(hm, s);
 })();
@@ -37,11 +37,11 @@ var _hmt = _hmt || [];
 						<li>
 							<a href="index.html">首页</a>
 						</li>
-						<li class="check cur">
-							<a href="solution.html">解决方案</a>
-						</li>
 						<li>
 							<a href="dangerTrade.html">危化行业</a>
+						</li>
+						<li class="check cur">
+							<a href="solution.html">解决方案</a>
 						</li>
 						<li>
 							<a href="casus.html">项目案例</a>
@@ -67,7 +67,7 @@ var _hmt = _hmt || [];
 <div class="uwbjjfa_div">
 	<img class="uwbjjfa_img" src="./img/common/e638d670bbba43979b514055c7d4d09d.jpg"/>
 	<div class="content_div">
-		<div class="title_div">UWB智慧工厂管理解决方案</div>
+		<div class="title_div">智慧工厂安全管理解决方案</div>
 		<div class="describe_div"><span class="yycj_span">应用场景: </span>离散制造、汽车组装、工程机械、家电生产、水泥生产、钢铁冶金</div>
 	</div>
 </div>
@@ -85,7 +85,9 @@ var _hmt = _hmt || [];
 		<span class="title_span">系统架构</span>
 	</div>
 	<div class="describe_div">采用Ziggbe技术+蓝牙定位技术，业内首创轻量级定位管理系统，同时支持手机定位导航与人员物资监控式定位管理。</div>
-	<img class="xtjg_img" src="templets/seekcy/images/tz-pic.png"/>
+	<div class="xtjg_img_div">
+		<img class="xtjg_img" src="templets/seekcy/images/tz-pic.png"/>
+	</div>
 </div>
 <div class="ywgn_div">
 	<div class="title_div">
@@ -95,43 +97,59 @@ var _hmt = _hmt || [];
 	<div class="list_div">
 		<div class="item_div">
 			<div class="title_div">人员实时定位管理</div>
-			<img src="img/solution/202104300001.png">
+			<div class="ryssdwgl_img_div">
+				<img class="ryssdwgl_img" src="img/solution/202104300001.png">
+			</div>
 		</div>
 		<div class="item_div">
 			<div class="title_div">安全智能预警</div>
-			<img src="img/solution/202104300002.png">
+			<div class="aqznyj_img_div">
+				<img class="aqznyj_img" src="img/solution/202104300002.png">
+			</div>
 		</div>
 		<div class="item_div">
 			<div class="title_div">轨迹追踪与视频联动</div>
-			<img src="img/solution/202104300003.png">
+			<div class="gjzzspld_img_div">
+				<img class="gjzzspld_img" src="img/solution/202104300003.png">
+			</div>
 		</div>
 		<div class="item_div">
 			<div class="title_div">访客安全管理</div>
-			<img src="img/solution/202104300004.png">
+			<div class="fkaqgl_img_div">
+				<img class="fkaqgl_img" src="img/solution/202104300004.png">
+			</div>
 		</div>
 		<div class="item_div">
 			<div class="title_div">电子巡更管理</div>
-			<img src="img/solution/202104300005.png">
+			<div class="dzxggl_img_div">
+				<img class="dzxggl_img" src="img/solution/202104300005.png">
+			</div>
 		</div>
 		<div class="item_div">
 			<div class="title_div">承包商人员管理</div>
-			<img src="img/solution/202104300006.png">
+			<div class="cbsrygl_img_div">
+				<img class="cbsrygl_img" src="img/solution/202104300006.png">
+			</div>
 		</div>
 		<div class="item_div">
 			<div class="title_div">厂区状态手机端监管</div>
-			<img src="img/solution/202104300007.png">
+			<img class="cqztsjdjg_img" src="img/solution/202104300007.png">
 		</div>
 		<div class="item_div">
 			<div class="title_div">车辆及应急物资管理</div>
-			<img src="img/solution/202104300008.png">
+			<img class="clyjwzgl_img" src="img/solution/202104300008.png">
 		</div>
 		<div class="item_div">
 			<div class="title_div">PDA点巡检管理</div>
-			<img src="img/solution/202104300009.png">
+			<div class="pdadxjgl_img_div">
+				<img class="pdadxjgl_img" src="img/solution/202104300009.png">
+			</div>
 		</div>
 		<div class="item_div">
 			<div class="title_div">数据可视化分析</div>
-			<img src="img/solution/202104300010.png">
+			<div class="sjkshfx_img_div">
+				<img class="sjkshfx_img" src="img/solution/202104300010.png">
+			</div>
 		</div>
 	</div>
 </div>
@@ -139,7 +157,7 @@ var _hmt = _hmt || [];
 <div class="foot_div">
 	<div class="content_div">
 		<div class="space_div"></div>
-		<div class="row_div">资讯热线：0532-55588351&nbsp;&nbsp;15712773653（微信同号）</div>
+		<div class="row_div">咨询热线：0532-55588351&nbsp;&nbsp;15712773653（微信同号）</div>
 		<div class="row_div">邮箱地址：qdhualing@126.com</div>
 		<div class="row_div">公司地址：青岛市北中央商务区敦化路136号西王大厦1606</div>
 	</div>

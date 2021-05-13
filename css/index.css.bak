@@ -1240,7 +1240,7 @@ section .partner .width h3 {
 .hzhb_div .list_div .mzgj_div{
 	width:224px;height:39px;margin-top: 15px;margin-left:30px;
 }
-.hzhb_div .list_div .dsn_div{
+.hzhb_div .list_div .ytyy_div{
 	width:224px;height:40px;margin-top: 15px;margin-left:30px;
 }
 
