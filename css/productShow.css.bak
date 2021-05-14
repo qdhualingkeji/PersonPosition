@@ -117,7 +117,7 @@ body{
 }
 .ywgn_div .list_div .item_div .ryssdwgl_img_div .intro_div .cnryfltj_div,
 .ywgn_div .list_div .item_div .ryssdwgl_img_div .intro_div .sphmssck_div{
-	margin-top:26px;
+	margin-top:43px;
 	color: #2169e0;
 	font-size: 18px;
 	font-weight: bolder;
@@ -125,7 +125,7 @@ body{
 .ywgn_div .list_div .item_div .ryssdwgl_img_div .intro_div .jqxsqcq_div,
 .ywgn_div .list_div .item_div .ryssdwgl_img_div .intro_div .flxsgqy_div,
 .ywgn_div .list_div .item_div .ryssdwgl_img_div .intro_div .dtskck_div{
-	line-height:30px;
+	line-height:25px;
 	margin-top:10px;
 	font-size: 13px;
 }
