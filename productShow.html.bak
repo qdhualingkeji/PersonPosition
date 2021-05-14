@@ -162,7 +162,7 @@ var _hmt = _hmt || [];
 					<div class="xggcgxjg_div">巡更过程高效监管</div>
 					<div class="xtkqmjl_div">系统可全面记录巡更时间、地点、耗时、作业顺序、现场照片等数据。过程可追溯，防止违规操作、伪造巡更记录</div>
 					<div class="xggzznkh_div">巡更工作智能考核</div>
-					<div class="_div">系统智能分析巡更路线的达标/异常情况，提供全方位多维度的报表和数据分析工具以及KPI，实现作业人员的智能考核</div>
+					<div class="xtznfx_div">系统智能分析巡更路线的达标/异常情况，提供全方位多维度的报表和数据分析工具以及KPI，实现作业人员的智能考核</div>
 				</div>
 				<img class="dzxggl_img" src="img/solution/202104300005.png">
 			</div>
@@ -170,18 +170,47 @@ var _hmt = _hmt || [];
 		<div class="item_div">
 			<div class="title_div">承包商人员管理</div>
 			<div class="img_div cbsrygl_img_div">
+				<div class="intro_div">
+					<div class="cbsgstj_div">承包商工时统计</div>
+					<div class="fyjzjs_div">通过人员定位，统计承包商在工作区的累计总时长，精确计算承包商工时，费用精准结算</div>
+					<div class="cbsqyfwqxgl_div">承包商区域访问权限管理</div>
+					<div class="kdbtcbs_div">可对不同承包商圈定不同的可活动区域，误入禁区立即报警，保障其安全</div>
+					<div class="cbsgzztjg_div">承包商工作状态监管</div>
+					<div class="fbdqjxgl_div">通过人员定位，统计承包商在休息区和工作区的停留时长，计算其有效工作时间投入比，方便对其进行管理</div>
+				</div>
 				<img class="cbsrygl_img" src="img/solution/202104300006.png">
 			</div>
 		</div>
 		<div class="item_div">
 			<div class="title_div">厂区状态手机端监管</div>
-			<div class="img_div">
+			<div class="img_div cqztsjdjg_img_div">
+				<div class="intro_div">
+					<div class="cycsjdjg_div">厂易查——手机端监管</div>
+					<div class="zccqzt_div">支持厂区状态多终端查看。</div>
+					<div class="dqylb_div">当企业老板或高层不在厂区内或不方便查看电脑时，可通过手机APP快速进入企业管理后台，查看厂区实时状态。具体功能如下：</div>
+					<div class="cqryssdw_div">厂区人员实时定位</div>
+					<div class="tdrymbgz_div">特定人员目标跟踪</div>
+					<div class="xwgjfxck_div">行为轨迹分析查看</div>
+					<div class="glbjsjck_div">各类报警事件查看</div>
+					<div class="qysjtjfx_div">企业数据统计分析</div>
+				</div>
 				<img class="cqztsjdjg_img" src="img/solution/202104300007.png">
 			</div>
 		</div>
 		<div class="item_div">
 			<div class="title_div">车辆及应急物资管理</div>
-			<div class="img_div">
+			<div class="img_div clyjwzgl_img_div">
+				<div class="intro_div">
+					<div class="cnclznhgl_div">厂内车辆智能化管理</div>
+					<div class="dcnglcl_div">对厂内各类车辆进行限速管理</div>
+					<div class="clssdw_div">车辆实时定位</div>
+					<div class="clkdjz_div">车辆开到禁止区立即报警</div>
+					<div class="clwaslk_div">车辆未按时离开立即报警</div>
+					<div class="cnjywzznh_div">厂内应急物资智能化管理</div>
+					<div class="cnyjwzsspd_div">厂内应急物资实时盘点</div>
+					<div class="cnyjwzndtx_div">厂内应急物资挪动提醒</div>
+					<div class="_div">厂内应急物资丢失找寻</div>
+				</div>
 				<img class="clyjwzgl_img" src="img/solution/202104300008.png">
 			</div>
 		</div>

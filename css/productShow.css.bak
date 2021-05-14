@@ -80,7 +80,7 @@ body{
 	border:#999 dashed 1px;
 }
 .ywgn_div .list_div .item_div .ryssdwgl_img_div{
-	height:385px;
+	height:382px;
 }
 .ywgn_div .list_div .item_div .aqznyj_img_div{
 	height:385px;
@@ -95,8 +95,13 @@ body{
 	height:550px;
 }
 .ywgn_div .list_div .item_div .cbsrygl_img_div{
-	height:420px;
-	line-height:420px;
+	height:415px;
+}
+.ywgn_div .list_div .item_div .cqztsjdjg_img_div{
+	height:460px;
+}
+.ywgn_div .list_div .item_div .clyjwzgl_img_div{
+	height:460px;
 }
 .ywgn_div .list_div .item_div .pdadxjgl_img_div{
 	height:650px;
@@ -112,7 +117,6 @@ body{
 	height:332px;
 	margin-top:20px;
 	margin-left:20px;
-	background-color:#0f0;
 }
 .ywgn_div .list_div .item_div .ryssdwgl_img_div .intro_div .ryssfbzl_div{
 	color: #2169e0;
@@ -240,6 +244,95 @@ body{
 	font-size: 13px;
 }
 
+.ywgn_div .list_div .item_div .cbsrygl_img_div .intro_div{
+	width:329px;
+	height:365px;
+	margin-top:20px;
+	margin-left:20px;
+}
+.ywgn_div .list_div .item_div .cbsrygl_img_div .intro_div .cbsgstj_div{
+	color: #2169e0;
+	font-size: 17px;
+	font-weight: bolder;
+}
+.ywgn_div .list_div .item_div .cbsrygl_img_div .intro_div .cbsqyfwqxgl_div,
+.ywgn_div .list_div .item_div .cbsrygl_img_div .intro_div .cbsgzztjg_div{
+	margin-top:33px;
+	color: #2169e0;
+	font-size: 17px;
+	font-weight: bolder;
+}
+.ywgn_div .list_div .item_div .cbsrygl_img_div .intro_div .fyjzjs_div,
+.ywgn_div .list_div .item_div .cbsrygl_img_div .intro_div .kdbtcbs_div,
+.ywgn_div .list_div .item_div .cbsrygl_img_div .intro_div .fbdqjxgl_div{
+	line-height:30px;
+	margin-top:10px;
+	font-size: 13px;
+}
+
+.ywgn_div .list_div .item_div .cqztsjdjg_img_div .intro_div{
+	width:329px;
+	height:418px;
+	margin-top:20px;
+	margin-left:20px;
+}
+.ywgn_div .list_div .item_div .cqztsjdjg_img_div .intro_div .cycsjdjg_div{
+	color: #2169e0;
+	font-size: 17px;
+	font-weight: bolder;
+}
+.ywgn_div .list_div .item_div .cqztsjdjg_img_div .intro_div .zccqzt_div{
+	line-height:30px;
+	margin-top:10px;
+	font-size: 13px;
+}
+.ywgn_div .list_div .item_div .cqztsjdjg_img_div .intro_div .dqylb_div{
+	line-height:30px;
+	font-size: 13px;
+}
+.ywgn_div .list_div .item_div .cqztsjdjg_img_div .intro_div .cqryssdw_div,
+.ywgn_div .list_div .item_div .cqztsjdjg_img_div .intro_div .tdrymbgz_div,
+.ywgn_div .list_div .item_div .cqztsjdjg_img_div .intro_div .xwgjfxck_div,
+.ywgn_div .list_div .item_div .cqztsjdjg_img_div .intro_div .glbjsjck_div,
+.ywgn_div .list_div .item_div .cqztsjdjg_img_div .intro_div .qysjtjfx_div{
+	line-height:30px;
+	margin-left:20px;
+	font-size: 13px;
+}
+
+.ywgn_div .list_div .item_div .clyjwzgl_img_div .intro_div{
+	width:329px;
+	height:290px;
+	margin-top:20px;
+	margin-left:20px;
+	background-color:#0f0;
+}
+.ywgn_div .list_div .item_div .clyjwzgl_img_div .intro_div .cnclznhgl_div{
+	color: #2169e0;
+	font-size: 17px;
+	font-weight: bolder;
+}
+.ywgn_div .list_div .item_div .clyjwzgl_img_div .intro_div .cnjywzznh_div{
+	margin-top:20px;
+	color: #2169e0;
+	font-size: 17px;
+	font-weight: bolder;
+}
+.ywgn_div .list_div .item_div .clyjwzgl_img_div .intro_div .dcnglcl_div,
+.ywgn_div .list_div .item_div .clyjwzgl_img_div .intro_div .cnyjwzsspd_div{
+	line-height:30px;
+	margin-top:10px;
+	font-size: 13px;
+}
+.ywgn_div .list_div .item_div .clyjwzgl_img_div .intro_div .clssdw_div,
+.ywgn_div .list_div .item_div .clyjwzgl_img_div .intro_div .clkdjz_div,
+.ywgn_div .list_div .item_div .clyjwzgl_img_div .intro_div .clwaslk_div,
+.ywgn_div .list_div .item_div .clyjwzgl_img_div .intro_div .cnyjwzndtx_div,
+.ywgn_div .list_div .item_div .clyjwzgl_img_div .intro_div .cnyswzdsxz_div{
+	line-height:30px;
+	font-size: 13px;
+}
+
 .ywgn_div .list_div .item_div img{
 	margin-right:20px;float:right;
 }
@@ -259,13 +352,13 @@ body{
 	width:727px;height:502px;margin-top:-502px;
 }
 .ywgn_div .list_div .item_div .cbsrygl_img{
-	width:727px;height:365px;
+	width:727px;height:365px;margin-top:-365px;
 }
 .ywgn_div .list_div .item_div .cqztsjdjg_img{
-	width:1120px;height:645px;
+	width:727px;height:418px;margin-top:-418px;
 }
 .ywgn_div .list_div .item_div .clyjwzgl_img{
-	width:1120px;height:301px;
+	width:727px;height:195px;margin-top:-255px;
 }
 .ywgn_div .list_div .item_div .pdadxjgl_img{
 	width:830px;height:606px;
