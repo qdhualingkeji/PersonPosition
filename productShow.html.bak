@@ -209,7 +209,7 @@ var _hmt = _hmt || [];
 					<div class="cnjywzznh_div">厂内应急物资智能化管理</div>
 					<div class="cnyjwzsspd_div">厂内应急物资实时盘点</div>
 					<div class="cnyjwzndtx_div">厂内应急物资挪动提醒</div>
-					<div class="_div">厂内应急物资丢失找寻</div>
+					<div class="cnyswzdsxz_div">厂内应急物资丢失找寻</div>
 				</div>
 				<img class="clyjwzgl_img" src="img/solution/202104300008.png">
 			</div>
@@ -217,12 +217,26 @@ var _hmt = _hmt || [];
 		<div class="item_div">
 			<div class="title_div">PDA点巡检管理</div>
 			<div class="img_div pdadxjgl_img_div">
+				<div class="intro_div">
+					<div class="xjrwgxjg_div">巡检任务高效监管</div>
+					<div class="kdwxjry_div">可定位巡检人员实时位置，全面记录巡检时间、地点、耗时、作业顺序等数据；整个过程可追溯，防止伪造巡检记录</div>
+					<div class="xjsjbjsc_div">巡检数据便捷上传</div>
+					<div class="pdacynfc_div">PDA采用NFC、扫码等方式可快速读取设备信息；支持对设备的状态、各项参数、图片等进行现场/离线保存后上传</div>
+					<div class="xjgzznkh_div">巡检工作智能考核</div>
+					<div class="xtznfxxj_div">系统智能分析巡检路线的达标/异常情况，提供全方位多维度的报表和数据分析工具以及KPI，实现巡检工作的智能考核</div>
+				</div>
 				<img class="pdadxjgl_img" src="img/solution/202104300009.png">
 			</div>
 		</div>
 		<div class="item_div">
 			<div class="title_div">数据可视化分析</div>
 			<div class="img_div sjkshfx_img_div">
+				<div class="intro_div">
+					<div class="cqxxkshxs_div">厂区信息可视化展示</div>
+					<div class="qcsjxx_div">全厂数据信息的全面可视化展示，为领导或来访者展现企业较高的的信息化程度</div>
+					<div class="tgcqglsj_div">提供厂区管理升级的数据支撑</div>
+					<div class="jyqyaq_div">基于企业安全和日常业务管理的各类型数据统计分析，如：各区域人数分布热度、每日累计到场人数走势、报警事件数量、高发类型及时间段分析、各类工作的达标率等，为厂区管理升级提供有力的数据支撑</div>
+				</div>
 				<img class="sjkshfx_img" src="img/solution/202104300010.png">
 			</div>
 		</div>
