@@ -36,10 +36,11 @@
     margin: 0;
     padding: 0;
     margin-top: 5px;
+	margin-left: 175px;
 }
 .hotel-header .custom-logo-link .custom-logo {
     max-width: 230px;
-    margin-right: 497px;
+    margin-right: 120px;
 }
 .hotel-header .menuzord-menu>ul> li {
     position: relative;
