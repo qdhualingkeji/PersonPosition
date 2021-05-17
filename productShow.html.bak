@@ -198,23 +198,6 @@ var _hmt = _hmt || [];
 			</div>
 		</div>
 		<div class="item_div">
-			<div class="title_div">车辆及应急物资管理</div>
-			<div class="img_div clyjwzgl_img_div">
-				<div class="intro_div">
-					<div class="cnclznhgl_div">厂内车辆智能化管理</div>
-					<div class="dcnglcl_div">对厂内各类车辆进行限速管理</div>
-					<div class="clssdw_div">车辆实时定位</div>
-					<div class="clkdjz_div">车辆开到禁止区立即报警</div>
-					<div class="clwaslk_div">车辆未按时离开立即报警</div>
-					<div class="cnjywzznh_div">厂内应急物资智能化管理</div>
-					<div class="cnyjwzsspd_div">厂内应急物资实时盘点</div>
-					<div class="cnyjwzndtx_div">厂内应急物资挪动提醒</div>
-					<div class="cnyswzdsxz_div">厂内应急物资丢失找寻</div>
-				</div>
-				<img class="clyjwzgl_img" src="img/solution/202104300008.png">
-			</div>
-		</div>
-		<div class="item_div">
 			<div class="title_div">PDA点巡检管理</div>
 			<div class="img_div pdadxjgl_img_div">
 				<div class="intro_div">
@@ -238,6 +221,23 @@ var _hmt = _hmt || [];
 					<div class="jyqyaq_div">基于企业安全和日常业务管理的各类型数据统计分析，如：各区域人数分布热度、每日累计到场人数走势、报警事件数量、高发类型及时间段分析、各类工作的达标率等，为厂区管理升级提供有力的数据支撑</div>
 				</div>
 				<img class="sjkshfx_img" src="img/solution/202104300010.png">
+			</div>
+		</div>
+		<div class="item_div">
+			<div class="title_div">车辆及应急物资管理</div>
+			<div class="img_div clyjwzgl_img_div">
+				<div class="intro_div">
+					<div class="cnclznhgl_div">厂内车辆智能化管理</div>
+					<div class="dcnglcl_div">对厂内各类车辆进行限速管理</div>
+					<div class="clssdw_div">车辆实时定位</div>
+					<div class="clkdjz_div">车辆开到禁止区立即报警</div>
+					<div class="clwaslk_div">车辆未按时离开立即报警</div>
+					<div class="cnjywzznh_div">厂内应急物资智能化管理</div>
+					<div class="cnyjwzsspd_div">厂内应急物资实时盘点</div>
+					<div class="cnyjwzndtx_div">厂内应急物资挪动提醒</div>
+					<div class="cnyswzdsxz_div">厂内应急物资丢失找寻</div>
+				</div>
+				<img class="clyjwzgl_img" src="img/solution/202104300008.png">
 			</div>
 		</div>
 	</div>
