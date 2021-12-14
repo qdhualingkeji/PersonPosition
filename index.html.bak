@@ -96,6 +96,9 @@ var _hmt = _hmt || [];
 								<a href="casus.html">项目案例</a>
 							</li>
 							<li>
+								<a href="casus.html">新闻动态</a>
+							</li>
+							<li>
 								<a href="contactUs.html">联系我们</a>
 							</li>
 						</ul>
@@ -343,7 +346,7 @@ var _hmt = _hmt || [];
 						</div>
 					</li>
 				</ul>
-				<a href="solution.html">了解更多</a>
+				<a href="productShow.html">了解更多</a>
 			</div>
 
 			<div class="showBg layui-col-md9 layui-col-xs12 layui-col-sm6 layui-col-lg8">
