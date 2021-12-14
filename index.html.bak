@@ -96,7 +96,7 @@ var _hmt = _hmt || [];
 								<a href="casus.html">项目案例</a>
 							</li>
 							<li>
-								<a href="casus.html">新闻动态</a>
+								<a href="new.html">新闻动态</a>
 							</li>
 							<li>
 								<a href="contactUs.html">联系我们</a>
@@ -530,6 +530,48 @@ var _hmt = _hmt || [];
 		</div>
 	</div>
 	-->
+	<div class="xwdt_div">
+		<div class="title_div">
+			<img class="title_img" src="templets/seekcy/images/1.png" alt="">
+			<h2 class="title_h2">新闻动态</h2>
+		</div>
+		<div class="list_div">
+			<div class="item_div">
+				<div class="line_div">
+				</div>
+				<div class="dot_div">
+				</div>
+				<div class="item_title_div">UWB高精度定位构建电厂三维安全管控平台</div>
+				<div class="date_div">1997-07-01</div>
+			</div>
+			<div class="item_div right_item_div">
+				<div class="line_div">
+				</div>
+				<div class="dot_div">
+				</div>
+				<div class="item_title_div">EHIGH恒高各大办事处齐聚IOTE物联网展</div>
+				<div class="date_div">1997-07-01</div>
+			</div>
+			<div class="item_div">
+				<div class="line_div">
+				</div>
+				<div class="dot_div">
+				</div>
+				<div class="item_title_div">UWB高精度定位构建电厂三维安全管控平台</div>
+				<div class="date_div">1997-07-01</div>
+			</div>
+			<div class="item_div right_item_div">
+				<div class="line_div">
+				</div>
+				<div class="dot_div">
+				</div>
+				<div class="item_title_div">EHIGH恒高各大办事处齐聚IOTE物联网展</div>
+				<div class="date_div">1997-07-01</div>
+			</div>
+		</div>
+		<div class="ljgd_but_div" onclick="location.href='new.html'">了解更多</div>
+	</div>
+
 	<div class="hzhb_div">
 		<div class="title_div">
 			<img class="title_img" src="templets/seekcy/images/1.png" alt="">

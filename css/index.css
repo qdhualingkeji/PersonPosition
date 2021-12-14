@@ -1194,15 +1194,59 @@ section .partner .width h3 {
 	width:280px;line-height: 24px;margin-top:10px;margin-left:24px;color:#fff;font-size: 14px;
 }
 
+.xwdt_div{
+	width: 1266px;
+    margin: 20px auto 80px;
+}
+.xwdt_div .title_div{
+	text-align:center;
+}
+.xwdt_div .title_div .title_img{
+	width:124px;height:109px;
+}
+.xwdt_div .title_div .title_h2{
+	font-size: 22px;font-weight: bold;color: #000000;margin-top:20px;
+}
+.xwdt_div .list_div{
+	width:1266px;margin-top:25px;padding:1px;
+}
+.xwdt_div .list_div .item_div{
+	width:600px;height:55px;padding:1px;
+}
+.xwdt_div .list_div .right_item_div{
+	margin-top:-59px;margin-left:660px;
+}
+.xwdt_div .list_div .item_div .line_div{
+	width:570px;height:2px;margin-top: 53px;margin-left: 30px;background-color:#ccc;
+}
+.xwdt_div .list_div .item_div .dot_div{
+	width:10px;height:10px;margin-top:-32px;background-color:#666;border-radius:5px;
+}
+.xwdt_div .list_div .item_div .item_title_div{
+	width:440px;height:55px;line-height:55px;margin-top: -33px;margin-left: 50px;color:#5A5A5A;font-size: 16px;font-weight: normal;
+}
+.xwdt_div .list_div .item_div .date_div{
+	width:110px;height:55px;line-height:55px;margin-top: -55px;color:#929292;text-align:right;float:right;
+}
+.xwdt_div .ljgd_but_div{
+	width: 217px;
+	height: 47px;
+	line-height: 47px;
+	margin: 53px auto 0;
+	font-size: 15px;
+	color: rgba(5, 19, 38, 1);
+	text-align: center;
+	background: rgba(255, 153, 0, 1);
+	cursor:pointer;
+	border-radius: 2px;
+}
+
 .hzhb_div {
     width: 1266px;
     margin: 90px auto 80px;
 }
 .hzhb_div .title_div{
 	text-align:center;
-}
-.hzhb_div .title_div .title_img{
-	width:124px;height:109px;
 }
 .hzhb_div .title_div .title_h2{
 	font-size: 22px;font-weight: bold;color: #000000;margin-top:20px;
