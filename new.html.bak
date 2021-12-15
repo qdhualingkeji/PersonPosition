@@ -39,7 +39,7 @@ var _hmt = _hmt || [];
 						<li>
 							<a href="index.html">首页</a>
 						</li>
-						<li class="check cur">
+						<li>
 							<a href="dangerTrade.html">危化行业</a>
 						</li>
 						<li>
@@ -48,7 +48,7 @@ var _hmt = _hmt || [];
 						<li>
 							<a href="casus.html">项目案例</a>
 						</li>
-						<li>
+						<li class="check cur">
 							<a href="new.html">新闻动态</a>
 						</li>
 						<li>
@@ -69,17 +69,23 @@ var _hmt = _hmt || [];
 	<div class="list_div">
 		<div class="item_div">
 			<img src="img/new/202112140001.jpg" />
-			<span class="text_span">人员定位基站</span>
+			<span class="text_span">
+				<a href="newDetail.html">人员定位基站</a>
+			</span>
 			<span class="date_span">[2021-09-30]</span>
 		</div>
 		<div class="item_div">
 			<img src="img/new/202112140001.jpg" />
-			<span class="text_span">人员定位信标</span>
+			<span class="text_span">
+				<a href="newDetail.html">人员定位信标</a>
+			</span>
 			<span class="date_span">[2021-09-30]</span>
 		</div>
 		<div class="item_div">
 			<img src="img/new/202112140001.jpg" />
-			<span class="text_span">定位软件系统功能</span>
+			<span class="text_span">
+				<a href="newDetail.html">定位软件系统功能</a>
+			</span>
 			<span class="date_span">[2021-09-30]</span>
 		</div>
 	</div>

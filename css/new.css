@@ -13,6 +13,9 @@
 .xwdt_div .list_div .item_div .text_span{
 	font-size:15px;margin-left:10px;
 }
+.xwdt_div .list_div .item_div .text_span a:hover{
+	color:#333;
+}
 .xwdt_div .list_div .item_div .date_span{
 	float:right;margin-right:10px;
 }
