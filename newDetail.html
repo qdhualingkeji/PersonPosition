@@ -5,6 +5,16 @@
 <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
 <meta name="description" content="高精度定位,人员定位,室内定位,UWB,蓝牙定位,化工厂区人员定位,定位传感器,员工定位,石油人员定位,人员定位管理系统">
 <meta name="keywords" content="高精度定位,人员定位,室内定位,UWB,蓝牙定位,化工厂区人员定位,定位传感器,员工定位,石油人员定位,人员定位管理系统">
+<style type="text/css">
+body{
+	overflow:scroll;
+	overflow-x:hidden;
+}
+.xqnr_div{
+	font-size: 26px;
+	text-align: center;
+}
+</style>
 <title>基于UWB定位的电厂三维安全管控平台 - 新闻动态 - 华凌科技</title>
 <link rel="stylesheet" href="./layui/css/layui.css">
 <link rel="stylesheet" href="./css/newDetail.css">
@@ -24,9 +34,39 @@ var _hmt = _hmt || [];
   var s = document.getElementsByTagName("script")[0]; 
   s.parentNode.insertBefore(hm, s);
 })();
+
+$(function(){
+	var xqnrDiv=$("#xqnr_div");
+	$.ajax({
+		url:"http://120.27.5.36:8080/PersonPositionBg/foreground/getNewById?id=3",
+		//url:"http://localhost:8080/PersonPositionBg/foreground/getNewById",
+		//contentType: "application/json",
+		//data:JSON.stringify({"id":encodeURI(3)}),
+		dataType:"jsonp",
+		type: "post",
+		jsonpCallback:"jsonpCallback",
+		success:function(result){
+			console.log(result);
+			var data=JSON.parse(result);
+			var status=data.status;
+			if(status=="ok"){
+				var xqnrDiv=$("#xqnr_div");
+				xqnrDiv.empty();
+				xqnrDiv.append(data.entity.title);
+
+				var xqnrDiv2=$("#xqnr_div2");
+				xqnrDiv2.empty();
+				xqnrDiv2.append(data.entity.content);
+			}
+			else{
+				
+			}
+		}
+	});
+});
 </script>
 </head>
-<body style="overflow:-Scroll;overflow-x:hidden">
+<body>
 <header class="hotel-header transparent">
 	<div class="layui-fluid">
 		<div class="layui-row">
@@ -63,10 +103,10 @@ var _hmt = _hmt || [];
 	</div>
 </header>
 
-<div class="xqnr_div" style="font-size: 26px; text-align: center;">
+<div class="xqnr_div" id="xqnr_div">
 	基于UWB定位的电厂三维安全管控平台
 </div>
-<div class="xqnr_div2">
+<div class="xqnr_div2" id="xqnr_div2">
   <p>在国家&ldquo;两化&rdquo;融合、节能减排等政策驱动和&ldquo;互联网+&rdquo;行动计划引导下，三维开始作为以UWB为代表的人员定位技术的可视化界面，并与<u>机器视觉</u>进行摄像头行为识别等技术结合，逐渐成为与电厂现场行为相关的可视化界面。EHIGH恒高基于UWB定位，以人员安全和设备安全为出发点，利用网络系统和三维系统实现可视化管理，为电厂打造一个三维智能化安全生产管理系统。</p>
   <p>在很多传统电厂电力生产过程中发生，在高危环境下电力设备众多，设备维护困难，厂区重点区域锅炉、汽轮机房、化学楼、油区、氢站、曝气除铁间等重要设备可视化程度不高，故障处理也无有效手段；加上厂区人员复杂，员工作业安全及作业规范化缺乏有效管控。所以，在智慧电厂有关<u>UWB定位技术</u>的应用中，主要强调的是安全和管理两方面，基于UWB定位三维管理系统能够在人员安全管理上起到作用，针对重点设备都能可视化数字管理。在具体的应用中，主要体现在以下功能：</p>
   <div id="new-middle-berry"></div>
