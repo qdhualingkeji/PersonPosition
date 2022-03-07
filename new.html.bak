@@ -37,7 +37,7 @@ function initXwdtListDiv(){
 		type: "post",
 		jsonpCallback:"jsonpCallback",
 		success:function(result){
-			console.log(result);
+			//console.log(result);
 			var data=JSON.parse(result);
 			var status=data.status;
 			if(status=="ok"){
@@ -46,7 +46,7 @@ function initXwdtListDiv(){
 				var newList=data.list;
 				for(var i=0;i<newList.length;i++){
 					var n=newList[i];
-					console.log(n)
+					//console.log(n)
 					var itemStr="<div class=\"item_div\">";
 							itemStr+="<img src=\"img/new/202112140001.jpg\" />";
 							itemStr+="<span class=\"text_span\">";

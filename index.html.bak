@@ -89,7 +89,7 @@ function initXwdtListDiv(){
 							itemStr+="<div class=\"line_div\"></div>";
 							itemStr+="<div class=\"dot_div\"></div>";
 							itemStr+="<div class=\"item_title_div\">";
-								itemStr+="<a href=\"newDetail.html?id="+n.id+"\" target=\"_blank\">"+(n.title.length>20?n.title.substring(0,20)+"...":n.title)+"</a>";
+								itemStr+="<a href=\"newDetail.html?id="+n.id+"\" target=\"_blank\">"+(n.title.length>25?n.title.substring(0,25)+"...":n.title)+"</a>";
 							itemStr+="</div>";
 							itemStr+="<div class=\"date_div\">"+n.createTimeYmd+"</div>";
 						itemStr+="</div>";
