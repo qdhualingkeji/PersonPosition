@@ -43,6 +43,7 @@ $(document).ready(function () {
   if (width < 1000) {
 	$(".dropdown").css("display", "none")
   }
+  initXwdtListDiv();
 });
 $(".aui-about-dow").mouseover(function () {
   $(".drop-down>a").addClass("check");
@@ -61,6 +62,46 @@ $(".more").click(function () {
   $(".more").removeClass("none")
   $(".more").addClass("shower111")
 })
+
+function initXwdtListDiv(){
+	$.ajax({
+		//url:"http://120.27.5.36:8080/PersonPositionBg/foreground/getNewList?page=1&rows=100",
+		url:"http://localhost:8080/PersonPositionBg/foreground/getNewList?page=1&rows=100",
+		dataType:"jsonp",
+		type: "post",
+		jsonpCallback:"jsonpCallback",
+		success:function(result){
+			//console.log(result);
+			var data=JSON.parse(result);
+			var status=data.status;
+			if(status=="ok"){
+				var listDiv=$("#xwdt_div #list_div");
+				listDiv.empty();
+				var newList=data.list;
+				for(var i=0;i<newList.length;i++){
+					var n=newList[i];
+					//console.log(n)
+					var itemStr="<div class=\"item_div";
+						if(i%2==1)
+							itemStr+=" right_item_div\">";
+						else
+							itemStr+="\">";
+							itemStr+="<div class=\"line_div\"></div>";
+							itemStr+="<div class=\"dot_div\"></div>";
+							itemStr+="<div class=\"item_title_div\">";
+								itemStr+="<a href=\"newDetail.html?id="+n.id+"\" target=\"_blank\">"+(n.title.length>25?n.title.substring(0,25)+"...":n.title)+"</a>";
+							itemStr+="</div>";
+							itemStr+="<div class=\"date_div\">"+n.createTimeYmd+"</div>";
+						itemStr+="</div>";
+					listDiv.append(itemStr);
+				}
+			}
+			else{
+				
+			}
+		}
+	});
+}
 </script>
 <script>
 var _hmt = _hmt || [];
@@ -535,16 +576,12 @@ var _hmt = _hmt || [];
 		</div>
 	</div>
 	-->
-	<div class="xwdt_div">
+	<div class="xwdt_div" id="xwdt_div">
 		<div class="title_div">
 			<img class="title_img" src="templets/seekcy/images/1.png" alt="">
 			<h2 class="title_h2">新闻动态</h2>
 		</div>
-        
-        
-        
-        
-		<div class="list_div">
+		<div class="list_div" id="list_div">
 			<div class="item_div">
 				<div class="line_div">
 				</div>
@@ -606,10 +643,6 @@ var _hmt = _hmt || [];
 				<div class="date_div">2022-02-16</div>
 			</div>
 		</div>
-        
-        
-        
-        
 		<div class="ljgd_but_div" onClick="location.href='new.html'">了解更多</div>
 	</div>
 

@@ -3,9 +3,10 @@
 <head>
 <!-- Required meta tags -->
 <meta charset="utf-8">
+<title>化工厂人员定位系统_蓝牙定位管理系统-华凌科技</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="description" content="高精度定位,人员定位,室内定位,UWB,蓝牙定位,化工厂区人员定位,定位传感器,员工定位,石油人员定位,人员定位管理系统">
-<meta name="keywords" content="高精度定位,人员定位,室内定位,UWB,蓝牙定位,化工厂区人员定位,定位传感器,员工定位,石油人员定位,人员定位管理系统">
+<meta name="description" content="人员定位系统,化工厂人员定位系统,蓝牙定位,管理系统人员定位,室内定位,UWB,定位传感器,员工定位,石油人员定位,人员定位管理系统">
+<meta name="keywords" content="青岛华凌科技致力于运用工业物联网、蓝牙定位等新技术，研发的辰麒化工厂人员定位系统，融合蓝牙技术，实时定位，定位精准，无线布设，助力企业提升安全管理水平，咨询：15712773653">
 <link rel="stylesheet" href="layui/css/layui.css">
 <link href="css/flickerplate.css" type="text/css" rel="stylesheet">
 <link type="text/css" rel="stylesheet" href="css/index.css" />
@@ -42,6 +43,7 @@ $(document).ready(function () {
   if (width < 1000) {
 	$(".dropdown").css("display", "none")
   }
+  initXwdtListDiv();
 });
 $(".aui-about-dow").mouseover(function () {
   $(".drop-down>a").addClass("check");
@@ -60,8 +62,47 @@ $(".more").click(function () {
   $(".more").removeClass("none")
   $(".more").addClass("shower111")
 })
+
+function initXwdtListDiv(){
+	$.ajax({
+		//url:"http://120.27.5.36:8080/PersonPositionBg/foreground/getNewList?page=1&rows=100",
+		url:"http://localhost:8080/PersonPositionBg/foreground/getNewList?page=1&rows=100",
+		dataType:"jsonp",
+		type: "post",
+		jsonpCallback:"jsonpCallback",
+		success:function(result){
+			//console.log(result);
+			var data=JSON.parse(result);
+			var status=data.status;
+			if(status=="ok"){
+				var listDiv=$("#xwdt_div #list_div");
+				listDiv.empty();
+				var newList=data.list;
+				for(var i=0;i<newList.length;i++){
+					var n=newList[i];
+					//console.log(n)
+					var itemStr="<div class=\"item_div";
+						if(i%2==1)
+							itemStr+=" right_item_div\">";
+						else
+							itemStr+="\">";
+							itemStr+="<div class=\"line_div\"></div>";
+							itemStr+="<div class=\"dot_div\"></div>";
+							itemStr+="<div class=\"item_title_div\">";
+								itemStr+="<a href=\"newDetail.html?id="+n.id+"\" target=\"_blank\">"+(n.title.length>20?n.title.substring(0,20)+"...":n.title)+"</a>";
+							itemStr+="</div>";
+							itemStr+="<div class=\"date_div\">"+n.createTimeYmd+"</div>";
+						itemStr+="</div>";
+					listDiv.append(itemStr);
+				}
+			}
+			else{
+				
+			}
+		}
+	});
+}
 </script>
-<title>人员定位首页</title>
 <script>
 var _hmt = _hmt || [];
 (function () {
@@ -155,19 +196,19 @@ var _hmt = _hmt || [];
 					<p>石油化工</p>
 					<span class="shower">石油化工行业高精度人员位置管理系统、人员/车辆/巡检等服务</span>
 				</li>
-				<li class="layui-col-lg2 layui-col-md2 layui-col-xs4 layui-col-sm4 " onclick="geng()">
+				<li class="layui-col-lg2 layui-col-md2 layui-col-xs4 layui-col-sm4 " onClick="geng()">
 					<p>工厂定位</p>
 					<span class="shower">工厂人员精确定位、产线巡检、车辆定位</span>
 				</li>
-				<li class="layui-col-lg2 layui-col-md2 layui-col-xs4 layui-col-sm4" onclick="geng()">
+				<li class="layui-col-lg2 layui-col-md2 layui-col-xs4 layui-col-sm4" onClick="geng()">
 					<p>智慧医疗</p>
 					<span class="shower">院区就诊导航、人员位置、物资定位、废弃物管理</span>
 				</li>
-				<li class="layui-col-lg2 layui-col-md2 layui-col-xs4 layui-col-sm4" onclick="geng()">
+				<li class="layui-col-lg2 layui-col-md2 layui-col-xs4 layui-col-sm4" onClick="geng()">
 					<p>公检司法定位</p>
 					<span class="shower">监狱、看守所、办案中心等人员位置精确定位</span>
 				</li>
-				<li class="layui-col-lg2 layui-col-md2 layui-col-xs4 layui-col-sm4" onclick="geng()">
+				<li class="layui-col-lg2 layui-col-md2 layui-col-xs4 layui-col-sm4" onClick="geng()">
 					<p>矿业安全</p>
 					<span class="shower">智慧矿山、车辆定位、井下人员精确定位、统计、报警管理</span>
 				</li>
@@ -315,7 +356,12 @@ var _hmt = _hmt || [];
 			</div>
 		</div>
 	</div>
+<style>
 
+.xwdt_div .list_div .item_div .item_title_div{
+	width:auto!important;
+}    
+</style>
     <div class="bgp">
       <div class="width layui-container">
         <div class="layui-row">
@@ -530,46 +576,74 @@ var _hmt = _hmt || [];
 		</div>
 	</div>
 	-->
-	<div class="xwdt_div">
+	<div class="xwdt_div" id="xwdt_div">
 		<div class="title_div">
 			<img class="title_img" src="templets/seekcy/images/1.png" alt="">
 			<h2 class="title_h2">新闻动态</h2>
 		</div>
-		<div class="list_div">
+		<div class="list_div" id="list_div">
 			<div class="item_div">
 				<div class="line_div">
 				</div>
 				<div class="dot_div">
 				</div>
-				<div class="item_title_div"><a href="newDetail.html">UWB高精度定位构建电厂三维安全管控平台</a></div>
-				<div class="date_div">1997-07-01</div>
+				<div class="item_title_div">
+					<a href="newDetail220302.html" target="_blank">化工厂人员定位系统是不可或缺的一部分</a>
+				</div>
+				<div class="date_div">2022-03-02</div>
 			</div>
 			<div class="item_div right_item_div">
 				<div class="line_div">
 				</div>
 				<div class="dot_div">
 				</div>
-				<div class="item_title_div"><a href="newDetail.html">EHIGH恒高各大办事处齐聚IOTE物联网展</a></div>
-				<div class="date_div">1997-07-01</div>
+				<div class="item_title_div">
+					<a href="newDetail220228.html" target="_blank">在选择化工厂人员定位系统时，应该注意什么</a>
+				</div>
+				<div class="date_div">2022-02-28</div>
 			</div>
 			<div class="item_div">
 				<div class="line_div">
 				</div>
 				<div class="dot_div">
 				</div>
-				<div class="item_title_div"><a href="newDetail.html">UWB高精度定位构建电厂三维安全管控平台</a></div>
-				<div class="date_div">1997-07-01</div>
+				<div class="item_title_div">
+					<a href="newDetail220223.html" target="_blank">化工厂人员定位系统的价值体现在哪里</a>
+				</div>
+				<div class="date_div">2022-02-23</div>
 			</div>
 			<div class="item_div right_item_div">
 				<div class="line_div">
 				</div>
 				<div class="dot_div">
 				</div>
-				<div class="item_title_div"><a href="newDetail.html">EHIGH恒高各大办事处齐聚IOTE物联网展</a></div>
-				<div class="date_div">1997-07-01</div>
+				<div class="item_title_div">
+					<a href="newDetail220221.html" target="_blank">化工厂人员定位系统全厂区覆盖，强大功能实现智能化变革</a>
+				</div>
+				<div class="date_div">2022-02-21</div>
+			</div>
+			<div class="item_div">
+				<div class="line_div">
+				</div>
+				<div class="dot_div">
+				</div>
+				<div class="item_title_div">
+					<a href="newDetail220218.html" target="_blank">化工厂人员定位系统能够为工厂管理和安全带来哪些改变</a>
+				</div>
+				<div class="date_div">2022-02-18</div>
+			</div>
+			<div class="item_div right_item_div">
+				<div class="line_div">
+				</div>
+				<div class="dot_div">
+				</div>
+				<div class="item_title_div">
+					<a href="newDetail220216.html" target="_blank">化工厂人员定位系统有哪些优势</a>
+				</div>
+				<div class="date_div">2022-02-16</div>
 			</div>
 		</div>
-		<div class="ljgd_but_div" onclick="location.href='new.html'">了解更多</div>
+		<div class="ljgd_but_div" onClick="location.href='new.html'">了解更多</div>
 	</div>
 
 	<div class="hzhb_div">
@@ -601,7 +675,7 @@ var _hmt = _hmt || [];
 		<div class="row_div">公司地址：青岛市北中央商务区敦化路136号西王大厦1606</div>
 	</div>
 	<div class="bah_div">
-		青岛辰麒数维软件有限公司  <a href="https://beian.miit.gov.cn" target="_blank" style="color:#999;">鲁ICP备19062226号-4</a>
+        版权所有  2022  青岛华凌科技有限公司-化工厂人员定位系统   <a href="https://beian.miit.gov.cn" target="_blank" style="color:#999;">鲁ICP备19062226号-4</a>
 	</div>
 </div>
 </body>
