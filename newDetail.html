@@ -35,10 +35,16 @@ var _hmt = _hmt || [];
   s.parentNode.insertBefore(hm, s);
 })();
 
+function getQueryString(name){
+	 var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+	 var r = window.location.search.substr(1).match(reg);
+	 if(r!=null)return  unescape(r[2]); return null;
+}
+
 $(function(){
 	var xqnrDiv=$("#xqnr_div");
 	$.ajax({
-		url:"http://120.27.5.36:8080/PersonPositionBg/foreground/getNewById?id=3",
+		url:"http://120.27.5.36:8080/PersonPositionBg/foreground/getNewById?id="+getQueryString("id"),
 		//url:"http://localhost:8080/PersonPositionBg/foreground/getNewById",
 		//contentType: "application/json",
 		//data:JSON.stringify({"id":encodeURI(3)}),
