@@ -24,6 +24,45 @@ var _hmt = _hmt || [];
   var s = document.getElementsByTagName("script")[0]; 
   s.parentNode.insertBefore(hm, s);
 })();
+
+$(function(){
+	initXwdtListDiv();
+});
+
+function initXwdtListDiv(){
+	$.ajax({
+		//url:"http://120.27.5.36:8080/PersonPositionBg/foreground/getNewList?page=1&rows=100",
+		url:"http://localhost:8080/PersonPositionBg/foreground/getNewList?page=1&rows=100",
+		dataType:"jsonp",
+		type: "post",
+		jsonpCallback:"jsonpCallback",
+		success:function(result){
+			//console.log(result);
+			var data=JSON.parse(result);
+			var status=data.status;
+			if(status=="ok"){
+				var listDiv=$("#xwdt_div #list_div");
+				listDiv.empty();
+				var newList=data.list;
+				for(var i=0;i<newList.length;i++){
+					var n=newList[i];
+					//console.log(n)
+					var itemStr="<div class=\"item_div\">";
+							itemStr+="<img src=\"img/new/202112140001.jpg\" />";
+							itemStr+="<span class=\"text_span\">";
+								itemStr+="<a href=\"newDetail.html?id="+n.id+"\" target=\"_blank\">"+n.title+"</a>";
+							itemStr+="</span>";
+							itemStr+="<span class=\"date_span\">["+n.createTimeYmd+"]</span>";
+						itemStr+="</div>";
+					listDiv.append(itemStr);
+				}
+			}
+			else{
+				
+			}
+		}
+	});
+}
 </script>
 </head>
 <body style="overflow:-Scroll;overflow-x:hidden">
@@ -63,9 +102,9 @@ var _hmt = _hmt || [];
 	</div>
 </header>
 
-<div class="xwdt_div">
+<div class="xwdt_div" id="xwdt_div">
 	<div class="title_div">新闻动态</div>
-	<div class="list_div">
+	<div class="list_div" id="list_div">
 		<div class="item_div">
 			<img src="img/new/202112140001.jpg" />
 			<span class="text_span">

@@ -3,9 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+<title>新闻动态 - 青岛华凌科技有限公司</title>
 <meta name="description" content="高精度定位,人员定位,室内定位,UWB,蓝牙定位,化工厂区人员定位,定位传感器,员工定位,石油人员定位,人员定位管理系统">
 <meta name="keywords" content="高精度定位,人员定位,室内定位,UWB,蓝牙定位,化工厂区人员定位,定位传感器,员工定位,石油人员定位,人员定位管理系统">
-<title>Document</title>
 <link rel="stylesheet" href="./layui/css/layui.css">
 <link rel="stylesheet" href="./css/new.css">
 <link type="text/css" rel="stylesheet" href="./css/nav.css" />
@@ -24,6 +24,45 @@ var _hmt = _hmt || [];
   var s = document.getElementsByTagName("script")[0]; 
   s.parentNode.insertBefore(hm, s);
 })();
+
+$(function(){
+	initXwdtListDiv();
+});
+
+function initXwdtListDiv(){
+	$.ajax({
+		//url:"http://120.27.5.36:8080/PersonPositionBg/foreground/getNewList?page=1&rows=100",
+		url:"http://localhost:8080/PersonPositionBg/foreground/getNewList?page=1&rows=100",
+		dataType:"jsonp",
+		type: "post",
+		jsonpCallback:"jsonpCallback",
+		success:function(result){
+			console.log(result);
+			var data=JSON.parse(result);
+			var status=data.status;
+			if(status=="ok"){
+				var listDiv=$("#xwdt_div #list_div");
+				listDiv.empty();
+				var newList=data.list;
+				for(var i=0;i<newList.length;i++){
+					var n=newList[i];
+					console.log(n)
+					var itemStr="<div class=\"item_div\">";
+							itemStr+="<img src=\"img/new/202112140001.jpg\" />";
+							itemStr+="<span class=\"text_span\">";
+								itemStr+="<a href=\"newDetail.html?id="+n.id+"\" target=\"_blank\">"+n.title+"</a>";
+							itemStr+="</span>";
+							itemStr+="<span class=\"date_span\">["+n.createTimeYmd+"]</span>";
+						itemStr+="</div>";
+					listDiv.append(itemStr);
+				}
+			}
+			else{
+				
+			}
+		}
+	});
+}
 </script>
 </head>
 <body style="overflow:-Scroll;overflow-x:hidden">
@@ -63,28 +102,135 @@ var _hmt = _hmt || [];
 	</div>
 </header>
 
-
-<div class="xwdt_div">
+<div class="xwdt_div" id="xwdt_div">
 	<div class="title_div">新闻动态</div>
-	<div class="list_div">
+	<div class="list_div" id="list_div">
 		<div class="item_div">
 			<img src="img/new/202112140001.jpg" />
 			<span class="text_span">
-				<a href="newDetail.html">人员定位基站</a>
+				<a href="newDetail220302.html" target="_blank">化工厂人员定位系统是不可或缺的一部分</a>
 			</span>
-			<span class="date_span">[2021-09-30]</span>
+			<span class="date_span">[2022-03-02]</span>
 		</div>
 		<div class="item_div">
 			<img src="img/new/202112140001.jpg" />
 			<span class="text_span">
-				<a href="newDetail.html">人员定位信标</a>
+				<a href="newDetail220228.html" target="_blank">在选择化工厂人员定位系统时，应该注意什么</a>
 			</span>
-			<span class="date_span">[2021-09-30]</span>
+			<span class="date_span">[2022-02-28]</span>
 		</div>
 		<div class="item_div">
 			<img src="img/new/202112140001.jpg" />
 			<span class="text_span">
-				<a href="newDetail.html">定位软件系统功能</a>
+				<a href="newDetail220223.html" target="_blank">化工厂人员定位系统的价值体现在哪里</a>
+			</span>
+			<span class="date_span">[2022-02-23]</span>
+		</div>
+		<div class="item_div">
+			<img src="img/new/202112140001.jpg" />
+			<span class="text_span">
+				<a href="newDetail220221.html" target="_blank">化工厂人员定位系统全厂区覆盖，强大功能实现智能化变革</a>
+			</span>
+			<span class="date_span">[2022-02-21]</span>
+		</div>
+		<div class="item_div">
+			<img src="img/new/202112140001.jpg" />
+			<span class="text_span">
+				<a href="newDetail220218.html" target="_blank">化工厂人员定位系统能够为工厂管理和安全带来哪些改变</a>
+			</span>
+			<span class="date_span">[2022-02-18]</span>
+		</div>
+		<div class="item_div">
+			<img src="img/new/202112140001.jpg" />
+			<span class="text_span">
+				<a href="newDetail220216.html" target="_blank">化工厂人员定位系统有哪些优势</a>
+			</span>
+			<span class="date_span">[2022-02-16]</span>
+		</div>
+		<div class="item_div">
+			<img src="img/new/202112140001.jpg" />
+			<span class="text_span">
+				<a href="newDetail220215.html" target="_blank">为什么化工厂需要人员定位系统</a>
+			</span>
+			<span class="date_span">[2022-02-15]</span>
+		</div>
+		<div class="item_div">
+			<img src="img/new/202112140001.jpg" />
+			<span class="text_span">
+				<a href="newDetail220214.html" target="_blank">人员定位系统方案的定制,主要明确的系统功能有哪几部分</a>
+			</span>
+			<span class="date_span">[2022-02-14]</span>
+		</div>
+		<div class="item_div">
+			<img src="img/new/202112140001.jpg" />
+			<span class="text_span">
+				<a href="newDetail220211.html" target="_blank">基于室内定位技术的化工厂人员定位系统</a>
+			</span>
+			<span class="date_span">[2022-02-11]</span>
+		</div>
+		<div class="item_div">
+			<img src="img/new/202112140001.jpg" />
+			<span class="text_span">
+				<a href="newDetail220210.html" target="_blank">化工厂人员定位系统主要有哪些功能</a>
+			</span>
+			<span class="date_span">[2022-02-10]</span>
+		</div>
+		<div class="item_div">
+			<img src="img/new/202112140001.jpg" />
+			<span class="text_span">
+				<a href="newDetail220209.html" target="_blank">化工厂人员定位系统能解决化工厂哪些难题</a>
+			</span>
+			<span class="date_span">[2022-02-09]</span>
+		</div>
+		<div class="item_div">
+			<img src="img/new/202112140001.jpg" />
+			<span class="text_span">
+				<a href="newDetail220208.html" target="_blank">化工厂人员定位系统为什么这么重要，人员定位系统介绍及管理规定</a>
+			</span>
+			<span class="date_span">[2022-02-08]</span>
+		</div>
+		<div class="item_div">
+			<img src="img/new/202112140001.jpg" />
+			<span class="text_span">
+				<a href="newDetail220124.html" target="_blank">化工厂人员定位系统优势</a>
+			</span>
+			<span class="date_span">[2022-01-24]</span>
+		</div>
+		<div class="item_div">
+			<img src="img/new/202112140001.jpg" />
+			<span class="text_span">
+				<a href="newDetail220120.html" target="_blank">化工人员定位系统如何实现室内定位</a>
+			</span>
+			<span class="date_span">[2022-01-20]</span>
+		</div>
+		<div class="item_div">
+			<img src="img/new/202112140001.jpg" />
+			<span class="text_span">
+				<a href="newDetail220118.html" target="_blank">化工厂人员定位系统-看前沿科技如何守护人员安全</a>
+			</span>
+			<span class="date_span">[2022-01-18]</span>
+		</div>
+		<div class="item_div">
+			<img src="img/new/202112140001.jpg" />
+			<span class="text_span">
+				<a href="newDetail220114.html" target="_blank">化工厂人员定位系统的特点是什么</a>
+			</span>
+			<span class="date_span">[2022-01-14]</span>
+		</div>
+		<div class="item_div">
+			<img src="img/new/202112140001.jpg" />
+			<span class="text_span">
+				<a href="newDetail211230.html" target="_blank">工厂人员定位系统如何实现智慧升级</a>			</span>
+			<span class="date_span">[2021-12-30]</span>		</div>
+			<div class="item_div">
+				<img src="img/new/202112140001.jpg" />
+				<span class="text_span">
+					<a href="newDetail211227.html" target="_blank">化工厂人员定位系统如何建设</a>			</span>
+				<span class="date_span">[2021-12-27]</span>		</div>
+		<div class="item_div">
+			<img src="img/new/202112140001.jpg" />
+			<span class="text_span">
+				<a href="newDetail.html" target="_blank">基于UWB定位的电厂三维安全管控平台</a>
 			</span>
 			<span class="date_span">[2021-09-30]</span>
 		</div>
@@ -100,7 +246,7 @@ var _hmt = _hmt || [];
 		<div class="row_div">公司地址：青岛市北中央商务区敦化路136号西王大厦1606</div>
 	</div>
 	<div class="bah_div">
-		青岛辰麒数维软件有限公司  <a href="https://beian.miit.gov.cn" target="_blank" style="color:#999;">鲁ICP备19062226号-4</a>
+		青岛华凌科技有限公司  <a href="https://beian.miit.gov.cn" target="_blank" style="color:#999;">鲁ICP备19062226号-4</a>
 	</div>
 </div>
 </body>
