@@ -45,6 +45,23 @@ rs.close
 conn.close
 set conn = nothing
 set rs = Nothing
+
+
+set conn2=Server.Createobject("adodb.Connection") 
+str="dsn=mysql_person_position;Driver={mysql driver};server=127.0.0.1;uid=root;pwd=qdhlkj123456;database=person_position"
+conn2.open(str)
+dim id
+id=4'request.form("id")
+sql2 = "select * from new where id="&id
+set rs2 = conn2.execute(sql2)
+%>
+<div><%=id%></div>
+<div><%=rs2("title")%></div>
+<%
+rs2.close
+conn2.close
+set conn2 = nothing
+set rs2 = Nothing
 %>
 </body>
 </html>
