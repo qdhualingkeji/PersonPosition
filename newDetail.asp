@@ -2,6 +2,15 @@
 <html lang="en">
 <head>
 <%@ codepage=65001%>
+<%
+set conn=Server.Createobject("adodb.Connection") 
+str="dsn=mysql_person_position;Driver={mysql driver};server=127.0.0.1;uid=root;pwd=qdhlkj123456;database=person_position"
+conn.open(str)
+dim id
+id=request.queryString("id")
+sql = "select * from new where id="&id
+set rs = conn.execute(sql)
+%>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
 <meta name="description" content="高精度定位,人员定位,室内定位,UWB,蓝牙定位,化工厂区人员定位,定位传感器,员工定位,石油人员定位,人员定位管理系统">
@@ -16,7 +25,7 @@ body{
 	text-align: center;
 }
 </style>
-<title></title>
+<title><%=rs("title")%></title>
 <link rel="stylesheet" href="./layui/css/layui.css">
 <link rel="stylesheet" href="./css/newDetail.css">
 <link type="text/css" rel="stylesheet" href="./css/nav.css" />
@@ -119,15 +128,6 @@ function initXqnrDiv(){
 	</div>
 </header>
 
-<%
-set conn=Server.Createobject("adodb.Connection") 
-str="dsn=mysql_person_position;Driver={mysql driver};server=127.0.0.1;uid=root;pwd=qdhlkj123456;database=person_position"
-conn.open(str)
-dim id
-id=request.queryString("id")
-sql = "select * from new where id="&id
-set rs = conn.execute(sql)
-%>
 <div class="xqnr_div" id="xqnr_div">
 <%=rs("title")%>
 </div>

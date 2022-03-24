@@ -31,8 +31,8 @@ $(function(){
 
 function initXwdtListDiv(){
 	$.ajax({
-		//url:"http://120.27.5.36:8080/PersonPositionBg/foreground/getNewList?page=1&rows=100",
-		url:"http://localhost:8080/PersonPositionBg/foreground/getNewList?page=1&rows=100",
+		url:"http://120.27.5.36:8080/PersonPositionBg/foreground/getNewList?page=1&rows=100",
+		//url:"http://localhost:8080/PersonPositionBg/foreground/getNewList?page=1&rows=100",
 		dataType:"jsonp",
 		type: "post",
 		jsonpCallback:"jsonpCallback",
