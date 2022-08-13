@@ -20,6 +20,13 @@ body{
 	overflow:scroll;
 	overflow-x:hidden;
 }
+.qq_dialog_a{
+	float:right;
+	margin-top:350px;
+	right: 2px;
+	position:fixed;
+	z-index:1;
+}
 .xqnr_div{
 	font-size: 26px;
 	text-align: center;
@@ -37,6 +44,7 @@ body{
 <script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
 <script src="js/pageHead.js"></script>
 <script>
+/*
 var _hmt = _hmt || [];
 (function() {
   var hm = document.createElement("script");
@@ -44,6 +52,7 @@ var _hmt = _hmt || [];
   var s = document.getElementsByTagName("script")[0]; 
   s.parentNode.insertBefore(hm, s);
 })();
+*/
 
 function getQueryString(name){
 	 var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
@@ -92,41 +101,44 @@ function initXqnrDiv(){
 </script>
 </head>
 <body>
-<header class="hotel-header transparent">
-	<div class="layui-fluid">
-		<div class="layui-row">
-			<div id="menuzord" class="menuzord p-0 head h70">
-				<a href="index.html" class="menuzord-brand custom-logo-link">
-					<img src="img/homePage/logoL.png" class="custom-logo" alt="logo">
-				</a>
-				<div class="menuzord-menu shower111 pcNav f_r">
-					<ul>
-						<li>
-							<a href="index.html">首页</a>
-						</li>
-						<li>
-							<a href="dangerTrade.html">危化行业</a>
-						</li>
-						<li>
-							<a href="productShow.html">产品展示</a>
-						</li>
-						<li>
-							<a href="casus.html">项目案例</a>
-						</li>
-						<li class="check cur">
-							<a href="new.html">新闻动态</a>
-						</li>
-						<li>
-							<a href="contactUs.html">联系我们</a>
-						</li>
-					</ul>
-					<div class="move-bg shower222"></div>
+	<a class="qq_dialog_a" target="blank" href="tencent://message/?uin=449856087&site=http://www.hualingdw.com/&menu=yes">
+		<img border="0" src="http://wpa.qq.com/pa?p=1:449856087:6" alt="点击这里给我发消息">
+	</a>
+	<header class="hotel-header transparent">
+		<div class="layui-fluid">
+			<div class="layui-row">
+				<div id="menuzord" class="menuzord p-0 head h70">
+					<a href="index.html" class="menuzord-brand custom-logo-link">
+						<img src="img/homePage/logoL.png" class="custom-logo" alt="logo">
+					</a>
+					<div class="menuzord-menu shower111 pcNav f_r">
+						<ul>
+							<li>
+								<a href="index.html">首页</a>
+							</li>
+							<li>
+								<a href="dangerTrade.html">危化行业</a>
+							</li>
+							<li>
+								<a href="productShow.html">产品展示</a>
+							</li>
+							<li>
+								<a href="casus.html">项目案例</a>
+							</li>
+							<li class="check cur">
+								<a href="new.html">新闻动态</a>
+							</li>
+							<li>
+								<a href="contactUs.html">联系我们</a>
+							</li>
+						</ul>
+						<div class="move-bg shower222"></div>
+					</div>
 				</div>
 			</div>
+			<!--/row-->
 		</div>
-		<!--/row-->
-	</div>
-</header>
+	</header>
 
 <div class="xqnr_div" id="xqnr_div">
 <%=rs("title")%>

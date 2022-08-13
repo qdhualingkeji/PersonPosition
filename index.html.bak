@@ -17,6 +17,19 @@
 <link rel="stylesheet" href="css/plugin.style.css">
 <!--plugin style css-->
 <link rel="stylesheet" href="css/hearderStyle.css">
+<style>
+body{
+	overflow:-Scroll;
+	overflow-x:hidden;
+}
+.qq_dialog_a{
+	float:right;
+	margin-top:350px;
+	right: 2px;
+	position:fixed;
+	z-index:1;
+}
+</style>
 <script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
 <script src="layui/layui.js" type="text/javascript"></script>
 <script src="js/plugin.js" type="text/javascript"></script>
@@ -89,7 +102,7 @@ function initXwdtListDiv(){
 							itemStr+="<div class=\"line_div\"></div>";
 							itemStr+="<div class=\"dot_div\"></div>";
 							itemStr+="<div class=\"item_title_div\">";
-								itemStr+="<a href=\"newDetail.html?id="+n.id+"\" target=\"_blank\">"+(n.title.length>25?n.title.substring(0,25)+"...":n.title)+"</a>";
+								itemStr+="<a href=\"newDetail.asp?id="+n.id+"\" target=\"_blank\">"+(n.title.length>25?n.title.substring(0,25)+"...":n.title)+"</a>";
 							itemStr+="</div>";
 							itemStr+="<div class=\"date_div\">"+n.createTimeYmd+"</div>";
 						itemStr+="</div>";
@@ -104,6 +117,7 @@ function initXwdtListDiv(){
 }
 </script>
 <script>
+/*
 var _hmt = _hmt || [];
 (function () {
   var hm = document.createElement("script");
@@ -111,9 +125,13 @@ var _hmt = _hmt || [];
   var s = document.getElementsByTagName("script")[0];
   s.parentNode.insertBefore(hm, s);
 })();
+*/
 </script>
 </head>
-<body style="overflow:-Scroll;overflow-x:hidden">
+<body>
+<a class="qq_dialog_a" target="blank" href="tencent://message/?uin=806867709&site=http://www.hualingdw.com/&menu=yes">
+	<img border="0" src="http://wpa.qq.com/pa?p=1:806867709:6" alt="点击这里给我发消息">
+</a>
 <header>
 	<header class="hotel-header transparent">
 		<div class="layui-fluid">

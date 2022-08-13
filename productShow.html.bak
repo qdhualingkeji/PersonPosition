@@ -15,6 +15,7 @@
 <script src="js/pageHead.js"></script>
 <title>产品展示</title>
 <script>
+/*
 var _hmt = _hmt || [];
 (function () {
   var hm = document.createElement("script");
@@ -22,41 +23,48 @@ var _hmt = _hmt || [];
   var s = document.getElementsByTagName("script")[0];
   s.parentNode.insertBefore(hm, s);
 })();
+*/
 </script>
 </head>
 <body>
-<header class="hotel-header transparent">
-	<div class="layui-fluid">
-		<div class="layui-row">
-			<div id="menuzord" class="menuzord p-0 head h70" style="">
-				<a href="index.html" class="menuzord-brand custom-logo-link">
-					<img src="img/homePage/logoL.png" class="custom-logo" alt="logo">
-				</a>
-				<div class="menuzord-menu shower111 pcNav f_r">
-					<ul>
-						<li>
-							<a href="index.html">首页</a>
-						</li>
-						<li>
-							<a href="dangerTrade.html">危化行业</a>
-						</li>
-						<li class="check cur">
-							<a href="productShow.html">产品展示</a>
-						</li>
-						<li>
-							<a href="casus.html">项目案例</a>
-						</li>
-						<li>
-							<a href="contactUs.html">联系我们</a>
-						</li>
-					</ul>
-					<div class="move-bg shower222"></div>
+	<a class="qq_dialog_a" target="blank" href="tencent://message/?uin=449856087&site=http://www.hualingdw.com/&menu=yes">
+		<img border="0" src="http://wpa.qq.com/pa?p=1:449856087:6" alt="点击这里给我发消息">
+	</a>
+	<header class="hotel-header transparent">
+		<div class="layui-fluid">
+			<div class="layui-row">
+				<div id="menuzord" class="menuzord p-0 head h70" style="">
+					<a href="index.html" class="menuzord-brand custom-logo-link">
+						<img src="img/homePage/logoL.png" class="custom-logo" alt="logo">
+					</a>
+					<div class="menuzord-menu shower111 pcNav f_r">
+						<ul>
+							<li>
+								<a href="index.html">首页</a>
+							</li>
+							<li>
+								<a href="dangerTrade.html">危化行业</a>
+							</li>
+							<li class="check cur">
+								<a href="productShow.html">产品展示</a>
+							</li>
+							<li>
+								<a href="casus.html">项目案例</a>
+							</li>
+							<li>
+								<a href="new.html">新闻动态</a>
+							</li>
+							<li>
+								<a href="contactUs.html">联系我们</a>
+							</li>
+						</ul>
+						<div class="move-bg shower222"></div>
+					</div>
 				</div>
 			</div>
+			<!--/row-->
 		</div>
-		<!--/row-->
-	</div>
-</header>
+	</header>
 <div class="logo_div">
 	<img class="logo_img" src="./img/common/page-cyfa.jpg"/>
 	<div class="content_div">
@@ -252,7 +260,7 @@ var _hmt = _hmt || [];
 		<div class="row_div">公司地址：青岛市北中央商务区敦化路136号西王大厦1606</div>
 	</div>
 	<div class="bah_div">
-		青岛辰麒数维软件有限公司  <a href="https://beian.miit.gov.cn" target="_blank" style="color:#999;">鲁ICP备19062226号-4</a>
+		青岛华凌科技有限公司  <a href="https://beian.miit.gov.cn" target="_blank" style="color:#999;">鲁ICP备19062226号-4</a>
 	</div>
 </div>
 </body>
